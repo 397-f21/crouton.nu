@@ -6,7 +6,7 @@ export const topoSort = (targets, takens) => {
     const startingCourses = getStartingCourses(takens, courses);
 
     // TODO:
-    // getIndegree();
+    // getCanReach();
     // BFS();
 
     let queue = new Queue();
@@ -14,10 +14,10 @@ export const topoSort = (targets, takens) => {
 }
 
 const getStartingCourses = (takens, courses) => {
-    const coursesList = Object.entries(courses).map((tuple) => {
-        return [tuple[0], (({course_name, Prereqs}) => ({course_name, Prereqs}))(tuple[1])]
-    });
-    const startingCourses = coursesList.filter( (course) => course[1].Prereqs.length === 0);
+    const coursesList = Object.entries(courses).map((tuple) => (
+        [tuple[0], (({course_name, Prereqs}) => ({course_name, Prereqs}))(tuple[1])]
+    ));
+    const startingCourses = coursesList.filter((course) => course[1].Prereqs.length === 0);
 
     //TODO: add takens to starting courses
 
@@ -38,7 +38,7 @@ const getStartingCourses = (takens, courses) => {
 }
 
 //TODO: get Indegrees
-const getIndegree = (courses) => {
+const getCanReach = (courses) => {
 
     return null;
 }
