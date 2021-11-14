@@ -1,0 +1,98 @@
+{
+    "COMP_SCI 110": {
+        "course_name": "Intro to Computer Programming",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "10-10:50 MWF",
+        "fall_instructor": "Van Wart",
+        "winter_time": "9-9:50 MWF ",
+        "winter_instructor": "Bain",
+        "spring_time": "10-10:50 MWF or 9:30 -10:50 TuTh",
+        "spring_instructor": "Bain or Kuzmanovic",
+        "other": {
+            "Prerequisites": "",
+            "Description": "<p>Introduction to programming practice using Python. Analysis and formulation of problems for computer solution. Systematic design, construction, and testing of programs. Substantial programming assignments in Python. See professor's website for an updated syllabus.</p>\r\n<p>This introductory programming course is not part of the major. It provides an introduction to programming for those that can benefit from becoming better programmers, but without committing to the major student's version of the course.</p>\r\n<ul>\r\n<li>This course is approved for Weinberg Area II (Formal Studies) distribution credit (NOT for CS Major Requirements)<em><br/></em></li>\r\n</ul>\r\n<strong>REFERENCE TEXTBOOKS:</strong><br/>\r\n<ul>\r\n<li><a href=\"https://www.py4e.com/lessons\">Python for Everyone</a> - By Charles Severance</li>\r\n<li><a href=\"http://openbookproject.net/thinkcs/python/english2e/\">How to Think Like a Computer Scientist</a> - By Jeffrey Elkner, Allen B. Downey, and Chris Meyers</li>\r\n</ul>\r\n<strong>REQUIRED TEXTBOOK:</strong> None\r\n<p><strong>COURSE COORDINATORS:&#160;<span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kuzmanovic-aleksandar.html\" target=\"_self\">Aleksandar Kuzmanovic</a></span></strong>&#160;&amp;&#160;<strong><span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/tumblin-john.html\" rel=\"noopener\" target=\"_blank\">Jack Tumblin</a></span></strong></p>\r\n<p><strong>COURSE INSTRUCTOR : </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/vanwart-sarah.html\">Prof.&#160;Sarah Van Wart</a> (Fall), <a href=\"mailto:connor.bain@northwestern.edu\">Prof. Connor Bain</a> (Winter &amp; Spring) &amp; <a href=\"mailto:akuzma@northwestern.edu\" title=\"Prof. Kuzmanovic\">Prof. Kuzmanovic</a> (Spring)<span></span></p>\r\n<p><strong>COURSE GOALS<br/></strong></p>\r\n<p>This course is an introduction to computer programming using Python, and assumes no prior programming knowledge.&#160;</p>\r\n<p>Most people who need to write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks) that underlie these systems is a valuable modern literacy that is likely to serve you well.</p>\r\n<p>The intent of the course is twofold. <br/>First, we want you to gain a sense of the many different kinds of problem-solving and creative pursuits that programming can support.&#160; Programming can act as a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and much more.&#160;</p>\r\n<p>Second, we want you learn fundamental constructs of computer programming along with skills and strategies to apply them in creative and useful ways. Towards this end, there will be quite a few practice problems to get you familiar with &#8216;the basics,&#8217; as well as longer, open-ended programming projects that encourage you to marshal these ideas towards your own creative applications. These applications may include authoring electronic dance music, animations, games, and/or simple apps that interact with data and media from various sources (e.g. Yelp, Spotify, Twitter, various databases, etc.).</p>\r\n<p>By the end of this course, you will have some experience writing programs, working with the command line, working with different kinds of data, and participating in several important programming practices (e.g. debugging, testing, and designing programs; reading technical documentation and sample code; installing and exploring third-party modules and APIs). Our hope is that this course will help you to see how your goals and knowledge might be supported via computing, while helping you to develop the proficiency and confidence needed to actualize these goals.</p>\r\n<p><strong>PREREQUISITES:&#160;</strong>None.&#160;<span>We assume&#160;<em>no</em>&#160;knowledge of programming or computing.</span></p>"
+        },
+        "Prereqs": []
+    },
+
+    "COMP_SCI 150": {
+        "course_name": "Fundamentals of Computer Programming 1.5",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "11-11:50 MWF",
+        "fall_instructor": "Compton",
+        "winter_time": "11-11:50 MWF",
+        "winter_instructor": "Compton",
+        "spring_time": "11-11:50 MWF",
+        "spring_instructor": "Compton",
+        "other": {
+            "Prerequisites": "COMP_SCI 110 or COMP_SCI 111 or GEN_ENG 205-1 or GEN_ENG 206-1",
+            "Description": "<p>Intended for students who have completed COMP_SCI 111, but don&#8217;t have any other formal Computer Science background. It will provide an introduction to object-oriented programming in Python, preparing students for future courses such as COMP_SCI 211.&#160;</p>\r\n<ul>\r\n<li><strong>Formerly COMP_SCI&#160;295.<br/></strong></li>\r\n<li><strong>Students should NOT take this course if they have completed the AP Computer Science course or have substantial experience programming in languages such as Java, Python or C++.<br/></strong></li>\r\n<li><strong>Students are strongly advised to take CS 150 before CS 211.<br/></strong></li>\r\n</ul>\r\nPlease email <a href=\"mailto:sara.sood@northwestern.edu\">Sara Sood</a> if you wonder if this course is right for you.&#160;<br/>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"mailto:katherine.compton@northwestern.edu\">Prof. Katherine E Compton</a> (Fall, Winter &amp; Spring)</p>\r\n<p><strong>PREREQUISITE:&#160;</strong><a href=\"111.html\" target=\"_parent\">COMP_SCI 110 or COMP_SCI 111</a> or GEN_ENG 205-1 or GEN_ENG 206-1</p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 110", "COMP_SCI 111", "GEN_ENG 205-1", "GEN_ENG 206-1"]
+        ]
+        
+    },
+
+    "COMP_SCI 211": {
+        "course_name": "Fundamentals of Computer Programming II",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 TuTh",
+        "fall_instructor": "Ghena",
+        "winter_time": "2-3:20 TuTh",
+        "winter_instructor": "Ghena & Bhagavatula",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Bhagavatula",
+        "other": {
+            "Prerequisites": "COMP_SCI 111 or 150",
+            "Description": "<p><strong>CATALOG DESCRIPTION:&#160;</strong> <span>CS 211 teaches foundational software design skills at a small-to-medium scale. We aim to provide a bridge from the student-oriented <em>How to Design Programs</em> languages to real, industry-standard languages and tools. In the first half of the course, you&#8217;ll learn the basics of imperative programming and manual memory management using the C programming language. In the second half of the course, we&#8217;ll transition to C++, which provides abstraction mechanisms such as classes and templates that we use to express our design ideas. Topics include expressions, statements, types, functions, branches and iteration, user-defined types, data hiding, basic UNIX shell usage, and testing.</span></p>\r\n<ul>\r\n<li><strong><em>T</em><em>his course is a required Core course in the CS curriculum in McCormick and Weinberg</em></strong></li>\r\n<li><em><strong>Students are strongly advised to take CS 150 before CS 211.</strong></em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: <strong>N/A</strong><span class=\"a-size-base a-color-base\"></span></p>\r\n<p><strong><strong>COURSE INSTRUCTOR: </strong></strong><a href=\"mailto:branden@northwestern.edu\"></a><a href=\"mailto:branden@northwestern.edu\">Branden Ghena</a> &amp; Sruti Bhagavatula (Fall &amp; Winter), Sruti Bhagavatula (Spring).</p>\r\n<p><strong>COURSE COORDINATOR:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/sood-owsley-sara.html\" target=\"_self\">Prof. Sara Owsley Sood</a></strong></p>\r\n<p><strong>PREREQUISITE:&#160;<a href=\"111.html\" target=\"_self\">COMP_SCI 111 or 150</a></strong></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li><strong>C/C++</strong>\r\n<ul>\r\n<li>Introduction to software engineering.</li>\r\n<li>Basic data types, variables, computer arithmetic, expressions, parentheses.</li>\r\n<li>Basic I/O &#8211; cout, cin.</li>\r\n<li>Introduction to classes &#8211; defining one's own data types</li>\r\n<li>Flow of control &#8211; sequential, test-and-branch, and iteration. Boolean expressions.</li>\r\n<li>Arrays, pointers, and strings.</li>\r\n<li>Functions: call by value and call by reference, references vs. pointers, stack frames.</li>\r\n<li>Function overloading</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li><strong>INTRODUCTION TO CLASSES:</strong>\r\n<ul>\r\n<li>Structures and classes, data hiding and encapsulation.</li>\r\n<li>Public and private members, constructors, unions.</li>\r\n<li>Interface vs. implementation.</li>\r\n<li>Class destructors and copy constructors, the = operator, deep versus shallow copies.</li>\r\n<li>C++ operator overloading.</li>\r\n<li>Heap space, the new/delete operators.</li>\r\n<li>Inheritance and derived classes, is-a hierarchies and composition of classes.</li>\r\n<li>Virtual functions and polymorphism.</li>\r\n<li>Linked list processing: stacks and queues, trees and recursion.</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>Introduction to UNIX &#8211; processes, file management, redirection and piping, make files.</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Varies by instructor</p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 111", "COMP_SCI 150"]
+        ]
+    },
+
+    "COMP_SCI 212": {
+        "course_name": "Mathematical Foundations of Computer Science",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "3-3:50 MWF",
+        "fall_instructor": "Rao & Bain",
+        "winter_time": "4-4:50 MWF ",
+        "winter_instructor": "Golub",
+        "spring_time": "3-3:50 MWF ",
+        "spring_instructor": "Rao",
+        "other": {
+            "Prerequisites": "(COMP_SCI 110 or COMP_SCI 111) and Math 228-1 or 230-1 (formerly Math 230)",
+            "Description": "<p>This course will discuss fundamental concepts and tools in discrete mathematics with emphasis on their applications to computer science. Example topics include logic and Boolean circuits; sets, functions, relations, databases, and finite automata; deterministic algorithms and randomized algorithms; analysis techniques based on counting methods and recurrence equations; trees and more general graphs.</p>\r\n<ul>\r\n<li><em>This course is a required Core course in the CS curriculum in McCormick and Weinberg</em></li>\r\n</ul>\r\n<p><strong>RECOMMENDED TEXTS:</strong></p>\r\n<ul>\r\n<li><strong><strong>Fall &amp; Winter Section:</strong></strong> Mathematics for Computer Science by Lehman, Leighton, and Meyer (e-book: <a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\"></a><a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\">https://courses.csail.mit.edu/6.042/spring18/mcs.pdf</a><a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\"></a>)</li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTORS:</strong> <a href=\"mailto:shravas@northwestern.edu\" title=\"Prof. Rao\">Prof. Shravas Rao</a> &amp;&#160;<a href=\"mailto:connor.bain@northwestern.edu\">Prof. Connor Bain</a> (Fall &amp; Spring), <a href=\"#\">Prof. Benjamin Golub</a> (Winter),&#160;<a href=\"mailto:wangxiao@northwestern.edu\">Xiao Wang</a> (Honors CS 212, Spring)</p>\r\n<p><strong>COURSE COORDINATOR:</strong> Prof. <span class=\"mail_link\">Aravindan&#160;Vijayaraghavan</span><br/> <br/> <strong>COURSE OBJECTIVES:&#160;</strong>In this course, students should develop mathematical thinking and problem-solving skills associated with writing proofs.&#160; Students should also be exposed to a wide variety of mathematical concepts that are used in the Computer Science discipline, which may include concepts drawn from the areas of Number Theory, Graph Theory, Combinatorics, and Probability.<br/> <br/> <strong>PREREQUISITES: - Must combine one of the following -</strong></p>\r\n<ul>\r\n<li>(<a href=\"110.html\">COMP_SCI 110 </a>or <a href=\"111.html\">COMP_SCI 111</a>) and <a href=\"https://catalogs.northwestern.edu/search/?P=MATH%20230-0\" rel=\"noopener noreferrer\" target=\"_blank\">Math 228-1 or 230-1 (formerly 230)</a><a href=\"349.html\"><br/> </a></li>\r\n</ul>\r\n<p><strong>DETAILED COURSE TOPICS:</strong>&#160;All sections will deal with topics from Part I (Proofs and Mathematical Preliminaries), as well as a selection of topics from Parts II-IV.</p>\r\n<p>Part I:&#160; Proofs, and Mathematical Preliminaries&#160;</p>\r\n<ol>\r\n<li>Introduction to Logic, Proofs.</li>\r\n<li>Principle of Mathematical Induction, Strong Induction.</li>\r\n</ol>\r\n<p>Part II: Counting, Combinatorics, Probability</p>\r\n<ol>\r\n<li>Counting, Mapping, Functions, Bijection, Inclusion-Exclusion formula.</li>\r\n<li>Pigeonhole principle, Generalized Pigeonhole.</li>\r\n<li>Permutations and Combinations. Picking with repetition, without repetition.</li>\r\n<li>Binomial formula, Pascal Triangle, Generating functions.</li>\r\n<li>Introduction to Probability: Random Events, Conditional Probabilities, Independence, Bayes Rule.</li>\r\n<li>Expectation, Linearity of Expectation, Variance of random variables.</li>\r\n<li>Markov's inequality. Chebychev inequality, Union bound.</li>\r\n<li>Sums of random variables, Concentration of measure, Statistical significance.</li>\r\n</ol>\r\n<p>Part III: Graph Theory</p>\r\n<ol>\r\n<li>Introduction to graphs, Properties of graphs.</li>\r\n<li>Connectivity, Connected components, Distances.</li>\r\n<li>Trees, Cycles,&#160; Spanning Trees.&#160;</li>\r\n<li>Planarity, Graph Coloring, Bipartite graphs.</li>\r\n<li>Matchings, Hall's theorem, Stable marriage.</li>\r\n<li>Linear Algebra: Adjacency matrix, Edge-vertex matrix. Relating graph properties. Eigenvalues, Eigenvectors.</li>\r\n<li>Independent set, Vertex cover, Network Flows, Cuts.</li>\r\n<li>Linear Programming, Duality.</li>\r\n</ol>\r\n<p>Part IV: Number Theory &amp; Miscellaneous</p>\r\n<ol>\r\n<li>Prime numbers, Divisibility, GCD algorithm.</li>\r\n<li>Modular arithmetic. Prime numbers. Fundamental theorem of arithmetic.</li>\r\n<li>Cryptography, Computational Complexity.</li>\r\n<li>Turing Machines, Reductions, NP-hardness.&#160;</li>\r\n</ol>\r\n<p><strong>HOMEWORK ASSIGNMENTS:&#160;</strong>Varies by instructor<br/> <br/> <strong>LABORATORY PROJECTS:</strong>&#160;None<br/> <br/> <strong>GRADES:</strong>&#160;Varies by instructor</p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 110", "COMP_SCI 111"],
+            ["Math 228-1", "Math 230-1"]
+        ]
+    },
+
+    "COMP_SCI 214": {
+        "course_name": "Data Structures and Algorithms",
+        "summer_time": "3:30-4:50 TuTh",
+        "summer_instructor": "Rasmussen",
+        "fall_time": "9:30-10:50 TuTh",
+        "fall_instructor": "St-Amour",
+        "winter_time": "11-12:20 TuTh",
+        "winter_instructor": "St-Amour",
+        "spring_time": "3:30-4:50 TuTh",
+        "spring_instructor": "St-Amour & Bhagavatula",
+        "other": {
+            "Prerequisites": "COMP_SCI 111 and (COMP_SCI 150 or 211)",
+            "Description": "<p>The design, implementation, and analysis of abstract data types, data structures and their algorithms. Topics include: data and procedural abstraction, amortized data structures, trees and search trees, hash tables, priority queues, graphs, shortest paths, searching, and sorting. Required for computer science majors.</p>\r\n<ul>\r\n<li><em><i>This course is a required Core course in the CS curriculum in McCormick and Weinberg</i></em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOKS</strong>:<em> None</em><em> </em></p>\r\n<p><strong>INSTRUCTORS</strong>: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html\">Vincent St-Amour</a> (<strong>Fall, Winter </strong><strong>&amp; Spring</strong>),&#160;<span><a href=\"mailto:srutib@northwestern.edu\">Sruti Bhagavatula</a> (<strong>Spring</strong>),</span>&#160;<a href=\"mailto:leif@rasmussen.com\">Leif Rasmussen</a> (<strong>Summer</strong>)<span></span><span></span></p>\r\n<p><strong>PREREQUISITES:&#160;</strong><a href=\"211.html\">COMP_SCI 111 and (COMP_SCI 150 or 211)</a></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li>Abstract data types</li>\r\n<li>Asymptotic complexity</li>\r\n<li>Lists</li>\r\n<li>Stacks and queues</li>\r\n<li>Dictionaries</li>\r\n<li>Graphs (search, shortest paths, spanning trees)</li>\r\n<li>Priority queues</li>\r\n<li>Disjoint sets</li>\r\n<li>Amortized analysis</li>\r\n<li>Self-adjusting data structures</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Varies by instructor; see syllabus<strong><br/> </strong></p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 111"],
+            ["COMP_SCI 150", "COMP_SCI 211"]
+        ]
+    }
+}
+
