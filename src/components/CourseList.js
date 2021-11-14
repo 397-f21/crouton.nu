@@ -15,7 +15,8 @@ export const CourseList = () => {
         <>
             <div className="course-list">
                 {canTake.map((course) => <Course course={course} setSelected={setSelected}
-                                                 selected={selected}></Course>)}
+                                                 selected={selected} coursesArr={coursesArr} canTake={canTake}
+                                                 setCanTake={setCanTake}/>)}
             </div>
 
             <div className="course-list">
@@ -26,7 +27,7 @@ export const CourseList = () => {
     )
 }
 
-const Course = ({course, setSelected, selected}) => {
+const Course = ({coursesArr, course, setSelected, selected, canTake, setCanTake}) => {
 
     if (!course) {
         return null;
@@ -34,23 +35,34 @@ const Course = ({course, setSelected, selected}) => {
 
     return (
         <div className="card m-1 p-2" onClick={() => {
-            take(course, setSelected, selected);
+            take(coursesArr, course, setSelected, selected, canTake, setCanTake);
         }}>
             {course[0]} : {course[1].course_name}
         </div>
     );
 }
-const take = (course, setSelected, selected) => {
+const take = (coursesArr, course, setSelected, selected, canTake, setCanTake) => {
     selected.includes(course) ? setSelected(selected.filter((element) => element[1].course_name !== course[1].course_name)) : selected ? setSelected([...selected, course]) : setSelected([course]);
+    checkCanTakeCourses(coursesArr, selected, canTake, setCanTake);
 }
 
-const ifPreMet = (course, selected, setCanTake, canTake) => {
+const checkCanTakeCourses = (coursesArr, selected, canTake, setCanTake) => {
+    coursesArr.forEach((course) => {
+        if (ifPreMet(course, selected)) {
+            setCanTake([...canTake, course]);
+        }
+    })
+}
+
+const ifPreMet = (course, selected) => {
     let preArr = course[1].Prereqs;
     selected.forEach((selectedCourse) => {
-        preArr = preArr.filter((singlePreArr) => singlePreArr.includes(selectedCourse[0]));
+        console.log(preArr);
+        preArr = preArr.filter((singlePreArr) => !singlePreArr.includes(selectedCourse[0]));
     });
 
-    console.log(preArr.length === 0);
 
+    console.log(preArr.length === 0);
+    return preArr.length === 0;
 }
 export default CourseList;
