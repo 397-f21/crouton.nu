@@ -1,18 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import {CourseList} from './components/CourseList';
+import TermSelector from './components/ToolSelector';
 //import { useData } from './utilities/firebase.js';
 
-// const Banner = ({ title }) => (
-//   <h1>{ title }</h1>
-// );
 
 const App = () => {
-  //const [schedule, loading, error] = useData('/', addScheduleTimes); 
-  
+  const [tool, setTool] = useState("Course Explorer"); 
+
   return (
     <div className="container">
-      <CourseList />
+      <TermSelector setTool = {setTool}/>  
+      {tool === "Course Explorer" ? <CourseList /> : null}
     </div>
   );
 };
