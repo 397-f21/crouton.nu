@@ -74,6 +74,25 @@
             ["Math 228-1", "Math 230-1"]
         ]
     },
+    
+    "COMP_SCI 213-20": {
+        "course_name": "Intro to Computer Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "2-3:20 TuTh",
+        "fall_instructor": "Dinda",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Ghena",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Hardavellas",
+        "other": {
+            "Prerequisites": "COMP_SCI 211",
+            "Description": "<p>This course has four purposes: (1) to learn about the hierarchy of abstractions and implementations that comprise a modern computer system; (2) to demystify the machine and the tools that we use to program it; (3) to come up to speed on systems programming in C in the Unix environment; (4) to prepare students for upper-level systems courses.</p>\r\n<ul>\r\n<li><em>This course is a <strong>required Core course</strong> in the CS curriculum in McCormick and Weinberg</em></li>\r\n</ul>\r\n<p><strong>COURSE GOALS</strong>: This course has four purposes. First, you will learn about the hierarchy of abstractions and implementations that comprise a modern computer system. This will provide a conceptual framework that you can then flesh out with courses such as compilers, operating systems, databases, networks, security, real-time systems, and others. The second purpose is to demystify the machine and the tools that we use to program it. This includes telling you the little details that students usually have to learn by osmosis. In combination, these two purposes will give you the background to understand many different computer systems. The third purpose is to bring you up to speed in doing systems programming in a low-level language (C) in the Unix (Linux/GCC/GDB/etc) environment. The final purpose is to prepare you for upper-level courses in systems.</p>\r\n<p>This is a learn-by-doing kind of class. You will write pieces of code, compile them, debug them, disassemble them, measure their performance, optimize them, etc.</p>\r\n<p>This course is ideally taken after COMP_SCI 211 early in your academic career. <strong>This is a REQUIRED COURSE for the CS Major.</strong></p>\r\n<p>The current iteration of Prof. Peter Dinda's section is always at <a href=\"http://pdinda.org/ics/\">http://pdinda.org/ics</a></p>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: Randal E. Bryant and David R. O’Hallaron, Computer Systems: A Programmer’s Perspective, Third Edition, Prentice Hall, 2015, (ISBN-13:978-0134092669,ISBN-10:013409266X)</p>\r\n<p><strong>RECOMMENDED TEXTS,</strong> <em>not required</em>:</p>\r\n<ul>\r\n<li>The C Programming Language, Second Edition, Prentice Hall, 1988 (ISBN 0-131-10370-9)(Reference)</li>\r\n<li>Richard Stevens and Stephen Rago, Advanced Programming in the Unix Environment, ThirdEdition, Addison-Wesley, 2013(ISBN-10: 0321637739 | ISBN-13: 978-0321637734) (Reference)</li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTORS:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\" target=\"_self\">Prof. Peter Dinda</a> (Fall), <a href=\"mailto:branden@northwestern.edu\">Prof. Branden Ghena</a><strong>,</strong> (Winter), <a href=\"mailto:nikos@northwestern.edu\">Prof. Nikos Hardavellas</a> (Spring).</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\" target=\"_self\">Prof. Peter Dinda</a></p>\r\n<p><strong>PREREQUISITES:</strong> <a href=\"211.html\">COMP_SCI 211</a></p>\r\n<p><strong>PREREQUISITE FOR: </strong><a href=\"322.html\">COMP_SCI 322</a> (Compilers), <a href=\"339.html\">ELEC_ENG/COMP_ENG/COMP_SCI 339</a> (Databases), <a href=\"340.html\">COMP_SCI 340</a> (Networking), <a href=\"343.html\">COMP_SCI 343 </a>(Operating Systems), <a href=\"350.html\">COMP_SCI 350</a> (Security), <a href=\"397.html\">COMP_SCI 397</a> (Real-time), <a href=\"441.html\">COMP_SCI 441</a></p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 211"]
+        ]
+    },
 
     "COMP_SCI 214": {
         "course_name": "Data Structures and Algorithms",
@@ -92,6 +111,86 @@
         "Prereqs": [
             ["COMP_SCI 111"],
             ["COMP_SCI 150", "COMP_SCI 211"]
+        ]
+    },
+
+    "COMP_SCI 321": {
+        "course_name": "Programming Languages",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "3:30-4:50 TuTh",
+        "fall_instructor": "St-Amour",
+        "winter_time": "3:30-4:50 TuTh",
+        "winter_instructor": "Dimoulas",
+        "spring_time": "12:30-1:50 TuTh",
+        "spring_instructor": "St-Amour",
+        "other": {
+            "Prerequisites": "CS 111, 211 & 214. Graduate students may be admitted to course with consent. For permission please contact Christopher K Riesbeck at c-riesbeck@northwestern.edu",
+            "Description": "<p>This course introduces students to the key features of programming languages. Students implement a series of interpreters that nail down the precise details of how various aspects of programming languages behave.  Students are assumed to understand trees and (mathematical) functions that process them; the course builds up to the features of real programming languages from there.</p>\r\n<em></em><br/>\r\n<p><strong>REQUIRED TEXT:</strong> <a href=\"http://cs.brown.edu/~sk/Publications/Books/ProgLangs/\" rel=\"noopener\" target=\"_blank\"><em>Programming Languages: Application and Interpretation</em></a> by Shriram Krishnamurthi</p>\r\n<p><strong><strong>COURSE INSTRUCTOR:</strong></strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html\">Prof. Vincent St-Amour</a> (Fall & Spring) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dimoulas-christos.html\">Prof. Christos Dimoulas</a> (Winter)</p>\r\n<p class=\"item-page\"><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/findler-robert.html\">Prof. Robby Findler</a></p>\r\n<p><strong>COURSE TOPICS:</strong> The course explores these aspects of a programming language (in this order):</p>\r\n<ul>\r\n<li>Modeling programming languages</li>\r\n<li>Arithmetic expressions & variables</li>\r\n<li>Functions</li>\r\n<li>Deferring substitution</li>\r\n<li>First class functions</li>\r\n<li>(implementing) Recursion</li>\r\n<li>State</li>\r\n<li>Control</li>\r\n<li>Garbage collection</li>\r\n<li>Types</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Grades are based on weekly homework assignments. <br/> <br/> <strong>EXAM:</strong> There is no exam in this course.</p>\r\n<p><strong>COURSE OBJECTIVES:</strong> Students that complete this course should:</p>\r\n<ul>\r\n<li>understand the basic features that underlie most programming languages</li>\r\n<li>understand the basic semantic features of all call-by-value programming languages (which includes nearly all programming languages they will encounter),</li>\r\n<li>understand the pragmatics behind those features (when to use them and why),</li>\r\n<li>understand some of the more advanced features, when they are applicable, and when they are desireable,</li>\r\n<li>be able to maintain and extend an interpreter-based implementation of a programming language containing those features</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 111"],
+            ["COMP_SCI 211"],
+            ["COMP_SCI 214"]
+        ]
+    },
+
+    "COMP_SCI 333": {
+        "course_name": "Interactive Information Visualization",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 MW",
+        "fall_instructor": "Hullman",
+        "winter_time": "3:30-4:50 TuTh",
+        "winter_instructor": "Kay",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 214",
+            "Description": "<p>When well designed, visual displays of data capitalize on human facilities for processing information and improve comprehension, memory, inference, and decision making. Creating visualizations is getting easier thanks to a proliferation of digital tools for transforming and visualizing data. Yet the best visualizations are still often creating by skilled human designers who have considerable experience with design analysis.</p>\r\n<p>In this course we will consider what it means for a visualization to be effective and what sorts of principles, techniques and algorithms from statistics, graphic design, databases, perceptual psychology, cognitive science and related fields can help us create effective visualizations. Though there are different uses of the term “visualization” in popular media, for the purposes of this class, we will treat information visualization as the use of interactive interfaces to visually represent abstract data. The course is targeted both towards students interested in using visualization in their own work, as well as students interested in building better visualization tools and systems.  In addition to participating in class discussions, students will demonstrate their learning through weekly short quizzes and several assignments requiring visualization design, exploratory data analysis, and interactive visualization implementation.</p>\r\n<p>In addition to being comfortable programming, students should have a basic working knowledge of, or willingness to learn, a graphics API. We we will cover introductory D3 in class to get you started, but this is not a JavaScript or web development course. Students will be expected to self-study to learn JavaScript and other basic web technologies (HTML, CSS) if they are not familiar with them.</p>\r\n<ul>\r\n<li><em><strong>Formerly COMP_SCI 396/496</strong>.</em></li>\r\n<li><strong><i>This course satisfies Interface breadth requirement.</i></strong></li>\r\n</ul>\r\n<p><strong>COURSE COORDINATORS: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\"></a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\">Prof. </a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\">Jessica Hullman</a></p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\"></a><a href=\"mailto:jhullman@northwestern.edu#Prof.%20Hullman\">Prof. Hullman</a> (Fall), & <a href=\"mailto:mjskay@northwestern.edu\">Prof. Kay</a> (Winter)</p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 214"]
+        ]
+    },
+    
+    "COMP_SCI 336": {
+        "course_name": "Design & Analysis of Algorithms",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "11-12:20 TuTh & 5-6:20 MW",
+        "fall_instructor": "Makarychev & Stull",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Hartline",
+        "spring_time": "3:30-4:50 TuTh",
+        "spring_instructor": "Stull",
+        "other": {
+            "Prerequisites": "COMP_SCI 212 and COMP_SCI 214 or Graduate (MS or Ph.D) student standing",
+            "Description": "<p>Algorithm design and analysis is fundamental to all areas of computer science and gives a rigorous framework for the study optimization. This course provides an introduction to algorithm design through a survey of the common algorithm design paradigms of greedy optimization, divide and conquer, dynamic programming, network flows, reductions, and randomized algorithms. Important themes that will be developed in the course include the algorithmic abstraction-design-analysis process and computational tractability (e.g., NP-completeness).</p>\r\n<ul>\r\n<li><em>This course fulfills the Theory Breadth & Technical Elective requirement.</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXT: <em>'</em></strong><em>Algorithm Design by Kleinberg'</em>, Jon, Tardos, Éva [Addison-Wesley, 2005] (Hardcover) by Kleinberg<strong><br/> </strong></p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/makarychev-konstantin.html\">Prof. Konstantin Makarychev</a> & <a href=\"mailto:donald.stull@northwestern.edu\">Prof. Donald Stull</a> (Fall) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\">Prof. Jason Hartline</a> (Winter)</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\">Prof. Jason Hartline</a><a href=\"http://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\"></a></p>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong></p>\r\n<p><strong>GRADES:</strong></p>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 212"],
+            ["COMP_SCI 214"]
+        ]
+    },
+
+    "COMP_SCI 348": {
+        "course_name": "Intro to Artificial Intelligence",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 MW",
+        "fall_instructor": "Alam",
+        "winter_time": "11-11:50 MWF",
+        "winter_instructor": "Alam",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Rubenstein",
+        "other": {
+            "Prerequisites": "Students must have taken [EECS 111 and (EECS 214 or be a CogSci major)] or be a Computer Science Masters or PhD student, or obtain instructor permission, in order to register for this course.",
+            "Description": "<p>Core techniques and applications of artificial intelligence. Representation retrieving and application of knowledge for problem solving, planning, probabilistic inference, and natural language understanding.<span></span></p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth Requirement.</em></li>\r\n</ul>\r\n<p><strong>OPTIONAL TEXTBOOK</strong>: Russell & Norvig <em>, Artificial Intelligence: A Modern Approach </em>, Prentice Hall, 3rd edition</p>\r\n<p><strong>COURSE</strong> <strong>INSTRUCTOR:</strong> <a href=\"mailto:mohammedalam2009@u.northwestern.edu\">Mohammed A. Alam</a> (Fall & Winter) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rubenstein-michael.html\" rel=\"noopener\" target=\"_blank\">Prof. Rubenstein</a> (Spring)<br/><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hammond-kristian.html\">Prof</a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hammond-kristian.html\">. Kristian Hammond</a></p>\r\n<p><strong>COURSE GOALS: </strong>The goal of this course is to expose students to the basic ideas, challenges, techniques, and problems in artificial intelligence. Topics include strong (knowledge-based) and weak (search-based) methods for problem solving and inference, and alternative models of knowledge and learning, including symbolic, statistical and neural networks.</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li>Philosophical foundations of artificial intelligence</li>\r\n<li>Intelligent agents</li>\r\n<li>Search, including A*, iterative deepening</li>\r\n<li>Logical formalisms, propositional and first order predicate calculus</li>\r\n<li>Planning, from STRIPS to Partial Order Planning</li>\r\n<li>Probability & uncertainty, including Bayesian inference and Bayes networks</li>\r\n<li>Machine learning, including decision trees, neural nets, hill climbing, genetic algorithms</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: </strong>After this course, students should be able to</p>\r\n<ul>\r\n<li>Articulate key problems, both technical and philosophical, in the development of artificial intelligence</li>\r\n<li>Teach themselves more about AI through reading texts and research articles in the field</li>\r\n<li>Apply AI techniques in the development of problem-solving and learning systems</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            ["COMP_SCI 111"],
+            ["COMP_SCI 214"]
         ]
     }
 }
