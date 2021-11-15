@@ -15,16 +15,23 @@ export const CourseList = () => {
             <h1> Selected: </h1>
             <div className="course-list">
                 {selected.map((course) => <Courses course={course} setSelected={setSelected}
-                                                 selected={selected} coursesArr={coursesArr} canTake={canTake}
-                                                 setCanTake={setCanTake} action={detake}/>)}
+                                                   selected={selected} coursesArr={coursesArr} canTake={canTake}
+                                                   setCanTake={setCanTake} action={detake}/>)}
             </div>
 
 
-            <h1> Can Take: </h1>
+            {/*<h1> Can Take: </h1>*/}
+            {/*<div className="course-list">*/}
+            {/*    {canTake.map((course) => <Courses course={course} setSelected={setSelected}*/}
+            {/*                                      selected={selected} coursesArr={coursesArr} canTake={canTake}*/}
+            {/*                                      setCanTake={setCanTake} action={take}/>)}*/}
+            {/*</div>*/}
+            <h1> All Courses: </h1>
             <div className="course-list">
-                {canTake.map((course) => <Courses course={course} setSelected={setSelected}
-                                                 selected={selected} coursesArr={coursesArr} canTake={canTake}
-                                                 setCanTake={setCanTake} action={take}/>)}
+                {coursesArr.map((course) => <NotSelectedCourses course={course} setSelected={setSelected}
+                                                                selected={selected} coursesArr={coursesArr}
+                                                                canTake={canTake}
+                                                                setCanTake={setCanTake} action={take}/>)}
             </div>
         </>
     )
@@ -32,12 +39,38 @@ export const CourseList = () => {
 
 const Courses = ({coursesArr, course, setSelected, selected, canTake, setCanTake, action}) => {
     return (
-        course ? 
-            <div className="card m-1 p-2" onClick={() => {action(coursesArr, course, setSelected, selected, canTake, setCanTake);}}>
+        course ?
+            <div className="card m-1 p-2" onClick={() => {
+                action(coursesArr, course, setSelected, selected, canTake, setCanTake);
+            }}>
                 {course[0]} : {course[1].course_name}
             </div>
-        : null
+            : null
     );
+
+}
+
+const NotSelectedCourses = ({coursesArr, course, setSelected, selected, canTake, setCanTake, action}) => {
+    const selectedCoursesName = selected.map(course => course[0]);
+
+
+    return (
+        course ?
+            selectedCoursesName.includes(course[0]) ? <div className="card m-1 p-2 bg-primary text-white">
+                    {course[0]} : {course[1].course_name}
+                </div> :
+                ifPreMet(course, selected) && !selectedCoursesName.includes(course[0]) ?
+                    <div className="card m-1 p-2" onClick={() => {
+                        action(coursesArr, course, setSelected, selected, canTake, setCanTake);
+                    }}>
+                        {course[0]} : {course[1].course_name}
+                    </div> :
+                    <div className="card m-1 p-2 bg-secondary text-white">
+                        {course[0]} : {course[1].course_name}
+                    </div>
+            : null
+    );
+
 
 }
 
@@ -71,7 +104,7 @@ const removeGuiltyCourses = (selected) => {
     return filtered.length === selected.length ? filtered : removeGuiltyCourses(filtered);
 }
 
-// get canTake courses from all courses based on selected courses. 
+// get canTake courses from all courses based on selected courses.
 // If:
 //    1: Prerequistes met
 //    2: this courses hasn't been selected yet
@@ -89,7 +122,7 @@ const courseSelectedAlready = (course, selected) => (
 // then prerequisites are met
 const ifPreMet = (course, selected) => {
     const selectedCoursesName = selected.map(course => course[0]);
-    return course[1].Prereqs.every(prereq => prereq.some(singleCourse => selectedCoursesName.includes(singleCourse))); 
+    return course[1].Prereqs.every(prereq => prereq.some(singleCourse => selectedCoursesName.includes(singleCourse)));
 }
 
 export default CourseList;
