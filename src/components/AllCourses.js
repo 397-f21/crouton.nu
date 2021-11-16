@@ -7,7 +7,7 @@ const AllCourses = () => {
 
     return (
         <>
-            <hr></hr>
+            <hr/>
             <h1> All Courses: </h1>
             <div className="course-list">
                 {coursesArr.map((course) => <DetailedCourses course={course}/>)}
