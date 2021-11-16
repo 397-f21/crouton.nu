@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import {CourseList} from './components/CourseList';
+import PathRecom from './components/PathRecom';
 import TermSelector from './components/ToolSelector';
 //import { useData } from './utilities/firebase.js';
 
@@ -18,6 +19,7 @@ const App = () => {
         </div>
       <TermSelector setTool = {setTool}/>  
       {tool === "Course Explorer" ? <CourseList /> : null}
+      {tool === "Path Recommendation" ? <PathRecom /> : null}
     </div>
   );
 };
