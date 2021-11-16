@@ -10,6 +10,12 @@ const App = () => {
 
   return (
     <div className="container">
+        <div>
+            <img class="logo"
+                    src="https://firebasestorage.googleapis.com/v0/b/cloud-walker-c72ce.appspot.com/o/logos%2FcroutonLogo.001.jpeg?alt=media&token=04edf314-5737-400d-801c-0c95f5f2fd81"
+                    alt="new">      
+            </img>
+        </div>
       <TermSelector setTool = {setTool}/>  
       {tool === "Course Explorer" ? <CourseList /> : null}
     </div>

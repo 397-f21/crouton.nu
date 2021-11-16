@@ -12,6 +12,7 @@ export const CourseList = () => {
     return (
 
         <>
+            <hr></hr>
             <h1> Selected: </h1>
             <div className="course-list">
                 {selected.map((course) => <Courses course={course} setSelected={setSelected}
@@ -19,13 +20,7 @@ export const CourseList = () => {
                                                    setCanTake={setCanTake} action={detake}/>)}
             </div>
 
-
-            {/*<h1> Can Take: </h1>*/}
-            {/*<div className="course-list">*/}
-            {/*    {canTake.map((course) => <Courses course={course} setSelected={setSelected}*/}
-            {/*                                      selected={selected} coursesArr={coursesArr} canTake={canTake}*/}
-            {/*                                      setCanTake={setCanTake} action={take}/>)}*/}
-            {/*</div>*/}
+            <hr></hr>
             <h1> All Courses: </h1>
             <div className="course-list">
                 {coursesArr.map((course) => <NotSelectedCourses course={course} setSelected={setSelected}

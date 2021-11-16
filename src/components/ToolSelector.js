@@ -15,7 +15,7 @@ const TermSelector = ({setTool}) => {
 
 const ToolButton = ({tool, setTool}) => (
     <>
-      <button className="btn btn-outline-secondary btn-sm m-3" onClick={() => setTool(tool)}>
+      <button className="btn btn-outline-secondary btn-sm m-1" onClick={() => setTool(tool)}>
                 {tool}
       </button>
     </>

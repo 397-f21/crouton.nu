@@ -41,3 +41,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12rem, 17rem));
 }
+
+.logo {
+    width: 340px;
+    height: 180px;
+  }
