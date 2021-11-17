@@ -1,8 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from "react-bootstrap";
 
-const { useState } = require('react');
-
 const AllCourses = () => {
     const courses = require('../files/toy_courses.json');
     const coursesArr = Object.entries(courses);
