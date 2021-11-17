@@ -38,7 +38,7 @@ const PathRecom = () => {
 
             <hr></hr>
             <div> 
-                Don't know what to choose? Try select your area of interests:
+                Don't know what courses to choose? Try select your area of interests:
                 <div className="course-list">
                     {areaOfInterests.map(oneArea => <AreaSelector oneArea={oneArea} currentAreas={area} 
                                                                   setArea={setArea} selected={selected} 
@@ -62,12 +62,12 @@ const AreaSelector = ({oneArea, currentAreas, setArea, selected, setSelected, co
     return (
 
         currentAreaNames.includes(oneArea.area) ?
-            <div className="card m-1 p-2 bg-primary text-white" onClick={() => {deselectArea(setArea, currentAreas, oneArea, selected, setSelected)}}>
-                {oneArea.area}
+            <div className="card m-1 p-2 selectedArea text-white" onClick={() => {deselectArea(setArea, currentAreas, oneArea, selected, setSelected)}}>
+                <h4> {oneArea.area} </h4>
             </div> :
 
             <div className="card m-1 p-2" onClick={() => {selectArea(setArea, currentAreas, oneArea, selected, setSelected, coursesJson)}}>
-                {oneArea.area}
+                <h4> {oneArea.area} </h4>
             </div>
 
     )

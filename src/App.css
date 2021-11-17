@@ -45,4 +45,8 @@
 .logo {
     width: 340px;
     height: 180px;
-  }
+}
+
+.selectedArea {
+    background-color: rgb(255, 165, 47);
+}
