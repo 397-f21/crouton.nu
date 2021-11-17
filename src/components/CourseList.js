@@ -97,7 +97,7 @@ const detake = (coursesArr, course, setSelected, selected, canTake, setCanTake) 
 // Recursively Remove Unsatisfiable courses
 // if filtered's and selected's lengths are equal, end of recursion
 // else: continue removing courses
-const removeGuiltyCourses = (selected) => {
+export const removeGuiltyCourses = (selected) => {
     let filtered = selected.filter((single) => ifPreMet(single, selected));
     return filtered.length === selected.length ? filtered : removeGuiltyCourses(filtered);
 }
@@ -118,7 +118,7 @@ const courseSelectedAlready = (course, selected) => (
 
 // if ALL elements in preArr have SOME in selected
 // then prerequisites are met
-const ifPreMet = (course, selected) => {
+export const ifPreMet = (course, selected) => {
     const selectedCoursesName = selected.map(course => course[0]);
     return course[1].Prereqs.every(prereq => prereq.some(singleCourse => selectedCoursesName.includes(singleCourse)));
 }

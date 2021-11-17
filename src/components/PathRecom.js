@@ -1,4 +1,7 @@
+import { ifPreMet, removeGuiltyCourses} from './CourseList';
+
 const { useState } = require('react');
+
 const PathRecom = () => {
     const courses = require('../files/toy_courses.json');
     const coursesArr = Object.entries(courses);
@@ -10,7 +13,7 @@ const PathRecom = () => {
         <>
             <hr></hr>
             <h3> Please select your favourite classes: </h3>
-            <button className="btn btn-outline-secondary btn-sm m-1 col-4" onClick={() => findPath([], selected, courses, setPath)}>
+            <button className="btn btn-outline-secondary btn-sm m-1 col-4" onClick={() => findPath([], selected, courses, setPath, selected)}>
                 Calculate Path
             </button>
 
@@ -75,7 +78,27 @@ const deselect = (course, setSelected, selected) => {
     setSelected(selected.filter(single => single[0] !== course[0]));
 }
 
-const findPath = (done, todo, courses, setPath) => {
+const removeUnnecessaryCourses = (path, selected) => {
+    let filteredPath = [];
+    const courseNames = selected.map((course) => course[0]);
+    for (let i = 0; i < path.length; i++) {
+        if (courseNames.includes(path[i][0])) {
+            filteredPath.push(path[i]);
+            continue;
+        } 
+        let newList = path.filter((course,indx) => indx !== i);
+        const blah = removeGuiltyCourses(newList);
+        const blahNames = blah.map((course) => course[0]);
+        if(!courseNames.every((course) => blahNames.includes(course))) {
+            filteredPath.push(path[i]);
+        }
+        //const end = removeGuiltyCourses(newList);
+    }
+    return filteredPath;
+}
+
+const findPath = (done, todo, courses, setPath, selected) => {
+    console.log(selected);
 
     if (todo.length === 0){
         
@@ -90,13 +113,16 @@ const findPath = (done, todo, courses, setPath) => {
         console.log(result);
         
         // TODO: Remove Unnecessary Courses;
-        // setPath(removeUnnecessaryCourses(result));
+        let filteredResult = removeUnnecessaryCourses(result, selected);
 
+        //setPath(result.sort())
         // TODO: Not just reverse(), need a topological sorting.
-        setPath(result.reverse());
+        setPath(filteredResult.sort()); //reverse());
 
         return;
     }
+
+
 
     let newTodo = [];
     for (let i = 0; i < todo.length; i++) {
@@ -105,7 +131,7 @@ const findPath = (done, todo, courses, setPath) => {
         const preReqs = todo[i][1].Prereqs.map(prereq => [prereq[0], courses[prereq[0]]]);
         newTodo = [...newTodo, ...preReqs];
     }
-    findPath ([...done, ...todo], newTodo, courses, setPath);
+    findPath ([...done, ...todo], newTodo, courses, setPath, selected);
 }
 
 // TODO: 
