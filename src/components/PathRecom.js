@@ -8,6 +8,13 @@ const PathRecom = () => {
 
     const [selected, setSelected] = useState([]);
     const [path, setPath] = useState([]);
+    const [area, setArea] = useState([]);
+
+    const areaOfInterests = [
+        {area: 'Game Development', courses: ["COMP_SCI 376", "COMP_SCI 377"]},
+        {area: 'Software Development', courses: ["COMP_SCI 345", "COMP_SCI 393", "COMP_SCI 394", "COMP_SCI 397-497-5", "COMP_SCI 396-496-18"]},
+        {area: 'Computer Network', courses: ["COMP_SCI 340", "COMP_SCI 397-497-12"]}
+    ];
 
     return (
         <>
@@ -29,14 +36,58 @@ const PathRecom = () => {
                 Calculate Path
             </button>
 
+            <hr></hr>
+            <div> 
+                Don't know what to choose? Try select your area of interests:
+                <div className="course-list">
+                    {areaOfInterests.map(oneArea => <AreaSelector oneArea={oneArea} currentAreas={area} 
+                                                                  setArea={setArea} selected={selected} 
+                                                                  setSelected={setSelected} coursesJson={courses}/>)}
+                </div>    
+            
+            </div>
+
+            <hr></hr>
             <div className="course-list">
                 {coursesArr.map((course) => <SelectableCourse course={course} setSelected={setSelected}
                                                    selected={selected} />)}
             </div>
         </>
     )
+}
 
+const AreaSelector = ({oneArea, currentAreas, setArea, selected, setSelected, coursesJson}) => {
 
+    const currentAreaNames = currentAreas.map(cur => cur.area);
+    return (
+
+        currentAreaNames.includes(oneArea.area) ?
+            <div className="card m-1 p-2 bg-primary text-white" onClick={() => {deselectArea(setArea, currentAreas, oneArea, selected, setSelected)}}>
+                {oneArea.area}
+            </div> :
+
+            <div className="card m-1 p-2" onClick={() => {selectArea(setArea, currentAreas, oneArea, selected, setSelected, coursesJson)}}>
+                {oneArea.area}
+            </div>
+
+    )
+}
+
+const selectArea = (setArea, currentAreas, oneArea, selected, setSelected, coursesJson) => {
+    const selectedNames = selected.map(singleSelected => singleSelected[0]);
+    const newAreas = [...currentAreas, oneArea];
+    const newCourses = oneArea.courses.filter(course => !selectedNames.includes(course));;
+    setArea(newAreas);
+    setSelected([...selected, ...newCourses.map(courseNumber => [courseNumber, coursesJson[courseNumber]])]);
+
+}
+
+const deselectArea = (setArea, currentAreas, oneArea, selected, setSelected) => {
+    const newAreas = currentAreas.filter(cur => cur.area !== oneArea.area);
+    const deletingCourses = oneArea.courses;
+    const newSelected = selected.filter(singleSelected => !deletingCourses.includes(singleSelected[0]));
+    setArea(newAreas);
+    setSelected(newSelected);
 }
 
 const SelectableCourse = ({course, setSelected, selected}) => {
@@ -116,6 +167,8 @@ const removeUnnecessaryCourses = (path, selected) => {
 
 const findPath = (done, todo, courses, setPath, selected) => {
 
+    console.log("All Todos: ", todo);
+
     if (todo.length === 0){
         
         // Remove Duplicates;
@@ -136,6 +189,7 @@ const findPath = (done, todo, courses, setPath, selected) => {
     let newTodo = [];
     for (let i = 0; i < todo.length; i++) {
 
+        console.log(todo[i]);
         // TODO: Some prereqs are undefined because they are math courses which are not in the json file
         const preReqs = todo[i][1].Prereqs.map(prereq => [prereq[0], courses[prereq[0]]]);
         newTodo = [...newTodo, ...preReqs];
