@@ -13,15 +13,18 @@ export const CourseList = () => {
 
         <>
             <hr></hr>
-            <h1> Selected: </h1>
+            <h1> Taken Courses: </h1>
+            <div>Click on an available course to add them to your list. To remove a class, click on the taken class to remove it.</div>
+            <br></br>
             <div className="course-list">
-                {selected.map((course) => <Courses course={course} setSelected={setSelected}
-                                                   selected={selected} coursesArr={coursesArr} canTake={canTake}
-                                                   setCanTake={setCanTake} action={detake}/>)}
+                {selected.length === 0 ? "Courses taken will appear here." :
+                    selected.map((course) => <Courses course={course} setSelected={setSelected}
+                    selected={selected} coursesArr={coursesArr} canTake={canTake}
+                    setCanTake={setCanTake} action={detake}/>)}
             </div>
 
             <hr></hr>
-            <h1> All Courses: </h1>
+            <h1> Available Courses: </h1>
             <div className="course-list">
                 {coursesArr.map((course) => <NotSelectedCourses course={course} setSelected={setSelected}
                                                                 selected={selected} coursesArr={coursesArr}
