@@ -1,21 +1,43 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from "react-bootstrap";
 
+import algoliasearch from 'algoliasearch/lite';
+import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
+
+const searchClient = algoliasearch('3O8PDU69G8', '059f98716ff2c753d52c9a5b9a4d9328');
+
+
 const AllCourses = () => {
     const courses = require('../files/toy_courses.json');
     const coursesArr = Object.entries(courses);
 
+
+
     return (
         <>
             <hr />
-            <h1> All Courses: </h1>
+
+            <InstantSearch searchClient={searchClient} indexName="courses">
+            <SearchBox />
+            <Hits hitComponent={Hit} />
+            </InstantSearch>
+            {/* <h1> All Courses: </h1>
             <div className="course-list">
                 {coursesArr.map((course) => <DetailedCourses course={course} />)}
-            </div>
+            </div> */}
         </>
     )
 
 
+}
+
+
+const Hit = ({ hit }) => {
+
+    const course = [hit.course_number, hit];
+    return (
+        <DetailedCourses course={course}/>
+    )
 }
 
 const DetailedCourses = ({ course }) => {

@@ -1,0 +1,898 @@
+{
+    "COMP_SCI 110": {
+        "course_name": "Intro to Computer Programming",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "10-10:50 MWF",
+        "fall_instructor": "Van Wart",
+        "winter_time": "9-9:50 MWF ",
+        "winter_instructor": "Bain",
+        "spring_time": "10-10:50 MWF or 9:30 -10:50 TuTh",
+        "spring_instructor": "Bain or Kuzmanovic",
+        "other": {
+            "Prerequisites": "",
+            "Description": "<p>Introduction to programming practice using Python. Analysis and formulation of problems for computer solution. Systematic design, construction, and testing of programs. Substantial programming assignments in Python. See professor's website for an updated syllabus.</p>\r\n<p>This introductory programming course is not part of the major. It provides an introduction to programming for those that can benefit from becoming better programmers, but without committing to the major student's version of the course.</p>\r\n<ul>\r\n<li>This course is approved for Weinberg Area II (Formal Studies) distribution credit (NOT for CS Major Requirements)<em><br/></em></li>\r\n</ul>\r\n<strong>REFERENCE TEXTBOOKS:</strong><br/>\r\n<ul>\r\n<li><a href=\"https://www.py4e.com/lessons\">Python for Everyone</a> - By Charles Severance</li>\r\n<li><a href=\"http://openbookproject.net/thinkcs/python/english2e/\">How to Think Like a Computer Scientist</a> - By Jeffrey Elkner, Allen B. Downey, and Chris Meyers</li>\r\n</ul>\r\n<strong>REQUIRED TEXTBOOK:</strong> None\r\n<p><strong>COURSE COORDINATORS:&#160;<span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kuzmanovic-aleksandar.html\" target=\"_self\">Aleksandar Kuzmanovic</a></span></strong>&#160;&amp;&#160;<strong><span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/tumblin-john.html\" rel=\"noopener\" target=\"_blank\">Jack Tumblin</a></span></strong></p>\r\n<p><strong>COURSE INSTRUCTOR : </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/vanwart-sarah.html\">Prof.&#160;Sarah Van Wart</a> (Fall), <a href=\"mailto:connor.bain@northwestern.edu\">Prof. Connor Bain</a> (Winter &amp; Spring) &amp; <a href=\"mailto:akuzma@northwestern.edu\" title=\"Prof. Kuzmanovic\">Prof. Kuzmanovic</a> (Spring)<span></span></p>\r\n<p><strong>COURSE GOALS<br/></strong></p>\r\n<p>This course is an introduction to computer programming using Python, and assumes no prior programming knowledge.&#160;</p>\r\n<p>Most people who need to write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks) that underlie these systems is a valuable modern literacy that is likely to serve you well.</p>\r\n<p>The intent of the course is twofold. <br/>First, we want you to gain a sense of the many different kinds of problem-solving and creative pursuits that programming can support.&#160; Programming can act as a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and much more.&#160;</p>\r\n<p>Second, we want you learn fundamental constructs of computer programming along with skills and strategies to apply them in creative and useful ways. Towards this end, there will be quite a few practice problems to get you familiar with &#8216;the basics,&#8217; as well as longer, open-ended programming projects that encourage you to marshal these ideas towards your own creative applications. These applications may include authoring electronic dance music, animations, games, and/or simple apps that interact with data and media from various sources (e.g. Yelp, Spotify, Twitter, various databases, etc.).</p>\r\n<p>By the end of this course, you will have some experience writing programs, working with the command line, working with different kinds of data, and participating in several important programming practices (e.g. debugging, testing, and designing programs; reading technical documentation and sample code; installing and exploring third-party modules and APIs). Our hope is that this course will help you to see how your goals and knowledge might be supported via computing, while helping you to develop the proficiency and confidence needed to actualize these goals.</p>\r\n<p><strong>PREREQUISITES:&#160;</strong>None.&#160;<span>We assume&#160;<em>no</em>&#160;knowledge of programming or computing.</span></p>"
+        },
+        "Prereqs": []
+    },
+    "COMP_SCI 111": {
+        "course_name": "Fundamentals of Computer Programming I",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "1-1:50 MWF",
+        "fall_instructor": "Horswill & Bain",
+        "winter_time": "11-11:50 MWF",
+        "winter_instructor": "Sood",
+        "spring_time": "1-1:50 MWF",
+        "spring_instructor": "Sood",
+        "other": {
+            "Prerequisites": "None",
+            "Description": "<p>This is an introductory course on the fundamentals of computer programming. I see this class as an opportunity for you, the student, to see what computer programming is all about and (more importantly) to see whether you want to spend the next few years doing more of it. This course will include weekly programming projects, readings, a midterm, and final examinations. Class participation is not optional.</p>\r\n<ul>\r\n<li><em>This course is approved for Weinberg Area II (Formal Studies) distribution credit</em></li>\r\n<li><em>This course is a required Core course in the CS curriculum in McCormick and Weinberg</em></li>\r\n<li><em>Can be taken as ELEC_ENG/COMP_ENG 395 during Fall 16'</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK <em>Optional</em></strong>: <strong>(Fall/Winter)</strong> Abelson, Sussman, and Sussman, <em><strong><a href=\"https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-second-edition\" rel=\"noopener noreferrer\" target=\"_blank\">Structure and Interpretation of Computer Programs</a></strong></em>, MIT Press, Second Edition (1996)</p>\r\n<p><strong>(Spring) </strong>Felleisen, Findler, Flatt, and Krishnamurthi, <strong><a href=\"https://www.htdp.org/2018-01-06/Book/\"><em>How to Design Programs, Second Edition</em></a></strong>, MIT Press (2014)<strong>.<br/></strong></p>\r\n<p><strong>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Ian Horswill</a></strong> & <strong><a href=\"mailto:connor.bain@northwestern.edu\">Connor Bain</a></strong> <strong>(Fall), <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/sood-owsley-sara.html\" target=\"_self\">Sara Owsley Sood</a> (Winter, Spring)<br/> </strong></p>\r\n<p><strong>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Ian Horswill</a></strong></p>\r\n<p><strong>GRADES: </strong><strong>(Fall/Winter)</strong></p>\r\n<ul>\r\n<li>45% About eight (weekly) homework assignments</li>\r\n<li>20% One midterm exam</li>\r\n<li>35% One final exam</li>\r\n</ul>\r\n<p><strong>(Spring)</strong></p>\r\n<ul>\r\n<li>30% Ten weekly homework assignments</li>\r\n<li>60% Two midterm exams (30% each)</li>\r\n<li>10% Daily quizzes</li>\r\n</ul>\r\n<p><strong><span>Please Note:</span> Fall ELEC_ENG/COMP_ENG 395 Section (Honors) </strong>meets Friday's 4-5pm, in addition to Monday's, Wednesday's, & Friday's 12:00-12:50 (four days a week plus the discussion section). The honors section is an additional meeting on top of the normal 111 meetings).</p>"
+        },
+        "Prereqs": []
+    },
+    "COMP_SCI 130": {
+        "course_name": "Tools and Technology of the World Wide Web",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "4-4:50 MWF",
+        "spring_instructor": "Van Wart",
+        "other": {
+            "Prerequisites": "None",
+            "Description": "<p>This course is an introduction to the web, and assumes no prior knowledge. If you feel like you know nothing about coding (as in computer code) or design, but are a little bit curious about the web, then this course for you. If you’ve had quite a bit of experience with coding and design but want to continue developing your skills / portfolio, then this course <i>may</i> be for you, although you may also want to explore additional courses offered in the CS Department (e.g. Intro to Web Development, Agile Programming, Information Visualization, Intro to HCI, etc.). If you are a CS major or minor, please note that this course does not count as a technical elective (though you are certainly still welcome to take it).</p>\r\n<h3>Course Format</h3>\r\n<p>The course format is synchronous: class time will be used to discuss concepts and techniques, ask/answer questions, and work on coding and design activities together.  There will also be weekly discussion sections, where you will work with a member of the teaching staff to complete short assignments. You will be assessed based on (a) weekly homework assignments, and (b) a final project (which can be completed individually or in a group) – where you will create a website of your choosing.</p>\r\n<strong>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/vanwart-sarah.html\">Prof. Sarah Van Wart</a></strong>"
+        },
+        "Prereqs": []
+    },
+    "COMP_SCI 150": {
+        "course_name": "Fundamentals of Computer Programming 1.5",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "11-11:50 MWF",
+        "fall_instructor": "Compton",
+        "winter_time": "11-11:50 MWF",
+        "winter_instructor": "Compton",
+        "spring_time": "11-11:50 MWF",
+        "spring_instructor": "Compton",
+        "other": {
+            "Prerequisites": "COMP_SCI 110 or COMP_SCI 111 or GEN_ENG 205-1 or GEN_ENG 206-1",
+            "Description": "<p>Intended for students who have completed COMP_SCI 111, but don&#8217;t have any other formal Computer Science background. It will provide an introduction to object-oriented programming in Python, preparing students for future courses such as COMP_SCI 211.&#160;</p>\r\n<ul>\r\n<li><strong>Formerly COMP_SCI&#160;295.<br/></strong></li>\r\n<li><strong>Students should NOT take this course if they have completed the AP Computer Science course or have substantial experience programming in languages such as Java, Python or C++.<br/></strong></li>\r\n<li><strong>Students are strongly advised to take CS 150 before CS 211.<br/></strong></li>\r\n</ul>\r\nPlease email <a href=\"mailto:sara.sood@northwestern.edu\">Sara Sood</a> if you wonder if this course is right for you.&#160;<br/>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"mailto:katherine.compton@northwestern.edu\">Prof. Katherine E Compton</a> (Fall, Winter &amp; Spring)</p>\r\n<p><strong>PREREQUISITE:&#160;</strong><a href=\"111.html\" target=\"_parent\">COMP_SCI 110 or COMP_SCI 111</a> or GEN_ENG 205-1 or GEN_ENG 206-1</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 110",
+                "COMP_SCI 111",
+                "GEN_ENG 205-1",
+                "GEN_ENG 206-1"
+            ]
+        ]
+    },
+    "COMP_ENG 203": {
+        "course_name": "Intro to Computer Engineering",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "MTuWF 11-11:50",
+        "fall_instructor": "Joseph",
+        "winter_time": "MTuWF 11-11:50",
+        "winter_instructor": "C.H. Wu",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "",
+            "Description": "<p>Overview of computer engineering design. Number systems and Boolean algebra. Logic gates. Design of combinational circuits and simplification. Decoders, multiplexers, adders. Sequential logic and flip flops. Introduction to assembly language. Application of concepts to a computer engineering design project.</p>\r\n<p><strong>REQUIRED TEXTS: </strong>McGraw Hill, <em>Introduction to Computing Systems: From bits & gates to C & beyond</em>, Patt & Patel, 2003, Second Edition</p>\r\n<p><strong>REFERENCE TEXTS: </strong>Course handouts.</p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/joseph-russ.html\" target=\"_self\">Prof. Russ Joseph</a></strong>(Fall), <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/wu-haur-chi.html\" target=\"_self\">Prof. Chi-Haur Wu</a></strong> (Winter)</p>\r\n<p><strong>COURSE GOALS: </strong>To provide an introduction to computer engineering concepts, both hardware and software, with emphasis placed on digital logic concepts. Topics include binary number representations, Boolean algebra, simplification methods for combinational circuits, introduction to sequential circuit, introduction to assembly language programming, and networks. This would serve to convince declared computer engineering majors to remain in the field, and to attract students from other majors to join computer engineering. Another goal is to prepare students to take some more advanced courses in each of the fields of computer engineering. The concepts are applied to hands-on laboratory assignments that includes hardware and software designs of a controller to navigate a robot through a given obstacle course.</p>\r\n<p><strong>PRE-REQUISITES: </strong>None</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<p><strong>Week 1</strong>: Introduction to computer engineering topics. Introduction to the basic gates, truth tables and principles of Boolean Algebra. (Reading: Mano & Kime 1.1, 2.1, 2.2 and 2.6[first half]).</p>\r\n<p><strong>Week 2</strong>: Logic minimization using the principles of Boolean Algebra and Karnaugh Maps. (Reading: Mano & Kime 2.3, 2.4, 2.5)</p>\r\n<p><strong>Week 3: </strong>Continuation of logic minimization to produce minimized sum of product and product of sum expression. In addition, methods for converting AND/OR implementations to NAND only implementations and OR/AND implementations to NOR only implementations. (Reading: Mano & Kime 2.6, 2.7, 2.8)</p>\r\n<p><strong>Week 4: </strong>Design of combinational logic circuits. (Reading: Mano & Kime 3.1-3.4) Conversion of number between any two basis, with an emphasis on decimal, binary, octal and hex numbers. The three methods for representing negative numbers, sign magnitude, ones complement and two complement. (Reading: Mano & Kime 1.2, 1.3)</p>\r\n<p><strong>Week 5: </strong>Design of multi-bit adder/subtractor circuit for twos complement numbers, identifying when overflow occurs. Design and use of different routing and selection devices including decoders, encoders, and multiplexers. (Reading: Mano & Kime 4.1-4.6, 5.1-5.6)</p>\r\n<p><strong>Weeks 6: </strong>Introduction to microcontrollers and the relationship to assembly language. (Reading: Course Handout)</p>\r\n<p><strong>Weeks 7: </strong>Introduction to assembly language programming and input/output control of microcontrollers. (Reading: Course Handout)</p>\r\n<p><strong>Week 8: </strong>Introduction to sequential logic, including latches, M/S flip flops and edge triggered flip flops. (Reading: Mano & Kime 6.1-6.6)</p>\r\n<p><strong>Week 9: </strong>Introduction to registers, micro-operations and various counters. (Reading: Mano & Kime 7.1-7.9)</p>\r\n<p><strong>Week 10: </strong>Introduction to Memory (Reading: Mano & Kime 3.6 and 9.1-9.6)</p>\r\n<p><strong>COMPUTER USAGE: </strong>Laboratory assignments relating to the assembly language programming of the microcontroller used to navigate a robot through a given obstacle course.</p>\r\n<p><strong>LABORATORY PROJECTS: </strong>Students get hand-on experience with the following: designing digital circuits based upon a word-problem specifications, designing a combinational logic circuit to navigate a robot, and assembly language programming of a microcontroller to navigate a robot.</p>\r\n<p>Each student is given a lab kit during the first week of class; this kit contains a breadboard, power supply, digital logic probe, tweezers for handling the wires, LEDs, resistors and TTL chips.</p>\r\n<p>Students also have access to numerous robots for the robot controller laboratory assignments. Each week, students are given a laboratory assignment that entails a design using concepts discussed in class the previous week. The laboratory assignments are designed to allow for the completion of a homework on a given concept prior to using the concept in the design. Every week, each student demonstrates his/her working design to the course TA. The specific design projects are given below.</p>\r\n<p><strong>Lab 1: </strong>Introduction to the lab kits. Students become familiar with the components in the lab kit by implementing two simple circuits. (Due week 3)</p>\r\n<p><strong>Lab 2: </strong>Design a simple combinational circuit based upon a given word problem. (Due week 4)</p>\r\n<p><strong>Lab 3: </strong>Design a complex combinational circuit, requiring the use of K-maps for logic minimization. Again a word problem is given. (Due week 5)</p>\r\n<p><strong>Lab 4: </strong>Design of an arithmetic circuit. (Due week 6)</p>\r\n<p><strong>Lab 5: </strong>Assembly language programming of a microcontroller to perform a very simple task. (Due week 8)</p>\r\n<p><strong>Lab 6: </strong>Assembly language programming of the microcontroller to navigate the same robot, used in lab 4, through a more complex obstacle course. (Due week 10)</p>\r\n<p><strong>GRADES:</strong></p>\r\n<p>Homeworks – 15%</p>\r\n<p>Labs - 25%</p>\r\n<p>Midterm - 30%</p>\r\n<p>Final - 30%</p>\r\n<p><strong>COURSE OBJECTIVES: </strong>When a student completes this course, s/he should be able to:</p>\r\n<p>1. Have an understanding of the field of computer engineering and an awareness of the various topics related to this field. This would serve to convince declared computer engineering majors to remain in the field, and to attract students from other majors to join computer engineering.</p>\r\n<p>2. Use Boolean algebra or K-maps to simplify complex boolean expressions.</p>\r\n<p>3. Convert numbers between any two number systems, especially decimal, binary, octal and hex and represent sign numbers.</p>\r\n<p>4. Design arithmetic circuits to perform addition and subtraction of signed numbers and detect overflow conditions.</p>\r\n<p>5. Implement functions using AND/OR gates, OR/AND gates, NORs only, NANDs only, multiplexers or decoders.</p>\r\n<p>6. Design the basic flip flops using sequential logic.</p>\r\n<p>7. Go from a word problem to the actual design, implementation and testing of the circuit.</p>\r\n<p>8. Program simple microcontrollers in assembly language.</p>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>25% Math and Basic Science, 75% Engineering (Design component).</p>"
+        },
+        "Prereqs": []
+    },
+    "COMP_ENG 205": {
+        "course_name": "Fundamentals of Computer System Software",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "MTuWF 2-2:50",
+        "winter_instructor": "Joseph",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Freshman programming requirement (GTK 205-1, 2, 3, 4). COMP_ENG 203 helpful.",
+            "Description": "<div class=\"item-page\">\r\n<p><strong>CATALOG DESCRIPTION: </strong>Basics of assembly language programming. Macros. System stack and procedure calls. Techniques for writing assembly language programs. The features of IA-32 based PC will be used. Interfaces between high-level languages and assembly codes will be discussed.</p>\r\n<p><strong>REQUIRED TEXTS: </strong>Kip R. Irvine, Assembly Language for x86 Processors, 7th edition, Prentice Hall, 2014</p>\r\n<p><strong>REFERENCE TEXTS: </strong>None</p>\r\n<p><strong>COURSE INSTRUCTORS:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/joseph-russ.html\" target=\"_self\">Prof. Russ Joseph </a></strong><span>(Winter)</span></p>\r\n<p><strong>COURSE GOALS: </strong>To teach (1) the Intel IA-32 processor architecture and programming, (2) assembly language directives, macros, operators, and program structure, (3) programming methodology, showing how to use assembly language to create both system-level software tools and application programs, and (4) interaction between assembly language programs, the operating system, and other application programs.</p>\r\n<p><strong>PREREQUISITES: </strong>Freshman programming requirement (GTK 205-1, 2, 3, 4). COMP_ENG 203 helpful.</p>\r\n<p><strong>PREREQUISITES BY TOPIC:</strong></p>\r\n<p>1. Fundamental concepts about computers and software</p>\r\n<p>2. Programming concepts of high-level languages</p>\r\n<p>3. Syntax of a language</p>\r\n<p>4. Structured programming</p>\r\n<p><strong>DETAILED COURSE TOPICS</strong></p>\r\n<p><strong>Week 1</strong>: Introduction to assembly languages, data representation in computers</p>\r\n<p><strong>Week 2: </strong>A programmer's view of computer organization, IA-32 processor architecture and memory management, basic elements of assembly language</p>\r\n<p><strong>Week 3: </strong>Data definition and transfer instructions, addressing mode, integer addition and subtraction</p>\r\n<p><strong>Week 4: </strong>Integer multiplication and division, unconditional jump instructions, conditional processing</p>\r\n<p><strong>Week 5: </strong>Linking to external library, stack operations, procedures</p>\r\n<p><strong>Week 6: </strong>Advanced procedures, string primitive instructions, bit manipulation</p>\r\n<p><strong>Week 7: </strong>Structures and macros, conditional assembly, assembly process, instruction encoding</p>\r\n<p><strong>Week 8: </strong>16-bit MS-DOS programming basics, MS-DOS function calls</p>\r\n<p><strong>Week 9: </strong>BIOS-level programming, keyboard processing</p>\r\n<p><strong>Week 10: </strong>Video processing</p>\r\n<p><strong>Week 11</strong>: Disk storage systems, file systems</p>\r\n<p><strong>LABORATORY PROJECTS:</strong></p>\r\n<p>1. Design of an assembly language program with structured programming</p>\r\n<p>2. Design of an assembly language program with advanced procedures</p>\r\n<p>3. Design of an assembly language program for string processing</p>\r\n<p>4. Design of an assembly language program for keyboard processing</p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Homeworks: 30%</li>\r\n<li>Programming Assignments: 50%</li>\r\n<li>Final exam: 20%</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: </strong>When a student completes this course, s/he should be able to:</p>\r\n<p>1. Understand the difference between real mode and protected mode IA-32 assembly language programming</p>\r\n<p>2. Understand the IA-32 protected-mode addressing memory management schemes including segmentation and paging</p>\r\n<p>3. Program in IA-32 assembly language</p>\r\n<p>4. Write procedures called by high-level languages with IA-32 assembly language</p>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>100% Engineering (Design component)</p>\r\n"
+        },
+        "Prereqs": [
+            [
+                "COMP_ENG 203"
+            ]
+        ]
+    },
+    "COMP_SCI 211": {
+        "course_name": "Fundamentals of Computer Programming II",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 TuTh",
+        "fall_instructor": "Ghena",
+        "winter_time": "2-3:20 TuTh",
+        "winter_instructor": "Ghena & Bhagavatula",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Bhagavatula",
+        "other": {
+            "Prerequisites": "COMP_SCI 111 or 150",
+            "Description": "<p><strong>CATALOG DESCRIPTION:&#160;</strong> <span>CS 211 teaches foundational software design skills at a small-to-medium scale. We aim to provide a bridge from the student-oriented <em>How to Design Programs</em> languages to real, industry-standard languages and tools. In the first half of the course, you&#8217;ll learn the basics of imperative programming and manual memory management using the C programming language. In the second half of the course, we&#8217;ll transition to C++, which provides abstraction mechanisms such as classes and templates that we use to express our design ideas. Topics include expressions, statements, types, functions, branches and iteration, user-defined types, data hiding, basic UNIX shell usage, and testing.</span></p>\r\n<ul>\r\n<li><strong><em>T</em><em>his course is a required Core course in the CS curriculum in McCormick and Weinberg</em></strong></li>\r\n<li><em><strong>Students are strongly advised to take CS 150 before CS 211.</strong></em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: <strong>N/A</strong><span class=\"a-size-base a-color-base\"></span></p>\r\n<p><strong><strong>COURSE INSTRUCTOR: </strong></strong><a href=\"mailto:branden@northwestern.edu\"></a><a href=\"mailto:branden@northwestern.edu\">Branden Ghena</a> &amp; Sruti Bhagavatula (Fall &amp; Winter), Sruti Bhagavatula (Spring).</p>\r\n<p><strong>COURSE COORDINATOR:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/sood-owsley-sara.html\" target=\"_self\">Prof. Sara Owsley Sood</a></strong></p>\r\n<p><strong>PREREQUISITE:&#160;<a href=\"111.html\" target=\"_self\">COMP_SCI 111 or 150</a></strong></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li><strong>C/C++</strong>\r\n<ul>\r\n<li>Introduction to software engineering.</li>\r\n<li>Basic data types, variables, computer arithmetic, expressions, parentheses.</li>\r\n<li>Basic I/O &#8211; cout, cin.</li>\r\n<li>Introduction to classes &#8211; defining one's own data types</li>\r\n<li>Flow of control &#8211; sequential, test-and-branch, and iteration. Boolean expressions.</li>\r\n<li>Arrays, pointers, and strings.</li>\r\n<li>Functions: call by value and call by reference, references vs. pointers, stack frames.</li>\r\n<li>Function overloading</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li><strong>INTRODUCTION TO CLASSES:</strong>\r\n<ul>\r\n<li>Structures and classes, data hiding and encapsulation.</li>\r\n<li>Public and private members, constructors, unions.</li>\r\n<li>Interface vs. implementation.</li>\r\n<li>Class destructors and copy constructors, the = operator, deep versus shallow copies.</li>\r\n<li>C++ operator overloading.</li>\r\n<li>Heap space, the new/delete operators.</li>\r\n<li>Inheritance and derived classes, is-a hierarchies and composition of classes.</li>\r\n<li>Virtual functions and polymorphism.</li>\r\n<li>Linked list processing: stacks and queues, trees and recursion.</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li>Introduction to UNIX &#8211; processes, file management, redirection and piping, make files.</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Varies by instructor</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111",
+                "COMP_SCI 150"
+            ]
+        ]
+    },
+    "COMP_SCI 212": {
+        "course_name": "Mathematical Foundations of Computer Science",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "3-3:50 MWF",
+        "fall_instructor": "Rao & Bain",
+        "winter_time": "4-4:50 MWF ",
+        "winter_instructor": "Golub",
+        "spring_time": "3-3:50 MWF ",
+        "spring_instructor": "Rao",
+        "other": {
+            "Prerequisites": "(COMP_SCI 110 or COMP_SCI 111) and Math 228-1 or 230-1 (formerly Math 230)",
+            "Description": "<p>This course will discuss fundamental concepts and tools in discrete mathematics with emphasis on their applications to computer science. Example topics include logic and Boolean circuits; sets, functions, relations, databases, and finite automata; deterministic algorithms and randomized algorithms; analysis techniques based on counting methods and recurrence equations; trees and more general graphs.</p>\r\n<ul>\r\n<li><em>This course is a required Core course in the CS curriculum in McCormick and Weinberg</em></li>\r\n</ul>\r\n<p><strong>RECOMMENDED TEXTS:</strong></p>\r\n<ul>\r\n<li><strong><strong>Fall &amp; Winter Section:</strong></strong> Mathematics for Computer Science by Lehman, Leighton, and Meyer (e-book: <a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\"></a><a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\">https://courses.csail.mit.edu/6.042/spring18/mcs.pdf</a><a href=\"https://courses.csail.mit.edu/6.042/spring18/mcs.pdf\"></a>)</li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTORS:</strong> <a href=\"mailto:shravas@northwestern.edu\" title=\"Prof. Rao\">Prof. Shravas Rao</a> &amp;&#160;<a href=\"mailto:connor.bain@northwestern.edu\">Prof. Connor Bain</a> (Fall &amp; Spring), <a href=\"#\">Prof. Benjamin Golub</a> (Winter),&#160;<a href=\"mailto:wangxiao@northwestern.edu\">Xiao Wang</a> (Honors CS 212, Spring)</p>\r\n<p><strong>COURSE COORDINATOR:</strong> Prof. <span class=\"mail_link\">Aravindan&#160;Vijayaraghavan</span><br/> <br/> <strong>COURSE OBJECTIVES:&#160;</strong>In this course, students should develop mathematical thinking and problem-solving skills associated with writing proofs.&#160; Students should also be exposed to a wide variety of mathematical concepts that are used in the Computer Science discipline, which may include concepts drawn from the areas of Number Theory, Graph Theory, Combinatorics, and Probability.<br/> <br/> <strong>PREREQUISITES: - Must combine one of the following -</strong></p>\r\n<ul>\r\n<li>(<a href=\"110.html\">COMP_SCI 110 </a>or <a href=\"111.html\">COMP_SCI 111</a>) and <a href=\"https://catalogs.northwestern.edu/search/?P=MATH%20230-0\" rel=\"noopener noreferrer\" target=\"_blank\">Math 228-1 or 230-1 (formerly 230)</a><a href=\"349.html\"><br/> </a></li>\r\n</ul>\r\n<p><strong>DETAILED COURSE TOPICS:</strong>&#160;All sections will deal with topics from Part I (Proofs and Mathematical Preliminaries), as well as a selection of topics from Parts II-IV.</p>\r\n<p>Part I:&#160; Proofs, and Mathematical Preliminaries&#160;</p>\r\n<ol>\r\n<li>Introduction to Logic, Proofs.</li>\r\n<li>Principle of Mathematical Induction, Strong Induction.</li>\r\n</ol>\r\n<p>Part II: Counting, Combinatorics, Probability</p>\r\n<ol>\r\n<li>Counting, Mapping, Functions, Bijection, Inclusion-Exclusion formula.</li>\r\n<li>Pigeonhole principle, Generalized Pigeonhole.</li>\r\n<li>Permutations and Combinations. Picking with repetition, without repetition.</li>\r\n<li>Binomial formula, Pascal Triangle, Generating functions.</li>\r\n<li>Introduction to Probability: Random Events, Conditional Probabilities, Independence, Bayes Rule.</li>\r\n<li>Expectation, Linearity of Expectation, Variance of random variables.</li>\r\n<li>Markov's inequality. Chebychev inequality, Union bound.</li>\r\n<li>Sums of random variables, Concentration of measure, Statistical significance.</li>\r\n</ol>\r\n<p>Part III: Graph Theory</p>\r\n<ol>\r\n<li>Introduction to graphs, Properties of graphs.</li>\r\n<li>Connectivity, Connected components, Distances.</li>\r\n<li>Trees, Cycles,&#160; Spanning Trees.&#160;</li>\r\n<li>Planarity, Graph Coloring, Bipartite graphs.</li>\r\n<li>Matchings, Hall's theorem, Stable marriage.</li>\r\n<li>Linear Algebra: Adjacency matrix, Edge-vertex matrix. Relating graph properties. Eigenvalues, Eigenvectors.</li>\r\n<li>Independent set, Vertex cover, Network Flows, Cuts.</li>\r\n<li>Linear Programming, Duality.</li>\r\n</ol>\r\n<p>Part IV: Number Theory &amp; Miscellaneous</p>\r\n<ol>\r\n<li>Prime numbers, Divisibility, GCD algorithm.</li>\r\n<li>Modular arithmetic. Prime numbers. Fundamental theorem of arithmetic.</li>\r\n<li>Cryptography, Computational Complexity.</li>\r\n<li>Turing Machines, Reductions, NP-hardness.&#160;</li>\r\n</ol>\r\n<p><strong>HOMEWORK ASSIGNMENTS:&#160;</strong>Varies by instructor<br/> <br/> <strong>LABORATORY PROJECTS:</strong>&#160;None<br/> <br/> <strong>GRADES:</strong>&#160;Varies by instructor</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 110",
+                "COMP_SCI 111"
+            ],
+            [
+                "Math 228-1",
+                "Math 230-1"
+            ]
+        ]
+    },
+    "COMP_SCI 213-20": {
+        "course_name": "Intro to Computer Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "2-3:20 TuTh",
+        "fall_instructor": "Dinda",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Ghena",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Hardavellas",
+        "other": {
+            "Prerequisites": "COMP_SCI 211",
+            "Description": "<p>This course has four purposes: (1) to learn about the hierarchy of abstractions and implementations that comprise a modern computer system; (2) to demystify the machine and the tools that we use to program it; (3) to come up to speed on systems programming in C in the Unix environment; (4) to prepare students for upper-level systems courses.</p>\r\n<ul>\r\n<li><em>This course is a <strong>required Core course</strong> in the CS curriculum in McCormick and Weinberg</em></li>\r\n</ul>\r\n<p><strong>COURSE GOALS</strong>: This course has four purposes. First, you will learn about the hierarchy of abstractions and implementations that comprise a modern computer system. This will provide a conceptual framework that you can then flesh out with courses such as compilers, operating systems, databases, networks, security, real-time systems, and others. The second purpose is to demystify the machine and the tools that we use to program it. This includes telling you the little details that students usually have to learn by osmosis. In combination, these two purposes will give you the background to understand many different computer systems. The third purpose is to bring you up to speed in doing systems programming in a low-level language (C) in the Unix (Linux/GCC/GDB/etc) environment. The final purpose is to prepare you for upper-level courses in systems.</p>\r\n<p>This is a learn-by-doing kind of class. You will write pieces of code, compile them, debug them, disassemble them, measure their performance, optimize them, etc.</p>\r\n<p>This course is ideally taken after COMP_SCI 211 early in your academic career. <strong>This is a REQUIRED COURSE for the CS Major.</strong></p>\r\n<p>The current iteration of Prof. Peter Dinda's section is always at <a href=\"http://pdinda.org/ics/\">http://pdinda.org/ics</a></p>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: Randal E. Bryant and David R. O’Hallaron, Computer Systems: A Programmer’s Perspective, Third Edition, Prentice Hall, 2015, (ISBN-13:978-0134092669,ISBN-10:013409266X)</p>\r\n<p><strong>RECOMMENDED TEXTS,</strong> <em>not required</em>:</p>\r\n<ul>\r\n<li>The C Programming Language, Second Edition, Prentice Hall, 1988 (ISBN 0-131-10370-9)(Reference)</li>\r\n<li>Richard Stevens and Stephen Rago, Advanced Programming in the Unix Environment, ThirdEdition, Addison-Wesley, 2013(ISBN-10: 0321637739 | ISBN-13: 978-0321637734) (Reference)</li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTORS:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\" target=\"_self\">Prof. Peter Dinda</a> (Fall), <a href=\"mailto:branden@northwestern.edu\">Prof. Branden Ghena</a><strong>,</strong> (Winter), <a href=\"mailto:nikos@northwestern.edu\">Prof. Nikos Hardavellas</a> (Spring).</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\" target=\"_self\">Prof. Peter Dinda</a></p>\r\n<p><strong>PREREQUISITES:</strong> <a href=\"211.html\">COMP_SCI 211</a></p>\r\n<p><strong>PREREQUISITE FOR: </strong><a href=\"322.html\">COMP_SCI 322</a> (Compilers), <a href=\"339.html\">ELEC_ENG/COMP_ENG/COMP_SCI 339</a> (Databases), <a href=\"340.html\">COMP_SCI 340</a> (Networking), <a href=\"343.html\">COMP_SCI 343 </a>(Operating Systems), <a href=\"350.html\">COMP_SCI 350</a> (Security), <a href=\"397.html\">COMP_SCI 397</a> (Real-time), <a href=\"441.html\">COMP_SCI 441</a></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 211"
+            ]
+        ]
+    },
+    "COMP_SCI 214": {
+        "course_name": "Data Structures and Algorithms",
+        "summer_time": "3:30-4:50 TuTh",
+        "summer_instructor": "Rasmussen",
+        "fall_time": "9:30-10:50 TuTh",
+        "fall_instructor": "St-Amour",
+        "winter_time": "11-12:20 TuTh",
+        "winter_instructor": "St-Amour",
+        "spring_time": "3:30-4:50 TuTh",
+        "spring_instructor": "St-Amour & Bhagavatula",
+        "other": {
+            "Prerequisites": "COMP_SCI 111 and (COMP_SCI 150 or 211)",
+            "Description": "<p>The design, implementation, and analysis of abstract data types, data structures and their algorithms. Topics include: data and procedural abstraction, amortized data structures, trees and search trees, hash tables, priority queues, graphs, shortest paths, searching, and sorting. Required for computer science majors.</p>\r\n<ul>\r\n<li><em><i>This course is a required Core course in the CS curriculum in McCormick and Weinberg</i></em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOKS</strong>:<em> None</em><em> </em></p>\r\n<p><strong>INSTRUCTORS</strong>: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html\">Vincent St-Amour</a> (<strong>Fall, Winter </strong><strong>&amp; Spring</strong>),&#160;<span><a href=\"mailto:srutib@northwestern.edu\">Sruti Bhagavatula</a> (<strong>Spring</strong>),</span>&#160;<a href=\"mailto:leif@rasmussen.com\">Leif Rasmussen</a> (<strong>Summer</strong>)<span></span><span></span></p>\r\n<p><strong>PREREQUISITES:&#160;</strong><a href=\"211.html\">COMP_SCI 111 and (COMP_SCI 150 or 211)</a></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li>Abstract data types</li>\r\n<li>Asymptotic complexity</li>\r\n<li>Lists</li>\r\n<li>Stacks and queues</li>\r\n<li>Dictionaries</li>\r\n<li>Graphs (search, shortest paths, spanning trees)</li>\r\n<li>Priority queues</li>\r\n<li>Disjoint sets</li>\r\n<li>Amortized analysis</li>\r\n<li>Self-adjusting data structures</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Varies by instructor; see syllabus<strong><br/> </strong></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111"
+            ],
+            [
+                "COMP_SCI 150",
+                "COMP_SCI 211"
+            ]
+        ]
+    },
+    "COMP_SCI 217": {
+        "course_name": "Data Management and Information Processing",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "9:30-10:50 TuTh",
+        "fall_instructor": "Hu",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Hu",
+        "spring_time": "9:30-10:50 TuTh",
+        "spring_instructor": "Hu",
+        "other": {
+            "Prerequisites": "COMP_SCI 110 or COMP_SCI 111 or COMP_SCI 211 or COMP_SCI 230 or other programming experience",
+            "Description": "<p><span>This course will teach students how to organize and analyze real-world data sets using tools that are most commonly used in the business world.  In particular, students will learn the SQL language for analyzing data in relational databases.  Students will also learn the details of common data encodings (integer, floating point, fixed point, text, date and time), how such data are structured in data files (CSV, JSON, XML), and how to model complex data sets as a series of SQL tables.  In other words, students will learn how to organize large data sets, and to answer questions using that data.  The SQL skills taught in COMP_SCI 217 are essential for “data science” practitioners, especially when working with business data. COMP_SCI 217 is all about data, but not really about statistics, visualization, or programming (except SQL, which will be taught). Homework assignments will use the SQLite database management systems. Some homework needs basic python programming as well.<br/><br/></span>COMP_SCI 217 is different from the COMP_SCI 339 and ELEC_ENG/COMP_ENG 495 “Introduction to Databases” courses that we offer to computer science students in that COMP_SCI 217 does not teach the details of how database management systems are built.  In other words, the students in this class will learn how to use a database system, not how to build it from scratch.Formerly COMP_SCI 317</p>\r\n<ul>\r\n<li>Formerly COMP_SCI 317</li>\r\n<li>NOTE: This course does not count for credit for CS and CE majors (they are expected to take <a href=\"339.html\">COMP_SCI 339</a>) – however, it counts for other majors.</li>\r\n</ul>\r\n<p><strong><strong>COURSE INSTRUCTOR: <a href=\"mailto:huiling.hu@northwestern.edu\"></a></strong></strong><a href=\"mailto:huiling.hu@northwestern.edu\">Prof. Hu</a> (Fall, Winter & Spring)<strong><strong><br/> </strong></strong></p>\r\n<p><strong><strong>COURSE COORDINATOR: <a href=\"/research-faculty/directory/profiles/tarzia-stephen\"></a></strong></strong><a href=\"mailto:huiling.hu@northwestern.edu\">Prof. Hu</a></p>\r\n<p><strong>COURSE OUTLINE:</strong></p>\r\n<ul>\r\n<li><span> </span><span>Bits and bytes: how data is represented in computers</span>\r\n<ul>\r\n<li><span> </span><span>Integers, two’s complement, fixed point</span></li>\r\n<li><span> </span><span>Floating-point numbers</span></li>\r\n<li><span> </span><span>Date, time, and text encodings</span></li>\r\n</ul>\r\n</li>\r\n<li><span> </span><span>Data modeling for relational databases</span>\r\n<ul>\r\n<li><span> </span><span>Primary and foreign keys</span></li>\r\n<li><span> </span><span>Table relationships (many-to-one, many-to-many, and subsets)</span></li>\r\n<li><span> </span><span>Design database model</span></li>\r\n</ul>\r\n</li>\r\n<li><span> </span><span>Structured Query Language (SQL)</span>\r\n<ul>\r\n<li><span> </span><span>Basic SQL statements</span></li>\r\n<li><span> </span><span>JOINs and aggregates</span></li>\r\n<li><span> </span><span>Subqueries and combining selects</span></li>\r\n<li><span> </span><span>Advanced queries</span></li>\r\n</ul>\r\n</li>\r\n<li><span> </span><span>Other Data management approaches</span>\r\n<ul>\r\n<li><span> </span><span>Semi-structured data in JSON and XML files</span></li>\r\n<li><span> </span><span>Using pandas to manipulate messy data</span></li>\r\n<li>NoSQL & Big Data</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><strong>GRADING:<br/></strong></p>\r\n<ul>\r\n<li><span> </span><span>Homework assignments (60%, 7 assignments)</span></li>\r\n<li><span> </span><span>Exam I (20%)</span></li>\r\n<li>Exam II (20%)</li>\r\n</ul>\r\n<p><strong>COURSE OUTCOMES:</strong> After completing this course, a student should be able to:</p>\r\n<ul>\r\n<li>Draw a data model diagram to represent a complex data set.</li>\r\n<li>Choose appropriate data types to store various data.</li>\r\n<li>Define data integrity constraints using primary, foreign, and unique keys.</li>\r\n<li>Define indexes to optimize the performance of particular queries on a database.</li>\r\n<li>Implement a data model with “CREATE TABLE” commands in the SQL language.</li>\r\n<li>Load data into the database tables from CSV and other data file formats.</li>\r\n<li>Write complex SQL SELECT queries to answer various questions using the database.</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 110",
+                "COMP_SCI 111",
+                "COMP_SCI 211",
+                "COMP_SCI 230"
+            ]
+        ]
+    },
+    "COMP_SCI 295-396": {
+        "course_name": "AI and Experimental Narrative",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "5-6:20 TuTh",
+        "spring_instructor": "Horswill",
+        "other": {
+            "Prerequisites": "COMP_SCI 111 and (COMP_SCI 150 or 211)",
+            "Description": "<p>Story games (or storygames) are narrative frameworks in which participants (players) collaborate with each other and with the system to tell stories they find compelling.  Examples include story-centric computer role-playing games such as <em>Disco Elysium</em>, but also larp and story-centric tabletop role playing games such as those based on the Fate, PBtA, GUMSHOE, and DramaSystem systems, as well as smaller, more personal games of the lyric games movement.</p>\r\n<p>In this course we will study, play and design story games, study and build AI-based story-generation systems, and experiment with the use of AI systems in story games.  No previous programming knowledge is necessary for the 295 section.  The 396 section will go more deeply into the formal and algorithmic foundations of these technologies.</p>\r\n<p>AI assignments will use two experimental AI systems, <em>Step</em>, and <em>Imaginarium</em>, designed to be accessible to non-programmers.  295 students will use these systems as tools to make stories and story artifacts.  396 students will additionally learn their detailed semantics and structure. </p>\r\n<h3>Grading</h3>\r\n<ul>\r\n<li>Individual assignments: 50% (AI assignments, weekly feedback from your group)</li>\r\n<li>Group assignments: 50% (game designs, weekly gameplay reports)</li>\r\n</ul>\r\n<h3>Reasons not to take this course</h3>\r\n<p>This class is not for everyone.  One issue is that we really will play story games in class.  These games involve acting, and effectively, fiction writing.  If these things will make you feel exposed and uncomfortable, that’s okay, but you might not enjoy the course.  That said, you will never be graded on your acting ability or artistry, only on whether you showed up prepared for your games and you made an honest effort.</p>\r\n<p>This is not intended to be a conceptually difficult course.  But it will be a time-intensive course, since it will involve not only programming, but playing games, reading games, and watching videos of games being played.  Students should expect to spend 10 hours a week on outside activities (gameplay, assigned readings and videos, game design, and working with the AI tools, guest speakers).</p>\r\n<p>Finally, we will be playing improvisational games that emphasize character and story, not combat-oriented RPGs like <em>Dungeons and Dragons</em> that make less contact with the AI and narrative issues we want to explore.  So if you’re drawn to RPGs for combat, leveling up, min-maxing, etc., you may be disappointed by the course.</p>\r\n<h3>Thematic content and trigger warnings</h3>\r\n<p>These games tell stories; they’re a form of literature or theatre.  As such, they address the same wide range of themes as traditional literature and theatre.  While we will avoid playing games likely to produce emotional distress, we will discuss a wide range of games.  Some of these games may address difficult issues such as race, gender, ethnic conflict, poverty, anti-capitalism, religion, sexuality, disability, illness, mortality, suicide, and mental health.</p>\r\n<p>Many games involve explicit depictions or simulations of violence.  Although, we will not play games that mandate graphic depictions of violence, many of the games we discuss will have some notion of combat.  Some games seek to raise awareness of intimate partner violence, child abuse, or sexual assault, although we will not play them.</p>\r\n<p>Horror has been an especially important genre in the historical development of narrative games.  These include games involving threats from monsters, but also cosmic/existential horror.  As with any horror literature, they can also involve themes or events deliberately chosen for their disturbing nature: serial killing, war crimes, child abuse, etc.  These games also often represent mental illness, usually in ways chosen for dramatic effect more than clinical accuracy.</p>\r\n<p>Finally, contemporary game design is often critically and politically engaged.  At least three different games we will mention touch on the issues of access to health care within the US.  One of the collections we will discuss is named <a href=\"http://storytelling.pelgranepress.com/feminism-a-nano-game-anthology/\"><em>#feminism</em></a>.  Some of the games we will discuss are designed by members LGBTQIA+ community and engage issues of queer experience, be it contemporary, historical or fantastical.</p>\r\n<p>Again, we will not play games in class that are likely to produce emotional distress.  In the event of unanticipated emotional distress, any student may bow out of any game at any time.  That said, if any of the content discussed above is problematic for you, you might prefer to avoid the course.</p>\r\n<p><strong>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Prof. Ian Horswil</a><br/>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Prof. Ian Horswil</a></strong></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111"
+            ],
+            [
+                "COMP_SCI 150",
+                "COMP_SCI 211"
+            ]
+        ]
+    },
+    "COMP_SCI 301": {
+        "course_name": "Introduction to Robotics Laboratory",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "12:30-3:20 TuTh",
+        "winter_instructor": "Argall",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Some programming experience (COMP_SCI/EECS 110 or COMP_SCI 111 or COMP_SCI 230), or permission of instructor.",
+            "Description": "<p>A laboratory-based introduction to robotics. Focus will be on both hardware (sensors and actuators) and software (sensor processing and behavior development). Topics will include: the basics in kinematics, dynamics, control, and motion planning; and an introduction to Artificial Intelligence (AI) and Machine Learning (ML). </p>\r\n<ul>\r\n<li><strong><strong>Formerly ELEC_ENG/COMP_ENG/COMP_SCI</strong></strong><strong> 295.</strong></li>\r\n<li><strong><span class=\"_Tgc\"><strong>Cross</strong>-<strong>listed</strong></span> as MECH_ENG 301-0-1</strong></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXT:</strong> The Robotics Primer, MIT Press 2007, Maja J. Matarić.</p>\r\n<p><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/argall-brenna.html\">Prof. Brenna Argall</a></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong> Open-loop control, with different types of hardware/motion (mobility, manipulation); Closed-loop control and sensor processing, with different types of sensors; Reactive control, behavior-based robotics, reasoning about uncertainty; Basics in AI and ML, with simple learning techniques.</p>\r\n<p><strong>ASSIGNMENTS:</strong> Coursework will consist primarily of laboratory assignments, that include (some) hardware construction and (more) software development. Laboratory work will be done in groups of 2-3 students. Each lab assignment will be demoed and written up as a report (individually).</p>\r\n<p><strong>COURSE OBJECTIVES:</strong> At the end of this course students should understand the fundamentals of autonomous robot operation, and be able to program a robot to read from its sensors and perform simple (hard-coded and learned) tasks.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111",
+                "COMP_SCI 110",
+                "COMP_SCI 230"
+            ]
+        ]
+    },
+    "COMP_ENG 303": {
+        "course_name": "Advanced Digital Design",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "TuTh 12:30-1:50",
+        "fall_instructor": "S. Memik",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "TuTh 3:30-4:50",
+        "spring_instructor": "Gu",
+        "other": {
+            "Prerequisites": "COMP_SCI 203",
+            "Description": "<p>COMP_ENG 303: Advanced Digital Design</p>\r\n<p>Quarter Offered</p>\r\n<p>Fall : TuTh 3:30-4:50 ; S. Memik<br/> Spring : TuTh 3:30-4:50 ; Gu</p>\r\n<p>Prerequisites</p>\r\n<p>COMP_ENG 203</p>\r\n<p>Description</p>\r\n<p>Overview of digital logic design. Implementation technologies, timing in combinational and sequential circuits, EDA tools, basic arithmetic units, introduction to simulation and synthesis using Verilog/VHDL. <em>(This course also fulfills the systems breadth requirement for the Computer Science major.)</em></p>\r\n<p>REQUIRED TEXTBOOK:</p>\r\n<p>John F. Wakerly, Digital Design Principles and Practices, Fifth Edition, with Verilog, Pearson, ISBN-13: 9780134460093</p>\r\n<p>REFERENCE TEXTBOOKS (not required):</p>\r\n<ol>\r\n<li>Morris Mano and Charles R. Kime, Logic and Computer Design Fundamentals, Pearson/Prentice Hall, latest Edition</li>\r\n<li>Logic Synthesis and Verification Algorithms, Hachtel & Somenzi, Springer</li>\r\n<li>CMOS VLSI Design: A Circuits and Systems Perspective, Weste & Harris, 4th Ed., Addison Wesley   </li>\r\n</ol>\r\n<p>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/memik-ogrenci-seda.html\">Prof. Seda Ogrenci Memik</a> (Fall), <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gu-jie.html\">Prof. Jie Gu</a> (Spring)</p>\r\n<p>COURSE COORDINATORS: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/memik-ogrenci-seda.html\">Prof. Seda Ogrenci Memik</a>, <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gu-jie.html\">Prof. Jie Gu</a></p>\r\n<p>COURSE GOALS: Cover the digital design knowledges on combinational logic circuit, sequential logic circuits, logic optimization, finite state machine design, counter and programmable logic, etc. The course also provides basic training on the use of a hardware-description language of Verilog.  Material reinforced with the use of contemporary EDA tools.</p>\r\n<p>PREREQUISITES BY TOPIC:</p>\r\n<ul>\r\n<li>1) Number systems</li>\r\n<li>2) Logic simplification using Boolean algebra and Karnaugh maps</li>\r\n<li>3) Combinational logic implementation using AND/OR/NOT, NAND/NOR gates</li>\r\n<li>4) Exposure to basic components, e.g., adders, decoders, and multiplexers.</li>\r\n<li>5) Exposure to memory elements and flip-flops</li>\r\n</ul>\r\n<p> </p>\r\n<p>DETAILED COURSE TOPICS (Subject to adjustments):</p>\r\n<p>Week 1: Introduction to Logic Design: class administration, digital design methodology, transistor fundamentals.</p>\r\n<p>Week 2: Review of Boolean logic, Karnaugh maps, basic logic circuit design</p>\r\n<p>Week 3: Two Level Logic Minimization Algorithms: Quine McCluskey Method, branch and bound approach,</p>\r\n<p>Week 4-5: Introduction to Verilog/VHDL and Modern Digital Design Tools.</p>\r\n<p>Week 6: Arithmetic Circuits Design.</p>\r\n<p>Week 7: Sequential Circuit Design and Timing Analysis. </p>\r\n<p>Week 8: Finite State Machine Design and Design Optimization.</p>\r\n<p>Week 9: Counter and Programmable Logic Technologies such as FPGA.</p>\r\n<p>Week 10: Digital System Design, Power Analysis and Technology Integration.</p>\r\n<p>COMPUTER USAGE: Students learn to use commercial EDA tools such as Cadence Genus, Xcelium, Innovus, for the design, synthesis and simulation of large-scale modern digital circuits through Verilog/VHDL language.  Students are required to access the Unix/Linux workstations in the ECE Wilkinson lab physically or remotely.</p>\r\n<p>GRADES:</p>\r\n<ul>\r\n<li>Homework & Lab assignments - 45%</li>\r\n<li>Midterm exam - 25%</li>\r\n<li>Final exam - 30%</li>\r\n</ul>\r\n<p>COURSE OBJECTIVES: Students completing this course should be able to</p>\r\n<ul>\r\n<li>Acquire enough basic logic design knowledge for advanced study topics related to VLSI design, computer architecture, microprocessor system, design automation, etc.</li>\r\n<li>Perform basic logic circuit design including both combinational and sequential circuits.</li>\r\n<li>Perform two-level logic minimization using Boolean algebra, Karnaugh maps, the Quine McCluskey method, Branch and Bound method, etc.</li>\r\n<li>Acquire practical skills of coding hardware description language Verilog/VHDL for modern digital design.</li>\r\n<li>Know how to use modern EDA design tools to perform simple logic circuit design.</li>\r\n<li>Perform simple arithmetic logic circuit design.</li>\r\n<li>Understand sequential circuit design and timing constraints.</li>\r\n<li>Perform design of finite state machine.</li>\r\n<li>Apply the learned digital techniques to the design of a larger scale digital system.</li>\r\n</ul>\r\n<p> </p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_ENG 203"
+            ]
+        ]
+    },
+    "COMP_SCI 314": {
+        "course_name": "Technology & Human Interaction",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Gergle",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Undergrad Students Junior & Senior only",
+            "Description": "<p>We are surrounded by technologies that support our everyday social interactions. Facebook and Twitter provide persistent services for exchanging personal information, ubiquitous computing environments permit the integration of computational artifacts into the everyday world, and new technologies enable people to collaborate on projects when they are thousands of miles apart. The design of such systems, however, is not simply a technical question. In order to successfully create these systems, we need to understand how people work, play, and communicate with one another in a wide variety of situations. This course illustrates the practice of understanding human interactions that take place both with and through technology; and it explores the design, creation and evaluation of technologies to support such interactions. Course topics include: design processes, prototype construction and evaluation techniques. Specialized topics cover social computing technologies, social software and collaborative systems, and entertainment technologies. No programming experience is necessary. There will be occasional labs to explain technical content.</p>\r\n<ul>\r\n<li><em>Cross-listed with Comm_ST 351</em></li>\r\n</ul>\r\n<p><strong>INSTRUCTOR</strong>: <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/gergle-darren.html\" rel=\"noopener noreferrer\" target=\"_blank\">Darren Gergle</a></strong></p>\r\n<p><strong>EVALUATION METHOD:</strong> Course requirements include short hands-on exercises, two exams, and a group project.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 315-497": {
+        "course_name": "Design, Technology, and Research ",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12-3 F",
+        "fall_instructor": "Zhang",
+        "winter_time": "TBD",
+        "winter_instructor": "Zhang",
+        "spring_time": "TBD",
+        "spring_instructor": "Zhang",
+        "other": {
+            "Prerequisites": "Permission of Instructor",
+            "Description": "<p>Design, Technology, and Research (DTR) is an CS and Segal learning initiative that empowers students to drive cutting-edge research through the development of systems that shape new experiences with people and technology. Students participate in DTR through fast-paced, quarter-long programs (intended to be repeated). Students work with a mentor to identify a direction of research, explore and iterate over designs, prototype at varying fidelities, build working systems, conduct evaluative studies, and report findings through conference publications. As a cohort, each week students demo their prototypes, provide and receive feedback, and help each other resolve technical challenges. DTR adapts and extends agile development and design-based research practices with scrums, sprints, studio critique, design logs, and pair research. <strong><a href=\"http://dtr.northwestern.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">View course website</a></strong></p>\r\n<ul>\r\n<li><em>This course satisfies the project requirement, Interfaces Breadth requirement.</em></li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/zhang-haoqi.html\">Prof. Haoqi Zhang</a> (Fall & Winter), <a href=\"mailto:yk@u.northwestern.edu\">Prof. Kim</a> (Spring)</p>\r\n<p><strong><span>COURSE OBJECTIVES:</span></strong></p>\r\n<p><strong>Below is a rough schedule for the course. Students meet with the instructor weeks prior to signing up for the course to determine a research direction.</strong></p>\r\n<ul>\r\n<li>Weeks 1 & 2: Learn relevant web, mobile, and wearable technologies.</li>\r\n<li>Weeks 1 to 5: Rapidly prototype at increasingly higher fidelities and go through numerous design iterations based on frequent user feedback and in-lab testing.</li>\r\n<li>Weeks 6 to 8: Setting up and conducting user studies to test key hypotheses.</li>\r\n<li>Weeks 8 to 10: Analyze collected data and report on their findings. Write academic papers for submission to leading publications as well as blog articles for the general audience.</li>\r\n</ul>\r\n<p><strong><span>PROJECTS:</span></strong> Undergraduates participate in DTR for one or more quarters. Each quarter is a well-scoped, self-contained research project that culminates in a working prototype, a user study or deployment, and an academic paper. The first time a student participates, the student meets with their mentor in the weeks before a session starts to brainstorm project ideas and research directions. They start with as many as 10-15 ideas, narrow down to a handful that the student’s most interested in, and then dive in to brainstorm and identify a specific project for the quarter. Once a project is identified, a student works individually or in a small group to drive the research.</p>\r\n<p><strong><span>COURSE GOALS:</span></strong> A first-time participant is expected to build a functioning prototype, conducting a small scale study (10-40 users), and write most of an academic paper (e.g., all sections with the exception of related work). A student continuing beyond a quarter will typically expand on their project by building a scalable, deployable system, conducting medium to large scale studies (100-1000+ users), and writing the entire research paper themselves. As students develop their design, technical, research, and communication skills, they are expected to mentor other DTR students, and to help others with both technical challenges and the research process.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 321": {
+        "course_name": "Programming Languages",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "3:30-4:50 TuTh",
+        "fall_instructor": "St-Amour",
+        "winter_time": "3:30-4:50 TuTh",
+        "winter_instructor": "Dimoulas",
+        "spring_time": "12:30-1:50 TuTh",
+        "spring_instructor": "St-Amour",
+        "other": {
+            "Prerequisites": "CS 111, 211 & 214. Graduate students may be admitted to course with consent. For permission please contact Christopher K Riesbeck at c-riesbeck@northwestern.edu",
+            "Description": "<p>This course introduces students to the key features of programming languages. Students implement a series of interpreters that nail down the precise details of how various aspects of programming languages behave.  Students are assumed to understand trees and (mathematical) functions that process them; the course builds up to the features of real programming languages from there.</p>\r\n<em></em><br/>\r\n<p><strong>REQUIRED TEXT:</strong> <a href=\"http://cs.brown.edu/~sk/Publications/Books/ProgLangs/\" rel=\"noopener\" target=\"_blank\"><em>Programming Languages: Application and Interpretation</em></a> by Shriram Krishnamurthi</p>\r\n<p><strong><strong>COURSE INSTRUCTOR:</strong></strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html\">Prof. Vincent St-Amour</a> (Fall & Spring) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dimoulas-christos.html\">Prof. Christos Dimoulas</a> (Winter)</p>\r\n<p class=\"item-page\"><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/findler-robert.html\">Prof. Robby Findler</a></p>\r\n<p><strong>COURSE TOPICS:</strong> The course explores these aspects of a programming language (in this order):</p>\r\n<ul>\r\n<li>Modeling programming languages</li>\r\n<li>Arithmetic expressions & variables</li>\r\n<li>Functions</li>\r\n<li>Deferring substitution</li>\r\n<li>First class functions</li>\r\n<li>(implementing) Recursion</li>\r\n<li>State</li>\r\n<li>Control</li>\r\n<li>Garbage collection</li>\r\n<li>Types</li>\r\n</ul>\r\n<p><strong>GRADES:</strong> Grades are based on weekly homework assignments. <br/> <br/> <strong>EXAM:</strong> There is no exam in this course.</p>\r\n<p><strong>COURSE OBJECTIVES:</strong> Students that complete this course should:</p>\r\n<ul>\r\n<li>understand the basic features that underlie most programming languages</li>\r\n<li>understand the basic semantic features of all call-by-value programming languages (which includes nearly all programming languages they will encounter),</li>\r\n<li>understand the pragmatics behind those features (when to use them and why),</li>\r\n<li>understand some of the more advanced features, when they are applicable, and when they are desireable,</li>\r\n<li>be able to maintain and extend an interpreter-based implementation of a programming language containing those features</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111"
+            ],
+            [
+                "COMP_SCI 211"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 322": {
+        "course_name": "Compiler Construction",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "5 -6:20 TuTh ",
+        "winter_instructor": "Campanoni",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 213: Introduction to Computer Systems, CS 214: Data Structures and Data Management (or equivalent)",
+            "Description": "<p>The compiler is the programmer's primary tool. Understanding the compiler is therefore critical for programmers, even if they never build one. Furthermore, many design techniques that emerged in the context of compilers are useful for a range of other application areas. This course introduces students to the essential elements of building a compiler: parsing, context-sensitive property checking, code linearization, register allocation, etc. To take this course, students are expected to already understand how programming languages behave, to a fairly detailed degree. The material in the course builds on that knowledge via a series of semantics preserving transformations that start with a fairly high-level programming language and culminate in machine code.</p>\r\n<ul>\r\n<li><em>This course satisfies the Systems breadth and the project requirement.</em></li>\r\n</ul>\r\n<p><strong>RECOMMENDED:</strong> COMP_SCI 321, COMP_ENG 205.</p>\r\n<span></span>\r\n<p><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/campanoni-simone.html\">Prof. Simone Campanoni</a></p>\r\n<p><strong>COURSE INSTRUCTOR: </strong><a href=\"mailto:simonec@eecs.northwestern.edu\">Prof. Simone Campanoni</a></p>\r\n<p><strong>GRADES:</strong> Grades will primarily be based on codewalks at the end of the quarter, but also based on intermediate projects. This course is programming project heavy.</p>\r\n<p><strong>COURSE OBJECTIVES:</strong> Students that complete this course should: <a href=\"<a href=”https://users.cs.northwestern.edu/~simonec/CC.html”>Website with more information</a>\"></a></p>\r\n<p>- understand how to efficiently implement a programming language,<br/> - have an accurate performance model for the primitives in a programming language,<br/> - have a good sense for the kind of assembly code that a compiler produces<br/> - be able to maintain and extend a compiler for a programming language<br/>- <a href=\"https://users.cs.northwestern.edu/~simonec/CC.html\">CS 322 Syllabus</a><br/><a href=\"<a href=”https://users.cs.northwestern.edu/~simonec/CC.html”>Website with more information</a>\"></a></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 213-20"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 323": {
+        "course_name": "Code Analysis and Transformation",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "5-6:20 TuTh",
+        "fall_instructor": "Campanoni",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 213: Introduction to Computer Systems, CS 214: Data Structures and Data Management (or equivalent)",
+            "Description": "<p>Fast, highly sophisticated code analysis and code transformation tools are essential for modern software development. Before releasing its mobile apps, Facebook submits them to a tool called Infer that finds bugs by static analysis, i.e., without even having to run the code, and guides developers in fixing them. Google Chrome and Mozilla Firefox analyze and optimize JavaScript code to make browsers acceptably responsive. Performance-critical systems and application software would be impossible to build and evolve without compilers that derive highly optimized machine code from high-level source code that humans can understand and reason about efficiently. Understanding what modern code analysis and transformation techniques can and can't do is a prerequisite for research on both software engineering and computer architecture, since hardware relies on software to realize its potential. In this class, you will learn the fundamentals of code analysis and transformation, and you will apply them by extending LLVM, a compiler framework now in production use by Apple, Adobe, Intel and other industrial and academic enterprises.  <a href=\"https://users.cs.northwestern.edu/~simonec/CAT.html\">CS 323 Syllabus</a>.</p>\r\n<p><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/campanoni-simone.html\">Prof. Simone Campanoni</a></p>\r\n<p><strong>COURSE INSTRUCTOR: </strong><a href=\"mailto:simonec@eecs.northwestern.edu\">Prof. Simone Campanoni</a><a href=\"https://www.mccormick.northwestern.edu/electrical-computer/academics/courses/descriptions/361.html\"></a></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 213-20"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 325-1": {
+        "course_name": "Artificial Intelligence Programming",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "4-4:50 MWF",
+        "fall_instructor": "Riesbeck",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 110 or COMP_SCI 111, or equivalent programming experience",
+            "Description": "<p>Introduction to Lisp and programming knowledge-based systems and interfaces. Strong emphasis on writing maintainable, extensible systems. Topics include: semantic networks, frames, pattern matching, deductive inference rules, case-based reasoning, discrimination trees. Project-driven. Substantial programming assignments.</p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth Requirement</em></li>\r\n</ul>\r\n<p><strong><a href=\"http://www.cs.northwestern.edu/academics/courses/325/\" rel=\"noopener\" target=\"_blank\">http://www.cs.northwestern.edu/academics/courses/325/</a></strong></p>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: Paul Graham<em>, <a href=\"http://www.paulgraham.com/acl.html\"><strong>ANSI Common Lisp</strong></a></em>, Pearson/Prentice-Hall</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/riesbeck-chris.html\">Prof. Chris Riesbeck</a></p>\r\n<p><strong>COURSE GOALS: </strong>This course is about</p>\r\n<p>• designing and implementing intelligent components for interactive distributed computational media</p>\r\n<p>• developing tools for authoring the knowledge needed by such systems</p>\r\n<p>• doing it all with maintainable code</p>\r\n<p><strong>PREREQUISITES: </strong>COMP_SCI 110 and COMP_SCI 111, or equivalent programming experience</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<p>• Common Lisp programming, including</p>\r\n<p>• Symbols, lists, strings, arrays, and other built-in data structures</p>\r\n<p>• Structures and the Common Lisp Object System (CLOS)</p>\r\n<p>• Functions and macros</p>\r\n<p>• Recursion and higher-order functions</p>\r\n<p>• Symbolic knowledge representation techniques, including</p>\r\n<p>• Hierarchically organized frame systems</p>\r\n<p>• Horn-style deductive reasoners</p>\r\n<p>• Test-driven development</p>\r\n<p>• Semantics and the Web:</p>\r\n<p>• Web clients and servers in Lisp</p>\r\n<p>• XML-RPC clients and servers in Lisp</p>\r\n<p>• XML and knowledge representations</p>\r\n<p><strong>HOMEWORK ASSIGNMENTS: </strong>The normal model of homework assignments does not apply to this course. Instead, students work as rapidly as possible through several dozen programming exercises involving a wide range of concepts and challenges. The exact set of exercises depends on each student's interests and skill development.</p>\r\n<p><strong>LABORATORY PROJECTS:</strong> Class lectures and class assignments will be organized around the class project. The class project will be some sort of intelligent web-based information system, but exactly what will be determined in class discussions, as we try to answer the AI question: why are computers so stupid?</p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Homework: 95%</li>\r\n<li>Participation in class and the newsgroup: 5%</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: </strong>After this course, students will be able to</p>\r\n<ul>\r\n<li>develop standalone and web-based AI programs in Lisp using symbolic knowledge representation techniques</li>\r\n<li>apply software engineering best practices, especially test-driven development, to the development of maintainable code</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 110",
+                "COMP_SCI 111"
+            ]
+        ]
+    },
+    "COMP_SCI 330-2": {
+        "course_name": "Human Computer Interaction",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "3-4 MW",
+        "fall_instructor": "Zhang",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 211",
+            "Description": "<p>Introduction to Human-Computer Interaction (HCI) and the design of systems that work for people and their organizations. HCI serves as the bridge between computing and humanity. The effective design of HCI systems requires a keen understanding of how interfaces and computer systems usefully support human endeavors (or not). Why would a particular set of characteristics of a system lead to reaching a desired outcome, while others encounter an obstacle? How might a good argument for a design be instantiated with effective interface and system models? Taking a step back, are our solutions actually addressing the underlying problem that humans face? What is actually the problem?</p>\r\n<p>We will, as a learning community, learn to ask and answer these questions for ourselves. One focus will be on developing our critical thinking and problem solving skills through team projects and studio critique, with special emphasis on learning more effective structures and representations for thinking about the design of HCI systems. Another focus will be on learning to soften into a deeper understanding of problems that people encounter than we might at first assume - that is, developing our capacities for humility, empathy, and curiosity. Last but not least, we focus on *doing* — agile sprints, rapid prototyping and testing, iterating — learning to face and embrace fears, imperfections, failures that may otherwise hold us back from moving forward. Through this we will learn to become more skillful in how we work on difficult problems.</p>\r\n<ul>\r\n<li><em>This course satisfies the CS Project Course & CS Breadth: Interfaces requirement.</em></li>\r\n<li><em><strong>Spring:</strong> Students will be required to attend two lectures (MW) and one lab (Th or F).</em><em><span class=\"_Tgc\"></span></em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK:</strong> None</p>\r\n<p><strong>REFERENCE TEXTBOOKS:</strong> None </p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/zhang-haoqi.html\">Prof. Haoqi Zhang</a></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 211"
+            ]
+        ]
+    },
+    "COMP_SCI 331": {
+        "course_name": "Introduction to Computational Photography",
+        "summer_time": "9-10:30 MW",
+        "summer_instructor": "Schiffers",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "12:30-1:50 MW",
+        "winter_instructor": "Willomitzer",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Prerequisites: 150 or 211 or 230 or permission from Prof. Willomitzer. Students should have experience with Python programming and Jupyter Notebook.  Basic knowledge about Image Processing and Optics is helpful, but not a prerequisite (students will learn that during the course).",
+            "Description": "<p>This course teaches the fundamentals of modern camera architectures and computational imaging systems. It gives students a hands-on experience in characterizing, manipulating and acquiring data captured on modern camera platforms. For example, students will learn how to estimate scene depth from a sequence of captured images or program their own high dynamic range imaging algorithm.</p>\r\n<p>This course is part of  a two-part series that explores the emerging new field of Computational Photography. Computational photography combines ideas in computer vision, computer graphics, technical optics, and image processing. This course will first cover the fundamentals of image sensing and modern cameras. We will then use this as a basis to explore recent topics in computational photography such as motion/defocus deblurring cameras, light field cameras, and computational illumination.</p>\r\n<p>This course will consist of six homework assignments implemented in Python using the Jupyter Notebook framework. There will be no midterm or final exam. Enrollment is limited to 40 students.</p>\r\n<ul>\r\n<li><em>This course fulfills the Interfaces Breadth & Project Course </em>requirement.</li>\r\n</ul>\r\n<p><strong>COURSE COORDINATOR</strong>: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/cossairt-oliver.html\" target=\"_self\">Prof. Oliver Cossairt</a></p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> Winter 22: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/willomitzer-florian.html\">Prof. Florian Willomitzer</a>, Summer 21: <a href=\"mailto:%20florian.schiffers@u.northwestern.edu\">Florian Schiffers</a>, Fall 20: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/cossairt-oliver.html\">Prof. Oliver Cossairt</a> & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/willomitzer-florian.html\">Prof. Florian Willomitzer</a></p>\r\n<strong>HOMEWORK ASSIGNMENTS:</strong> \r\n<p>Homework assignments will consist of implementing several computational photography algorithms in Python using the Jupyter Notebook framework. Homeworks are each graded Pass/Fail. Each homework consists of a coding and a technical writeup. Your coding must be correct, and your writeup must be clearly written (template will be provided) in order to receive a passing grade. For each assignment that you fail, your grade gets lowered by one letter. So if you pass all seven assignments you get an A, if you fail one assignment you get a B, if you fail two you get a C, and so on. You can resubmit up to three homework assignments that you received a failing grade for.</p>\r\n<strong>ADDITONAL INFORMATION:</strong> <br/> Course website from Fall 2020: https://nucs331.github.io/"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 211",
+                "COMP_SCI 230",
+                "COMP_SCI 150"
+            ]
+        ]
+    },
+    "COMP_SCI 333": {
+        "course_name": "Interactive Information Visualization",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 MW",
+        "fall_instructor": "Hullman",
+        "winter_time": "3:30-4:50 TuTh",
+        "winter_instructor": "Kay",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 214",
+            "Description": "<p>When well designed, visual displays of data capitalize on human facilities for processing information and improve comprehension, memory, inference, and decision making. Creating visualizations is getting easier thanks to a proliferation of digital tools for transforming and visualizing data. Yet the best visualizations are still often creating by skilled human designers who have considerable experience with design analysis.</p>\r\n<p>In this course we will consider what it means for a visualization to be effective and what sorts of principles, techniques and algorithms from statistics, graphic design, databases, perceptual psychology, cognitive science and related fields can help us create effective visualizations. Though there are different uses of the term “visualization” in popular media, for the purposes of this class, we will treat information visualization as the use of interactive interfaces to visually represent abstract data. The course is targeted both towards students interested in using visualization in their own work, as well as students interested in building better visualization tools and systems.  In addition to participating in class discussions, students will demonstrate their learning through weekly short quizzes and several assignments requiring visualization design, exploratory data analysis, and interactive visualization implementation.</p>\r\n<p>In addition to being comfortable programming, students should have a basic working knowledge of, or willingness to learn, a graphics API. We we will cover introductory D3 in class to get you started, but this is not a JavaScript or web development course. Students will be expected to self-study to learn JavaScript and other basic web technologies (HTML, CSS) if they are not familiar with them.</p>\r\n<ul>\r\n<li><em><strong>Formerly COMP_SCI 396/496</strong>.</em></li>\r\n<li><strong><i>This course satisfies Interface breadth requirement.</i></strong></li>\r\n</ul>\r\n<p><strong>COURSE COORDINATORS: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\"></a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\">Prof. </a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\">Jessica Hullman</a></p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hullman-jessica.html\"></a><a href=\"mailto:jhullman@northwestern.edu#Prof.%20Hullman\">Prof. Hullman</a> (Fall), & <a href=\"mailto:mjskay@northwestern.edu\">Prof. Kay</a> (Winter)</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 336": {
+        "course_name": "Design & Analysis of Algorithms",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "11-12:20 TuTh & 5-6:20 MW",
+        "fall_instructor": "Makarychev & Stull",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Hartline",
+        "spring_time": "3:30-4:50 TuTh",
+        "spring_instructor": "Stull",
+        "other": {
+            "Prerequisites": "COMP_SCI 212 and COMP_SCI 214 or Graduate (MS or Ph.D) student standing",
+            "Description": "<p>Algorithm design and analysis is fundamental to all areas of computer science and gives a rigorous framework for the study optimization. This course provides an introduction to algorithm design through a survey of the common algorithm design paradigms of greedy optimization, divide and conquer, dynamic programming, network flows, reductions, and randomized algorithms. Important themes that will be developed in the course include the algorithmic abstraction-design-analysis process and computational tractability (e.g., NP-completeness).</p>\r\n<ul>\r\n<li><em>This course fulfills the Theory Breadth & Technical Elective requirement.</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXT: <em>'</em></strong><em>Algorithm Design by Kleinberg'</em>, Jon, Tardos, Éva [Addison-Wesley, 2005] (Hardcover) by Kleinberg<strong><br/> </strong></p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/makarychev-konstantin.html\">Prof. Konstantin Makarychev</a> & <a href=\"mailto:donald.stull@northwestern.edu\">Prof. Donald Stull</a> (Fall) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\">Prof. Jason Hartline</a> (Winter)</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\">Prof. Jason Hartline</a><a href=\"http://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hartline-jason.html\"></a></p>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong></p>\r\n<p><strong>GRADES:</strong></p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 212"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 337": {
+        "course_name": "Intro to Natural Language Processing",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "11-12:20 MW",
+        "fall_instructor": "Birnbaum",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 348 or consent of instructor",
+            "Description": "<p>A semantics-oriented introduction to natural language processing, broadly construed. Representation of meaning and knowledge inference in story understanding, script/frame theory, plans and plan recognition, counter-planning, and thematic structures.</p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth &</em> Project Requirement </li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: None.</p>\r\n<p><strong>REFERENCE TEXTBOOKS:</strong></p>\r\n<p>• ANSI Common Lisp Book</p>\r\n<p><strong>INSTRUCTORS: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html\">Prof. Birnbaum</a><strong><br/>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html\" target=\"_self\">Prof. Larry Birnbaum</a></p>\r\n<p><strong>PREREQUISITES: </strong>COMP_SCI 348 or consent of instructor</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li>Language Understanding</li>\r\n<li>Modeling Human Cognition with Computers</li>\r\n<li>Psychological Theories and Themes</li>\r\n<li>Task Driven Software and Artifact Design</li>\r\n</ul>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong></p>\r\n<ul>\r\n<li>Assignment 1 - Lisp Intro</li>\r\n<li>Assignment 2 - Ambiguity</li>\r\n<li>Assignment 3 - Eliza</li>\r\n<li>Assignment 4 - Action - Inference.</li>\r\n<li>Assignment 5 - Inferencer</li>\r\n<li>Pick one: Paper or Program</li>\r\n</ul>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Class discussion - 10%</li>\r\n<li>Projects and Assignments - 50% (Harder assignments are worth more. Go figure.)</li>\r\n<li>Final Paper - 30%</li>\r\n<li>Attendance - 10%</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 348"
+            ]
+        ]
+    },
+    "COMP_SCI 338-1": {
+        "course_name": "Practicum in Intelligent Information Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "11-12:20 TuTh",
+        "winter_instructor": "Hammond",
+        "spring_time": "11am-12:20 TuTh",
+        "spring_instructor": "Hammond",
+        "other": {
+            "Prerequisites": "COMP_SCI 348 or COMP_SCI 349 or COMP_SCI 330 or COMP_SCI 339",
+            "Description": "<p>A practical excursion into the building of Intelligent Information Systems. Each student will develop a working program in the area of information access, management, capture, or retrieval. Project definition, data collection, technology selection, implementation, and project management. Semantics-oriented introduction to natural language processing, broadly construed. Representation of meaning and knowledge inference in story understanding, script/frame theory, plans and plan recognition, counter-planning, and thematic structures.<em><br/> </em></p>\r\n<ul>\r\n<li><em>This course satisfies the Software Development Breadth and project requirement.</em></li>\r\n</ul>\r\n<p><strong><strong>COURSE</strong> INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html\"></a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hammond-kristian.html\">Prof. Kristian Hammond</a> (Winter & Spring)<strong><br/> </strong></p>\r\n<p><strong>COURSE COORDINATORS: </strong>Prof. Larry Birnbaum & Prof. Kristian Hammond</p>\r\n<p><strong>REQUIRED TEXTS: </strong>None<strong> </strong></p>\r\n<p><strong>PREREQUISITES: </strong>None</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 348",
+                "COMP_SCI 349",
+                "COMP_SCI 330",
+                "COMP_SCI 339"
+            ]
+        ]
+    },
+    "COMP_SCI 338-2": {
+        "course_name": "Practicum in Intelligent Information Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "5-7:50 M",
+        "fall_instructor": "Birnbaum",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Refer to CAESAR for more detail",
+            "Description": "<p>A practical excursion into the building of Intelligent Information Systems. Each student will develop a working program in the area of information access, management, capture, or retrieval. Project definition, data collection, technology selection, implementation, and project management. Semantics-oriented introduction to natural language processing, broadly construed. Representation of meaning and knowledge inference in story understanding, script/frame theory, plans and plan recognition, counter-planning, and thematic structures.<em><br/> </em></p>\r\n<ul>\r\n<li><em>This course satisfies the Software Development Breadth and project requirement.</em></li>\r\n</ul>\r\n<p><strong><strong>COURSE</strong> INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html\">Prof. Larry Birnbaum</a> (Fall)<strong><br/> </strong></p>\r\n<p><strong>COURSE COORDINATORS: </strong>Prof. Larry Birnbaum & Prof. Kristian Hammond</p>\r\n<p><strong>REQUIRED TEXTS: </strong>None<strong> </strong></p>\r\n<p><strong>PREREQUISITES: </strong>None</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 348",
+                "COMP_SCI 349",
+                "COMP_SCI 330",
+                "COMP_SCI 339"
+            ]
+        ]
+    },
+    "COMP_SCI 339": {
+        "course_name": "Intro to Databases",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "11-12:20 TuTh",
+        "winter_instructor": "Rogers",
+        "spring_time": "5-6:20 TuTh",
+        "spring_instructor": "Rogers",
+        "other": {
+            "Prerequisites": "Students must have completed COMP_SCI 214 & (COMP_SCI 213 or COMP_ENG 205), or be CS Grad students (MS or PhD) in order to register for this course.",
+            "Description": "<p>Data models and database design. Modeling the real world: structures, constraints, and operations. The entity relationship to data modeling (including network hierarchical and object-oriented), emphasis on the relational model. Use of existing database systems for the implementation of information systems.<em><br/> </em></p>\r\n<ul>\r\n<li><em><strong>Spring Section:</strong> Students must be familiar with Java programming prior to taking this course.</em></li>\r\n<li><em>This course satisfies the Systems breadth requirement.</em></li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rogers-jennie.html\">Prof. Rogers</a> (Winter & Spring)</p>\r\n<p><strong>COURSE COORDINATORS: </strong><a href=\"https://wcms.northwestern.edu/entity/open.act?type=page&id=5a7193b88169773801c6a6fdfb23f341&confId=7652f4848169775b577c1a9f79699cba\" target=\"_parent\">Prof. Peter Dinda</a> & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rogers-jennie.html\">Prof. Jennie Rogers</a></p>\r\n<p><strong>REQUIRED TEXTBOOKS</strong>:</p>\r\n<ul>\r\n<li>Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer D. Widom, Database Systems: The Complete Book, 2nd Edition, Prentice Hall, 2009. <strong>(Prof. Dinda)</strong></li>\r\n</ul>\r\n<ul>\r\n<li>Ramakrishnan, Raghu and Johannes Gehrke. <a href=\"https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/ref=sr_1_1?ie=UTF8&qid=1470422397&sr=8-1&keywords=database+systems+textbook+gehrke\" rel=\"noopener noreferrer\" target=\"_blank\"><em>\"Database management systems.\"</em></a> 3rd Edition. New York: McGraw-Hill, 2002; ISBN-10: 0072465638, ISBN-13: 978-0072465631 <strong>(Winter & Spring; Prof. Rogers)</strong></li>\r\n</ul>\r\n<p><strong>RECOMMENDED ADDITIONAL TEXTBOOKS</strong>:</p>\r\n<ul>\r\n<li>Joe Celko, SQL for Smarties: Advanced SQL Programming, 5th edition, Morgan Kaufman, 2014. (Useful) <strong>(Prof. Dinda)</strong></li>\r\n<li>Tom Christiansen, brian d foy, Larry Wall, Jon Orwant, Programming Perl, 4th Edition, O’Reilly and Associates, 2012. (Useful) <strong>(Prof. Dinda) </strong></li>\r\n</ul>\r\n<ul>\r\n<li class=\"li-itemize\">Familiarity with concepts from discrete math such as set theory (COMP_SCI 212/310 for example) <strong>(Winter & Spring; Prof. Rogers)</strong></li>\r\n<li class=\"li-itemize\">Object-oriented programming experience, preferably with Java <strong>(Winter & Spring; Prof. Rogers)</strong></li>\r\n<li class=\"li-itemize\">Background in using a source code revision control system, especially git <strong>(Winter & Spring; Prof. Rogers)</strong></li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES:</strong> This course introduces the underlying concepts behind data modeling and database systems using relational database management systems (RDBMS, specifically Oracle), the structured query language (SQL), and web applications (Perl DBI inCGI) as examples.  Students are also introduced to the internals of an RDBMS engine.</p>\r\n<ul>\r\n<li>Detailed information about the <strong>(Prof. Dinda) version </strong>of the course can be found at: <u><a href=\"http://www.cs.northwestern.edu/~pdinda/db\">http://www.cs.northwestern.edu/~pdinda/db</a></u></li>\r\n</ul>\r\n<p><strong>COURSE GOALS:</strong></p>\r\n<p>Students learn:</p>\r\n<ul>\r\n<li>How to model domains and data using the entity-relationship model</li>\r\n<li>How to design a normalized schema in the relational data model</li>\r\n<li>How to implement schemas using SQL</li>\r\n<li>How to keep data consistent and safe with using the ACID properties (transactions) of a modern RDBMS</li>\r\n<li>How to query data using SQL</li>\r\n<li>How to interface to a modern RDBMS from a modern programming language</li>\r\n<li>How such interfaces are used to create web applications</li>\r\n<li>How an RDBMS provides quick access to data using indices, and how indices are implemented</li>\r\n<li>How an RDBMS manages storage and the storage hierarchy</li>\r\n<li>How an RDBMS optimizes and executes queries using the relational algebra, the theoretical underpinning of database systems</li>\r\n<li>How an RDBMS implements transactions</li>\r\n<li>Current topics</li>\r\n</ul>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ol>\r\n<li>Introduction to database-backed web applications\r\n<ol>\r\n<li>Web systems, CGI and other application models</li>\r\n<li>Introduction to Perl</li>\r\n<li>Introduction to SQL and ACID</li>\r\n<li>Waterfall versus spiral models of development</li>\r\n</ol>\r\n</li>\r\n<li>Entity-relationship data model\r\n<ol>\r\n<li>Design principles</li>\r\n<li>Referential integrity and other constraints</li>\r\n</ol>\r\n</li>\r\n<li>Relational data model\r\n<ol>\r\n<li>Schemas and keys</li>\r\n<li>Functional and multi-valued dependencies</li>\r\n<li>Normalization and normal forms</li>\r\n<li>Translating ER schemas to relational schemas</li>\r\n</ol>\r\n</li>\r\n<li>Relational algebra\r\n<ol>\r\n<li>Bags and sets</li>\r\n<li>Basic operators</li>\r\n<li>Joins</li>\r\n<li>Grouping</li>\r\n<li>Expressions and constraints (statements)</li>\r\n<li>Equivalent expressions and optimization</li>\r\n</ol>\r\n</li>\r\n<li>SQL in depth\r\n<ol>\r\n<li>Writing constraints</li>\r\n<li>Advanced data types</li>\r\n<li>Regular expressions</li>\r\n<li>Nulls and 3-valued logic</li>\r\n<li>Indices</li>\r\n<li>Views</li>\r\n<li>Transactions</li>\r\n<li>Triggers</li>\r\n<li>Security (access control, SQL injection attacks)</li>\r\n</ol>\r\n</li>\r\n<li>Storage systems and records\r\n<ol>\r\n<li>Disks and RAID</li>\r\n<li>Record layout / free space management</li>\r\n<li>Buffer management</li>\r\n</ol>\r\n</li>\r\n<li>B-Tree indices\r\n<ol>\r\n<li>B+Tree</li>\r\n<li>Query and join implementations</li>\r\n</ol>\r\n</li>\r\n<li>Hash indices\r\n<ol>\r\n<li>Extensible hashing</li>\r\n<li>Linear hashing</li>\r\n<li>Query and join implementations</li>\r\n</ol>\r\n</li>\r\n<li>Bitmap indices\r\n<ol>\r\n<li>Query and join implementations</li>\r\n</ol>\r\n</li>\r\n<li>Brief introduction to transaction implementation\r\n<ol>\r\n<li>Logging (undo, redo, redo/undo)</li>\r\n<li>Locking (deadlock, lock ordering, two-phase locking)</li>\r\n</ol>\r\n</li>\r\n</ol>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong></p>\r\n<p>1. Entity-Relationship data model</p>\r\n<p>2. Relational data model</p>\r\n<p>3. Relational Algebra</p>\r\n<p><strong>LABORATORY PROJECTS:</strong></p>\r\n<ul>\r\n<li>Extending a database-backed web app </li>\r\n<li>Designing an implementing a database-backed web app</li>\r\n<li>Implementing a component of an RDBMS</li>\r\n</ul>\r\n<div><br/>\r\n<p><strong>GRADES</strong>: <span> </span></p>\r\n<ul>\r\n<li>50 % Projects</li>\r\n<li>10 % Homework</li>\r\n<li>20 % Midterm</li>\r\n<li>20 % Final</li>\r\n</ul>\r\n"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ],
+            [
+                "COMP_SCI 213-20",
+                "COMP_ENG 205"
+            ]
+        ]
+    },
+    "COMP_SCI 340": {
+        "course_name": "Introduction to Computer Networking",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "9:30-10:50 TuTh",
+        "winter_instructor": "Kuzmanovic",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 214 and (COMP_SCI 213 or COMP_ENG 205)",
+            "Description": "<p>A top-down exploration of networking using the 5-layer model and the TCP/IP stack. HTTP, FTP, DNS, BSD Sockets, concurrent servers, checksums, reliable transport with stop-and-wait, go-back-n, selective repeat, flow control, congestion control, TCP, unicast routing, multicast routing, router architecture, IP, IPv6, IP multicast, MAC protocols and LANs, Ethernet , wireless networks, and network security. Over the course of the quarter, students build web clients and servers, a fully compatible TCP/IP stack that can run them, and evaluate routing protocols in simulation.<em><br/> </em></p>\r\n<ul>\r\n<li><em>This course satisfies the Systems breadth & project requirement.</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOKS</strong>:</p>\r\n<p>James Kurose and Keith Ross<em>, <a href=\"http://gaia.cs.umass.edu/kurose_ross/index.html\">Computer Networking: </a></em><a href=\"http://gaia.cs.umass.edu/kurose_ross/index.html\"><em>A Top-Down Approach</em></a>, Addison Wesley, 8th edition (2020); (Digital) <span class=\"a-size-base a-color-base\"></span><span class=\"a-size-base a-color-base a-text-bold\">ISBN-13:</span> <span class=\"a-size-base a-color-base\">978-0135928608</span><span class=\"a-size-base a-color-base\">. (Electronic Book) <span class=\"a-size-base a-color-base a-text-bold\">ISBN-13:</span> 978-0135928615. (Paper) <span class=\"a-size-base a-color-base a-text-bold\">ISBN-13:</span> 978-0135928790.<br/></span></p>\r\n<p><strong>COURSE</strong> <strong>INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kuzmanovic-aleksandar.html\" target=\"_self\">Prof. Kuzmanovic</a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bustamante-fabian.html\" target=\"_self\"> </a>(Winter)<a href=\"http://eecs.northwestern.edu/people/userprofile/akuzma\" target=\"_self\"> </a></p>\r\n<p><strong>COURSE COORDINATORS: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/chen-yan.html\" target=\"_self\">Prof. Yan Chen</a>, <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\" target=\"_self\">Prof. Peter Dinda</a>, and <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kuzmanovic-aleksandar.html\" target=\"_self\">Prof. Alexandar Kuzmanovic</a></p>\r\n<p><strong>COURSE GOALS:</strong></p>\r\n<p>This course introduces the underlying concepts behind networking using the Internet and its protocols as examples. There are three goals: (1) to give you an understanding of how networks, especially the Internet, work, (2) to give you experience in “programming in the large”, and (3) to teach you network programming.</p>\r\n<p>We will work our way down the network stack from the application layer to the physical layer. Concurrent with the lectures, you (in groups) will be building a functional TCP/IP stack and a small web server that will run on it. What you build will be “real” – your code will interoperate with other TCP/IP stacks and you'll be able to talk to your web server using any browser on any TCP/IP stack.</p>\r\n<p>This is a learn-by-doing kind of class. You will get your hands dirty by examining parts of our Internet infrastructure and building other parts. It will be a lot of work, but it will also be a lot of fun.</p>\r\n<p>After finishing the course, you will be able to do the following.</p>\r\n<ul>\r\n<li>Understand the Internet protocols</li>\r\n<li>Build implementations of the Internet protocols</li>\r\n<li>Generalize this knowledge to other networking protocols.</li>\r\n<li>Be a competent network and systems programmer.</li>\r\n<li>Think like a networking practitioner</li>\r\n<li>Read and judge articles on networking in trade magazines</li>\r\n<li>Begin to read and judge research and technical articles on networking</li>\r\n<li>Create simplicity and reliability out of complexity and unreliability</li>\r\n<li>Structure and design software systems to achieve that simplicity and reliability</li>\r\n</ul>\r\n<p><strong>COURSE IS PREREQUISITE FOR</strong>: COMP_SCI 440, 450, 465</p>\r\n<p><strong>HOMEWORK ASSIGNMENTS: </strong>Four</p>\r\n<p><strong>LABORATORY PROJECTS:</strong></p>\r\n<p>Project 1: Web Client and Server</p>\r\n<p>Project 2: TCP Implementation for Web Client and Server</p>\r\n<p>Project 3: Routing Lab</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ],
+            [
+                "COMP_SCI 213-20",
+                "COMP_ENG 205"
+            ]
+        ]
+    },
+    "COMP_SCI 343": {
+        "course_name": "Operating Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "2-3:20 MW",
+        "winter_instructor": "Dinda",
+        "spring_time": "9:30-10:50 TuTh",
+        "spring_instructor": "Ghena",
+        "other": {
+            "Prerequisites": "Comp_sci 214 and (213 or Comp_Eng 205)",
+            "Description": "<p>A fundamental overview of operating systems (OSes) with an emphasis on practice.   Topics covered include: OS structure, OS models, OS abstractions, concurrency sources, concurrency challenges, concurrency control, scheduling and resource management, virtual memory, device drivers, protection and security, memory management, file systems, and design principles. Requires substantial low-level programming projects at both user-level and within a kernel. </p>\r\n<ul>\r\n<li><i>This course satisfies the Systems breadth & project requirement.</i></li>\r\n</ul>\r\n<p><strong>REFERENCE TEXTBOOK as Winter</strong>: Andrew S. Tanenbaum and Herbert Bos, Modern Operating Systems, 4th Edition, Pearson, 2014, (ISBN-13: 978-0133591620, ISBN-10: 013359162X)</p>\r\n<p><strong>COURSE INSTRUCTOR(S): </strong><a href=\"mailto:pdinda@northwestern.edu\">Prof. Dinda</a> (Winter), <a href=\"mailto:branden@northwestern.edu\">Prof. Ghena</a> (Fall)</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/dinda-peter.html\">Prof. Peter Dinda</a></p>\r\n<p><strong>COURSE GOALS:</strong> This course introduces you to the basic, foundational concepts and principles of operating systems, many of which generalize to other areas of computer science and engineering. You will learn many of these concepts and principles by applying them in practice on a modern machine through labs that are designed to put you in the shoes of a systems-level developer operating at both user-level and within the kernel. OS (and systems more broadly) is very much a learn-by-doing kind of area.</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li><strong>OS Structure:</strong> kernel, device drivers, file systems, network stacks, schedulers, system calls, libraries, toolchains, language virtual machines, user interface/shell, applications, etc.</li>\r\n<li><strong>OS Models:</strong> monolithic kernel, microkernel, virtual machine monitor/hypervisor, jail/zone/container, and more esoteric models.</li>\r\n<li><strong>OS Abstractions:</strong> thread, name space, address space, process, IPC, virtual machine, container, file, directory, stream, etc.  Plus abstraction design within the kernel (devices, file systems, ...)</li>\r\n<li><strong>Concurrency Sources:</strong> multiprocessors, devices, interrupts, threads, processes, horror stories, …</li>\r\n<li><strong>Concurrency Challenges:</strong> memory system coherence/consistency, race conditions, deadlock, livelock, horror stories, …</li>\r\n<li><strong>Concurrency Control:</strong> interrupt control, atomics, spinlocks, critical sections, blocking vs waiting, mutexes, semaphores,condvars, monitors, barriers, lockfree/waitfree models, plus typical synchronization problems such as producer-consumer, reader-writer, and dining philosophers.</li>\r\n<li><strong>Scheduling and Resource Management:</strong> basic theory, FCFS, GPS, SRPT, dynamic priority (e.g. Unix), lottery, fixed priority, preemptive vs non-preemptive, real-time vs non-real-time, horror stories, …</li>\r\n<li><strong>Virtual Memory: </strong>hardware-software co-design, paging, swapping, segmentation and (possibly) current alternatives. </li>\r\n<li><strong>Device Drivers:</strong> interrupts, DMA vs PIO, MMIO vs PMIO, atomics, hardware memory barriers, software memory barriers.</li>\r\n<li><strong>Protection and Security: </strong>kernel/user mode, mode/ring transitions, role of encryption, interaction with virtual memory, horror stories.</li>\r\n<li><strong>Memory Management:</strong> page allocation versus heap allocation, garbage collection, allocation in special contexts (e.g. interrupt context), page replacement, working set.</li>\r\n<li><strong>File Systems: </strong>issues/interfaces, data structures on block devices, examples (V7, FAT+, ext2+)</li>\r\n<li><strong>Principles:</strong> policy versus mechanism, orthogonality, worse-is-better, lazy evaluation, caching, end-to-end argument, mythical man-month, no silver bullet, hw/sw co-design</li>\r\n</ul>\r\n<p><strong> </strong></p>\r\n<p>The hardware environment that we will focus on is Intel/AMD machines running in 64 bit mode (\"x64\"), which is the commonplace platform for systems ranging from laptops to supercomputers today.   Lab work is done in the C programming language on user-level Linux or in the Nautilus kernel framework (\"NK\"), a research kernel developed at Northwestern and other institutions. The experience you gain in NK will generalize to the Linux kernel, for the most part.</p>\r\n<p><strong>Labs: </strong>Varies; current labs are:</p>\r\n<ul>\r\n<li>Getting Started Lab (build and run a custom kernel)</li>\r\n<li>Producer-Consumer Lab (learn about concurrency control)</li>\r\n<li>Queue Lab (learn about scheduling via a discrete event simulator)</li>\r\n<li>Driver Lab (extend a kernel with a new device driver)</li>\r\n<li>Paging Lab (add simple address translation to a kernel)</li>\r\n</ul>\r\n<p>Except for the Getting Started Lab, labs can be done in groups. </p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Labs 60%</li>\r\n<li>Midterm 20%</li>\r\n<li>Final 20%</li>\r\n</ul>\r\n<p><strong>COURSE ORGANIZATION: </strong>The course is organized as a series of lectures, labs, and exams.  There is also an optional weekly TA-lead discussion session.   The instructor, TAs, and PMs arrange office hours so that every student has access to at least one office hour per week.   An online discussion group is regularly monitored by all course staff.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ],
+            [
+                "COMP_SCI 213-20",
+                "COMP_ENG 205"
+            ]
+        ]
+    },
+    "COMP_SCI 344": {
+        "course_name": "Design of Problem Solvers",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 348 and either COMP_SCI 325 or equivalent Lisp experience",
+            "Description": "<p>Principles and practice of organizing and building AI reasoning systems. Topics include pattern-directed rule systems, truth-maintenance systems, and constraint languages.</p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth & Project Requirement</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTS:</strong> Forbus, K. and de Kleer, J. <em>Building Problem Solvers,</em> MIT Press</p>\r\n<p><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/forbus-ken.html\" target=\"_self\">Prof. Kenneth D. Forbus</a></p>\r\n<p><strong>COURSE GOALS:</strong> Building software that reasons is one of the key activities of artificial intelligence.  Such software lies at the heart of many of today's interesting technologies, such as on-board diagnosis systems, intelligent CAD systems, shopbots, natural language processing systems, and intelligent tutoring systems and learning environments.  Reasoning software is also used as a component in building <em>cognitive simulations</em>, software designed to model aspects of human cognition.  This course will teach you how to build such software.  What you should know after taking this course will include:</p>\r\n<ul>\r\n<li>A variety of ways to build AI reasoning systems.</li>\r\n<li>Tradeoffs that designers of reasoning systems face, and typical categories of solutions.</li>\r\n<li>How truth-maintenance systems work.</li>\r\n<li>How to use large-scale knowledge bases in building problem solvers.</li>\r\n<li>How to use analogical processing in building problem solvers.</li>\r\n</ul>\r\n<p>During the course you will be doing a lot of programming -- but very little of it from scratch!  Instead, you'll be working with software modules we've developed, using them, modifying them, and sometimes significantly extending them.   This way you spend more time learning the ideas than polishing your coding skills (although you will have ample opportunity to improve those as well).</p>\r\n<p>In addition to the material in the textbook, we cover several advanced topics, including using large knowledge bases, building federated reasoning systems, and analogical reasoning.   You will be working with FIRE, a new prototype reasoning system built at Northwestern that uses the ResearchCyc knowledge base.</p>\r\n<p><strong>PREREQUISITES</strong>: <a href=\"348.html\">COMP_SCI 348</a><a href=\"http://eecs.northwestern.edu/eecs-348\" target=\"_self\"></a> and either <a href=\"325-1.html\">COMP_SCI 325</a> or equivalent Lisp experience</p>\r\n<p><strong>DETAILED COURSE TOPICS</strong></p>\r\n<ul>\r\n<li>Searching and problem spaces</li>\r\n<li>Pattern-directed inference systems</li>\r\n<li>Fundamentals of truth maintenance systems</li>\r\n<li>Logic-based TMS</li>\r\n<li>Assumption-based TMS</li>\r\n<li>Reasoning with large knowledge bases</li>\r\n<li>Integrating special-purpose reasoning engines</li>\r\n<li>Analogical reasoning</li>\r\n<li>Other topics TBD</li>\r\n</ul>\r\n<p><strong>COMPUTER USAGE:</strong> This course is taught by a combination of lecture and studio instruction.  We are relying on enough students bringing notebooks/tablets to class so that every pair of students has a machine.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 348"
+            ],
+            [
+                "COMP_SCI 325"
+            ]
+        ]
+    },
+    "COMP_SCI 345": {
+        "course_name": "Distributed Systems",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "11-12:20pm TuTh",
+        "spring_instructor": "Bustamante",
+        "other": {
+            "Prerequisites": "Students must have completed COMP_SCI 213 and COMP_SCI 214 to enroll in this course.",
+            "Description": "<p>Basic principles behind distributed systems (collections of independent components that appear to users as a single coherent system) and main paradigms used to organize them.  <em><br/> </em></p>\r\n<ul>\r\n<li><em>This course satisfies the Systems breadth & project requirement</em></li>\r\n</ul>\r\n<p><strong>COURSE COORDINATOR</strong>: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bustamante-fabian.html\" target=\"_self\">Prof. Fabián E. Bustamante</a><strong><br/> <br/> DETAILED DESCRIPTION:</strong> Distributed systems consists of a collection of independent computers that appears to its users as a single coherent system. While their early development followed the emergence of high-speed local area computer networks at the beginning of 1970s, the recent availability of powerful and cheap microprocessors and pervasive connectivity has brought the topic to everyone's attention. In this course we discuss some of the basic principles behind distributed systems and review some of the main paradigms used to organize them.</p>\r\n<p><strong>REQUIRED TEXTS: </strong>Andrew S. Tanenbaum and Maarten van Steen. Distributed Systems: Principles and Paradigms. Prentice Hall, 2nd Ed., 2006</p>\r\n<p><strong>GRADES</strong>: Grades are based on a term-long project, homework assignments, class participation and a take-home final exam.<br/> <strong><br/> LABORATORY PROJECTS</strong>:</p>\r\n<ul>\r\n<li>Wide-area testbed</li>\r\n<li>Clusters<strong> </strong></li>\r\n</ul>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<p>1. Introduction: Distributed systems and their goals, hardware and software concepts, traditional and modern architectures for distributed systems.</p>\r\n<p>2. Wide-area distributed systems and PlanetLab: Issues with wide-area distributed systems and brief introduction to PlanetLab.</p>\r\n<p>3. Communication: Basics of communication, remote procedure calls, remote object invocation, message-oriented and stream-oriented communication.</p>\r\n<p>4. Processes: Clients, servers, code migration and software agents.</p>\r\n<p>5. Naming: Naming and locating entities, removing unreferenced entities.</p>\r\n<p>6. Synchronization: Synchronization in distributed systems, logical time, global state, elections and mutual exclusion.</p>\r\n<p>7. Consistency and replication: Data replication, scalability, and consistency</p>\r\n<p>8. Fault tolerance: Making distributed systems fault tolerant; reliable and resilient multicasting.</p>\r\n<p>9. Security: Secure communication and authorization in distributed systems.</p>\r\n<p>10. Review of major distributed systems paradigms: object systems, file systems, document-based systems, and coordination-based systems</p>\r\n<p><strong>COURSE GOALS:</strong> To teach the fundamental concepts and working details of distributed systems and the underlying technologies. Topics include distributed systems architectures, processes, communication and synchronization, consistency and replication, fault-tolerance and security.<strong> </strong></p>\r\n<p><strong>COURSE OUTCOMES:</strong> Having successfully completed the course, students will able to</p>\r\n<ol>\r\n<li>Present a conceptual model of distributed systems</li>\r\n<li>Describes key components of a distributed system and evaluate the tradeoffs of alternative architectural models</li>\r\n<li>Suggest algorithm suitable for application in distributed systems .</li>\r\n<li>Build prototype implementations of distributed systems</li>\r\n<li>Demonstrate an understanding of the challenges faced by future distributed systems</li>\r\n</ol>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 213-20"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_ENG 346": {
+        "course_name": "Microprocessor System Design",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "TuTh 3:30-4:50",
+        "fall_instructor": "Ghena",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_ENG 203 and COMP_ENG 205",
+            "Description": "<p>Structure and timing of typical microprocessors. Sample microprocessor families. Memories, UARTS, timer/counters, serial devices and related devices. MUX and related control structures for building systems. Interrupt programming. Hardware/software design tradeoffs.</p>\r\n<ul>\r\n<li><em>This course fulfills the Systems breadth requirement.</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTS: </strong>None</p>\r\n<p><strong>REFERENCE TEXTS: </strong>1. Device data sheets 2. Distributor catalogues</p>\r\n<p><strong>COURSE INSTRUCTOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/ghena-branden.html\">Prof. Branden Ghena</a></p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hester-josiah.html\" target=\"_self\">Prof. Josiah Hester</a></p>\r\n<p><strong>COURSE GOALS: </strong>The goal is to teach students how to design, build and program embedded systems.</p>\r\n<p><strong>PREREQUISITES BY TOPIC:</strong></p>\r\n<ol>\r\n<li>basic digital integrated circuits - AND/OR/NOT gates, latches, demultiplexor</li>\r\n<li>basic structure of a processor - arithmetic registers, address registers, basic addressing modes</li>\r\n<li>basic assembly language programming</li>\r\n</ol>\r\n<p><strong>DETAILED COURSE TOPICS</strong></p>\r\n<ul>\r\n<li><strong>Week 1: </strong>Microcontrollers. 8051 pinout and electrical characteristics.</li>\r\n<li><strong>Week 2: </strong>Connecting to external RAM and program. Latches and demultiplexors.</li>\r\n<li><strong>Week 3: </strong>Ports. Onboard special functions – interrupts, timers, serial I/O.</li>\r\n<li><strong>Week 4: </strong>Special functions continued. Timing analysis.</li>\r\n<li><strong>Week 5: </strong>8051 assembly programming, emulators.</li>\r\n<li><strong>Week 6: </strong>Introduction to a typical microprocessor - 8086. Basic 8086 control signals - DEN, DTR. Bi-directional bus drivers. 8224 clock circuit. 2- and 4-byte bus systems.</li>\r\n<li><strong>Week 7: </strong>Interrupt structure and the 8259 Interrupt Controller. Priority interrupt systems</li>\r\n<li><strong>Week 8: </strong>DMA.</li>\r\n<li><strong>Week 9: </strong>I 2 C buses and devices.</li>\r\n<li><strong>Week 10: </strong>Multibus and shared bus structures - 8289.</li>\r\n</ul>\r\n<p><strong>COMPUTER USAGE: </strong>Students use PCs to assemble and emulate programs before burning into E/EPROMs. Students use device programmers to generate 2764/2864 program chips for their projects.</p>\r\n<p><strong>LABORATORY PROJECTS:</strong> Four labs starting from a simple micro-controller system on a breadboard and leading to a small-scale embedded application that uses most of the typical features (timers, serial IO, ADC/DAC, etc.) built into micro-controllers.</p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Homework - 10 %</li>\r\n<li>Labs Assignments - 30 %</li>\r\n<li>Midterm Exam - 30 %</li>\r\n<li>Endterm Exam - 30 %</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: When a student completes this course, s/he should be able to:</strong></p>\r\n<ol>\r\n<li>Design an embedded system, including both hardware and software.</li>\r\n<li>Decide what level of sophistication the microprocessor needs to have and what additional devices are needed based on the features of the application.</li>\r\n<li>Determine how to connect the microprocessor, memories, and extra devices into a working system.</li>\r\n<li>Read device-timing diagrams for processors, memories, and the like, and determine device timing compatibility.</li>\r\n<li>Read device data sheets and pinout descriptions and understand how to wire the devices together.</li>\r\n<li>Build an embedded system, both hardware and software, using DMA and/or interrupts.</li>\r\n<li>Understand how to use auxiliary circuits, like latches, bus drivers and demultiplexors, to build a system.</li>\r\n<li>Understand how to use UARTS, DAC/ADC devices, serial devices, timer/counter devices and similar devices.</li>\r\n<li>Design the software and coordinate the software and the hardware into an integrated working system.</li>\r\n<li>Identify and communicate the privacy, security, and sustainability aspects of a particular embedded system, as well as design the software and hardware considering these factors.</li>\r\n</ol>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>100% Engineering (Design component).</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_ENG 203",
+                "COMP_ENG 205"
+            ]
+        ]
+    },
+    "COMP_SCI 348": {
+        "course_name": "Intro to Artificial Intelligence",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "12:30-1:50 MW",
+        "fall_instructor": "Alam",
+        "winter_time": "11-11:50 MWF",
+        "winter_instructor": "Alam",
+        "spring_time": "2-3:20 TuTh",
+        "spring_instructor": "Rubenstein",
+        "other": {
+            "Prerequisites": "Students must have taken [EECS 111 and (EECS 214 or be a CogSci major)] or be a Computer Science Masters or PhD student, or obtain instructor permission, in order to register for this course.",
+            "Description": "<p>Core techniques and applications of artificial intelligence. Representation retrieving and application of knowledge for problem solving, planning, probabilistic inference, and natural language understanding.<span></span></p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth Requirement.</em></li>\r\n</ul>\r\n<p><strong>OPTIONAL TEXTBOOK</strong>: Russell & Norvig <em>, Artificial Intelligence: A Modern Approach </em>, Prentice Hall, 3rd edition</p>\r\n<p><strong>COURSE</strong> <strong>INSTRUCTOR:</strong> <a href=\"mailto:mohammedalam2009@u.northwestern.edu\">Mohammed A. Alam</a> (Fall & Winter) & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rubenstein-michael.html\" rel=\"noopener\" target=\"_blank\">Prof. Rubenstein</a> (Spring)<br/><strong>COURSE COORDINATOR:</strong> <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hammond-kristian.html\">Prof</a><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hammond-kristian.html\">. Kristian Hammond</a></p>\r\n<p><strong>COURSE GOALS: </strong>The goal of this course is to expose students to the basic ideas, challenges, techniques, and problems in artificial intelligence. Topics include strong (knowledge-based) and weak (search-based) methods for problem solving and inference, and alternative models of knowledge and learning, including symbolic, statistical and neural networks.</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li>Philosophical foundations of artificial intelligence</li>\r\n<li>Intelligent agents</li>\r\n<li>Search, including A*, iterative deepening</li>\r\n<li>Logical formalisms, propositional and first order predicate calculus</li>\r\n<li>Planning, from STRIPS to Partial Order Planning</li>\r\n<li>Probability & uncertainty, including Bayesian inference and Bayes networks</li>\r\n<li>Machine learning, including decision trees, neural nets, hill climbing, genetic algorithms</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: </strong>After this course, students should be able to</p>\r\n<ul>\r\n<li>Articulate key problems, both technical and philosophical, in the development of artificial intelligence</li>\r\n<li>Teach themselves more about AI through reading texts and research articles in the field</li>\r\n<li>Apply AI techniques in the development of problem-solving and learning systems</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 111"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 349": {
+        "course_name": "Machine Learning",
+        "summer_time": "2-3:20 TuTh",
+        "summer_instructor": "Alam",
+        "fall_time": "9:30-10:50 MW or 8-9:20 TuTh",
+        "fall_instructor": "Pardo & Wood-Doughty",
+        "winter_time": "12:30-1:50 MW",
+        "winter_instructor": "Alam",
+        "spring_time": "9:30-10:50 MW",
+        "spring_instructor": "Wood-Doughty",
+        "other": {
+            "Prerequisites": "Prerequisites: COMP_SCI grad standing OR (COMP_SCI 214 and (MATH 240-0 or GEN_ENG 205-1 or GEN_ENG 206-1) and (IEMS 201-0 or IEMS 303-0 or ELEC_ENG 302-0 or STAT 210-0 or MATH 310-1)",
+            "Description": "<p>Description</p>\r\n<p>Machine Learning is the study of algorithms that improve automatically through experience. Topics covered typically include Bayesian Learning, Decision Trees, Genetic Algorithms, Neural Networks.</p>\r\n<ul>\r\n<li><em>This course satisfies the AI Breadth Requirement.</em></li>\r\n</ul>\r\n<p>REQUIRED TEXTBOOKS: </p>\r\n<ul>\r\n<li>Summer, Fall, Spring & Winter Section:Online readings provided by the course instructor.</li>\r\n</ul>\r\n<p>REFERENCE TEXTBOOKS: Selected papers from journals and conferences presenting research on Machine Learning</p>\r\n<p>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/downey-douglas.html\">Prof. Doug Downey</a> & <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/pardo-bryan.html\">Prof. Bryan Pardo</a><br/>COURSE INSTRUCTOR: <a href=\"mailto:pardo@northwestern.edu\">Prof. Pardo</a> (Fall), <a href=\"mailto:mohammedalam2009@u.northwestern.edu\">Mohammed A. Alam</a> (Summer & Winter) & Zach Wood-Doughty (Spring)</p>\r\n<p>COURSE GOALS: To expose students to concepts and methods in machine learning. To give students a basic set of machine learning tools applicable to a variety of problems. To teach students critical analysis of machine learning approaches so that the student can determine when a particular technique is applicable to a given problem and apply or implement that technique.</p>\r\n<p>DETAILED COURSE TOPICS:</p>\r\n<p>This is an example set of topics. The exact subset will vary depending on year.</p>\r\n<ul>\r\n<li>Decision Tree Learning</li>\r\n<li>Nonlinear Regression</li>\r\n<li>Artificial Neural Networks</li>\r\n<li>Evaluating Hypotheses</li>\r\n<li>Bayesian Learning</li>\r\n<li>Computational Learning Theory</li>\r\n<li>Instance-Based Learning</li>\r\n<li>Genetic Algorithms</li>\r\n<li>Learning Sets of Rules</li>\r\n<li>Reinforcement Learning</li>\r\n<li>Clustering</li>\r\n</ul>\r\n<p>HOMEWORK ASSIGNMENTS: Reading assignment from the Machine Learning Literature. Coding assignments implementing machine learning algorithms, and experiments testing ML algorithms on real-world data.</p>\r\n<p>LABORATORY ASSIGNMENTS: There will be several lab assignments. Students will be required to implement machine learning algorithms and analyze their performance on example sets of data. Example algorithms include: feed-forward multilayer neural networks, decision trees, hidden Markov models, automated clustering techniques.</p>\r\nGRADES: Will be based on a combination of problem sets, reading assignments and programming assignments."
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ],
+            [
+                "MATH 240-0",
+                "GEN_ENG 205-1",
+                "GEN_ENG 206-1"
+            ],
+            [
+                "IEMS 201-0",
+                "IEMS 303-0",
+                "ELEC_ENG 302-0",
+                "STAT 210-0",
+                "MATH 310-1"
+            ]
+        ]
+    },
+    "COMP_SCI 351-1": {
+        "course_name": "Intro to Computer Graphics",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "9-9:50 MWF",
+        "fall_instructor": "Tumblin",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "1-1:50 MWF",
+        "spring_instructor": "Tumblin",
+        "other": {
+            "Prerequisites": "CS 214-0 or Graduate Students",
+            "Description": "<p>First in a 3-course series to teach the core principles, ideas & math behind all forms of computer-assisted picture-making; complementary/compatible with computer-game design interests. After this course you can write your own programs to depict animated 2D and 3D objects that respond to mouse and keyboard inputs, yet run in any modern web browser. We write WebGL programs in Javascript to create GPU-driven high-performance 3D graphics in any up-to-date web browser (Skeptical? try try <strong><a href=\"http://www.chromeexperiments.com/webgl/\">http://www.chromeexperiments.com/webgl/</a></strong> )</p>\r\n<ul>\r\n<li><em>This course satisfies the Interfaces </em>Breadth <em>&</em> project requirement.</li>\r\n</ul>\r\n<p>Don’t worry if you know C/C++ but not Javascript – the course helps you through the transition. We use the Google Chrome browser on any operating system (Windows, OS-X, Linux, etc.) which gives you a very nice debugging and tracing tools, and the course supplies you with already-working ‘starter code’ examples to help you through the tough and/or confusing parts. You can always begin with starter code.</p>\r\n<p>We will ‘learn by doing’: no exams. Instead, you’ll design your own programs in these 4 projects: 1) Moving Shapes From Math: colored points, lines & triangles moved interactively by matrix transforms; 2) Graceful 3D Views: Quaternions & Scene Graphs let us fly over a colorful scene filled with moving shapes. 3) Better Lights & Materials: compute, pose & move 3D lights for surface materials both diffuse and shiny;<br/> 4) Textures & Buffer tricks; Learn to ‘paint’ photos onto 3D surfaces to add details & richness.</p>\r\n<p><strong>COURSE GOAL:</strong> Comfort and ease in programming any desired interactive 2D or 3D shapes using OpenGL.</p>\r\n<p><strong>COURSE COORDINATOR: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/tumblin-john.html\" target=\"_self\">Prof. Jack Tumblin</a></p>\r\n<p><strong>COURSE INSTRUCTOR : <a href=\"mailto:j-tumblin@northwestern.edu\"></a></strong><a href=\"mailto:j-tumblin@northwestern.edu\">Prof. Tumblin</a><strong><br/></strong></p>\r\n<p><strong>REQUIRED TEXTBOOKS</strong>:  </p>\r\n<p><strong>\"WebGL Programming Guide: Interactive 3D Graphics Programming with WebGL (OpenGL)\"</strong> By Kouichi Matsuda and Rodger Lea. (First edition) Addison-Wesley, © 2013 Pearson Education, Inc. (Paperback or Kindle E-book – either is OK).</p>\r\n<p><strong>Also Required:</strong> Several miscellaneous PDFs to be posted on CANVAS throughout the quarter.</p>\r\n<p><strong>OTHER GOOD BOOKS: (Recommended but NOT REQUIRED)</strong></p>\r\n<p>          <strong>--\"Mathematics for 3D Game Programming and Computer Graphics\" (3rd Edition)</strong> By Eric Lengyel Cengage Learning, ©2012 Course Technology (Paperback or Kindle E-Book – either is OK) (Also used in \"Intermediate Graphics\" course).</p>\r\n<p>         <strong> --Website: Learningwebgl.com</strong> : free, quick, terse but complete tutorial with user comments/additions</p>\r\n<p>      <strong>    --Website: OpenGL.org</strong> : full of goodies! tutorials, FAQs, msg boards, complete OpenGL reference pages.<br/> <span></span></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong> Webpage Basics, Javascript Basics, WebGL within HTML-5 Canvas; keyboard and mouse control. Vector math, Homogeneous Coords, matrix transforms in a scene graph. Shape description with points, lines and polys. Viewing and camera matrices. GLSL basics, vertex shaders, fragment shaders; vertex colors and fragment shaders. Quaternions and trackball controls. ‘LookAt’, frustum & 3D projections. Lights attached to moving objects. Phong lighting model, Phong shading model, surface normals. Specular reflection in shaders. Texture map basics. Antialiasing.</p>\r\n<p><strong>COMPUTER USAGE:</strong> Yes; required. Must be familiar and comfortable programming in C/C++ and/or JavaScript (Course assumes you have no background in JavaScript).</p>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong> 3 or 4 take-home quizzes. In-class exercises; reading to prep for class discussions; recommended problem sets from book..</p>\r\n<p><strong>LABORATORY PROJECTS:</strong> Three or Four guided programming projects aided by ‘starter code.’  </p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>3 or 4 projects with in-class demo and report</li>\r\n<li>3 or 4 quizzes + class participation points</li>\r\n<li>No Midterm or Final Exam.</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 351-2": {
+        "course_name": "Intermediate Computer Graphics ",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "2-3:20 TuTh",
+        "winter_instructor": "Tumblin",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 351-1 Intro. to Comp. Graphics or equiv.(ask—you may already know enough!)",
+            "Description": "<p>Second in a 3-course series on the methods and theory of computer graphics, this project-oriented course explores how to describe shapes, movement, and lighting effects beyond the built-in abilities of WebGL. It includes interactive particle systems, simple rigid-body dynamics, explicit and implicit dynamics solvers (suitable for smoke, simple fluids and cloth) and an introduction to ray tracing (chrome, glass, and diffraction) with a few basic ideas for global illumination.</p>\r\n<ul>\r\n<li><em>This course satisfies the Technical Elective & the Project Requirement.</em></li>\r\n</ul>\r\n<p><strong>COURSE GOALS:</strong> Comfort and ease creating visually accurate interactive non-polygonal objects such as smoke, fire, cloth, sand, ropes, with multi-bounce computed light transport via ray-tracing.</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong> The course has just two topics, but they are very broad: <br/> <strong>A. Particles and Movement:</strong> 1) Abandon triangle meshes to make 'shapeless' shapes (fireworks, swarms of bees, rain, snow, grass, etc.) from clouds of particles.  How close can we get to modeling each particle in a cloud of steam?  2) Moving particles coupled together can simulate many interesting materials (rope, water, smoke, cloth, etc.). We'll explore both 'explicit' and 'implicit' solvers that make soft things move and behave realistically in mass-aggregate systems, combined with basic collision detection and rigid-body dynamics.<br/> <strong>B. Light Done Right:</strong> we'll learn ray tracing, BRDFs and light units, extended light sources (soft shadows), and some basic global illumination ideas. You will make pictures that look much more like photographs than drawings, with shadows, chrome reflections, transparency, and complex surfaces.</p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>4 ‘reading’ quizzes,</li>\r\n<li>2 progressively-graded projects with Demo Days and written project reports.</li>\r\n<li>No midterm exam, no final exam.</li>\r\n</ul>\r\n<p><strong>COURSE COORDINATOR</strong>: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/tumblin-john.html\" target=\"_self\">Prof. Jack Tumblin</a></p>\r\n<p><strong>COURSE INSTRUCTOR : <a href=\"mailto:j-tumblin@northwestern.edu\"></a></strong><a href=\"mailto:j-tumblin@northwestern.edu\">Prof. Tumblin</a><strong><br/></strong></p>\r\n<p><strong>COMPUTER USAGE:</strong> Yes, required. WebGL usage builds on COMP_SCI 351-1</p>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: <em><a href=\"https://www.routledge.com/Foundations-of-Physically-Based-Modeling-and-Animation/House-Keyser/p/book/9781482234602\" rel=\"noopener noreferrer\" target=\"_blank\">\"</a></em><a href=\"https://www.routledge.com/Foundations-of-Physically-Based-Modeling-and-Animation/House-Keyser/p/book/9781482234602\" rel=\"noopener noreferrer\" target=\"_blank\">Foundations of Physically-Based Modeling and Animation\"</a> © 2017, Donald H. House and John C. Keyser; AK Peters / CRC Press. <strong>Note:</strong> available as hard-cover or as Kindle Edition (both cost $56).</p>\r\n<p><strong>REFERENCE TEXTBOOKS:</strong></p>\r\n<ul>\r\n<li><strong>“Game Physics-Engine Development”</strong> 2nd Ed.(2010), Ian Millington, CRC Press (former course text)</li>\r\n<li><strong>“Fluid Simulation for Computer Graphics”</strong> by Robert Bridson (c)2008 AK Peters.</li>\r\n<li><strong>“Game Physics Pearls”</strong> Gino van den Bergen, Dirk Gregorius (Eds.) (c)2010 AK Peters.</li>\r\n<li>SIGGRAPH/Pixar Short Course Notes <strong>“Particle Dynamics”</strong> by Witkin, Baraff.</li>\r\n<li>Handouts and misc. PDF documents written by instructor and others</li>\r\n</ul>\r\n<p><strong>LABORATORY PROJECTS:</strong> CS352 is a project-oriented course: lectures and reading are important, but for a deep and genuine understanding of computer graphics methods you really need to write some code and make some pictures of your own.  Step-by-step, week-by-week, you will build two large programming projects that make astonishing pictures and animations.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 351-1"
+            ]
+        ]
+    },
+    "COMP_SCI 352": {
+        "course_name": "Machine Perception of Music & Audio",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "Prior programming experience sufficient to be able to do laboratory assignments in PYTHON, implementing algorithms and using libraries without being taught to do so (there is no language instruction on Python). Having taken COMP_SCI 211 and COMP_SCI 214 would demonstrate this experience.",
+            "Description": "<p>Machine extraction of musical structure in audio, MIDI and score files, covering areas such as source separation and perceptual mapping of audio to machine-quantifiable measures.</p>\r\n<ul>\r\n<li>Approved for the Breadth Interfaces & project requirement in the CS curriculum.</li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK</strong>: Fundamentals of Music Processing<em><a href=\"http://www.amazon.com/gp/product/0127756957/qid=1136322712/sr=1-1/ref=sr_1_1/002-5717768-2283208?s=books&v=glance&n=283155\"></a></em></p>\r\n<p><strong>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/pardo-bryan.html\" target=\"_self\">Prof. Bryan Pardo</a></strong></p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong> See the course webpage at...</p>\r\n<p><a href=\"http://www.cs.northwestern.edu/~pardo/courses/eecs352/index.php\">http://www.cs.northwestern.edu/~pardo/courses/eecs352/index.php</a></p>\r\n<p><strong>ASSIGNMENTS: </strong>See the course webpage at...</p>\r\n<p><a href=\"http://www.cs.northwestern.edu/~pardo/courses/eecs352/index.php\">http://www.cs.northwestern.edu/~pardo/courses/eecs352/index.php</a></p>\r\n<p><strong>COURSE OBJECTIVES:</strong> When a student completes this course, s/he should:</p>\r\n<ul>\r\n<li>have a basic understanding of how audio is encoded by computers</li>\r\n<li>understand the basics of human audio perception of sound</li>\r\n<li>be able to create tools to find salient structures in music audio</li>\r\n<li>be able to understand current research in the music information retrieval community</li>\r\n<li>be able to think critically about arts and technology</li>\r\n</ul>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 211"
+            ],
+            [
+                "COMP_SCI 214"
+            ]
+        ]
+    },
+    "COMP_SCI 355": {
+        "course_name": "Digital Forensics and Incident Response",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "3:30-4:50 MW",
+        "spring_instructor": "Ilyas",
+        "other": {
+            "Prerequisites": "",
+            "Description": "<p><strong>OVERVIEW:</strong> This course will focus on Digital Forensics and Incident Response (Investigations). This class will introduce the basic theory of Digital Forensics and in the lab, we will actually apply the knowledge in practical scenarios. The goal is to learn how to investigate the digital artifacts left on hard drives, logs and other networking devices. The course shall prepare you to conduct data preservation and analysis on Windows, Linux and Macintosh platforms. Students will also get exposure to the Techniques, Tactics and Procedures (TTPs) of the prominent Threat Actors and will learn to conduct digital investigations with a sound process.</p>\r\n<p>The co-instructor of this course will be an Incident Response Practitioner (Jibran Ilyas from Aon Cyber Solutions) who investigates data breaches for living, therefore, the course material and homework assignments will be based on real life forensic investigations. </p>\r\n<p>We will learn about different kind of attacks and how they can be detected via forensic investigations. Understanding the concepts of Evidence Collection, Host-Based Analysis, Memory (RAM) Analysis and Log Analysis will be essential in all fields of software development and computing. If you have any questions, please contact one of the instructors below or send an email to all instructors by clicking <strong><a href=\"mailto:eecs354-staff@cs.northwestern.edu\">here</a></strong>.</p>\r\n<ul>\r\n<li><em><strong>Formerly COMP_SCI 397/497.</strong></em></li>\r\n<li><em>This course satisfies the Project Requirement.</em><em></em></li>\r\n</ul>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <a href=\"mailto:jibran.ilyas@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">Jibran Ilyas</a><strong><br/></strong></p>\r\n<p><strong>COURSE COORDINATOR:  </strong><a href=\"http://www.cs.northwestern.edu/%7Eychen/\" rel=\"noopener noreferrer\" target=\"_blank\">P</a><a href=\"http://www.cs.northwestern.edu/%7Eychen/\" rel=\"noopener noreferrer\" target=\"_blank\">rof. Yan Chen</a></p>\r\n<p><strong>PREREQUISITES:</strong></p>\r\n<ul type=\"disc\">\r\n<li><strong><a href=\"213-20.html\">COMP_SCI 213</a></strong> (Introduction to Systems)</li>\r\n<li><strong><a href=\"354.html\">COMP_SCI 354</a></strong> (Networking Penetration and Security) OR <strong><a href=\"343.html\">COMP_SCI 343</a></strong> (Operating Systems)</li>\r\n<li>If you have taken neither <a href=\"354.html\"><strong>COMP_SCI 354</strong></a> nor <strong><a href=\"343.html\">COMP_SCI 343</a></strong> yet, but have scored A- or higher in EECS 213, please email me your CV with information on related courses taken and grades. I will make a decision after collecting all the feedback.</li>\r\n</ul>\r\n<p><strong>LOCATION & TIME:</strong></p>\r\n<p>Location: Mondays in M164, Technological Institute, Wednesdays in Wilkinson Lab.<br/> Time: Mon/Wed 11:00am - 12:20pm</p>\r\n<p><strong>OFFICE HOURS:<br/> </strong></p>\r\n<ul type=\"disc\">\r\n<li>On-site hours in Wilkinson Lab after Wed class</li>\r\n<li>Available upon requests.</li>\r\n</ul>\r\n<p><strong>GRADING:</strong></p>\r\n<ul type=\"disc\">\r\n<li>40% Lab Assignments</li>\r\n<li>25% Midterm Project</li>\r\n<li>35% Final Project</li>\r\n</ul>\r\n<p>For the labs, please remember to check out with one of the teaching staff at the end of each lab, and then we will discuss solutions.</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 213-20"
+            ],
+            [
+                "COMP_SCI 343",
+                "COMP_SCI 354"
+            ]
+        ]
+    },
+    "COMP_ENG 358": {
+        "course_name": "Intro to Parallel Computing",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "",
+        "fall_instructor": "",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "COMP_SCI 211",
+            "Description": "<p>Introduction to parallel computing for scientists and engineers. Shared memory parallel architectures and programming, distributed memory, message-passing data-parallel architectures, and programming.</p>\r\n<p><strong>REQUIRED TEXT:</strong> Ananth Grama, Anshul Gupta, George Karypis, and Vipin Kumar. (2003). <em>Introduction to Parallel Computing, 2nd Edition</em>. Pearson Education/Addison Wesley. ISBN-13: 9780201648652</p>\r\n<p><strong>REFERENCE TEXTS:</strong></p>\r\n<ul>\r\n<li>Ian Foster. (1995). <em>Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering</em>, Addison Wesley. ISBN-13: 978-0201575941</li>\r\n<li>Barr E. Bauer. (1992). <em>Practical Parallel Programming</em>, Academic Press. ISBN-13: 978-1493306039 </li>\r\n<li>William Gropp et al. (1994). <em>Using MPI: Portable Parallel Programming with the Message Passing </em><em>Interface</em>, MIT Press.</li>\r\n<li>Charles H. Koelbel et al. (1994). <em>The High-Performance Fortran Handbook</em>, MIT Press.  ISBN-13: 978-0262610940</li>\r\n</ul>\r\n<p><strong>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/memik-gokhan.html\" target=\"_self\">Prof. Gokhan Memik</a></strong></p>\r\n<p><strong>COURSE GOALS: </strong>To provide an introduction to the field of parallel computing. The goals are to provide an overview of the three basic types of parallel computing: shared memory, distributed memory message-passing, and data parallel computing, with hands-on experience with real parallel programming on actual parallel machines.</p>\r\n<p><strong>PREREQUISITES BY TOPIC:</strong></p>\r\n<ol>\r\n<li>An overview of computer architecture</li>\r\n<li>Basic concepts of processors, ALUs, memories, caches, input-output</li>\r\n<li>Basic to intermediate concepts on programming of serial computers using C or Fortran</li>\r\n<li>Simple concepts of data structures like arrays and link lists in programs</li>\r\n<li>Some knowledge of scientific and engineering applications</li>\r\n</ol>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li><strong>Week 1 </strong>: Introduction to parallel computing: motivation for parallel computing, options of parallel computing, economics of parallel computing, basic concepts of parallel algorithms. Introduction to parallel programming: data and task parallelism, coarse and fine grain parallelism, performance of parallel programs, load balancing and scheduling, analysis of simple parallel programs.</li>\r\n<li><strong>Week 2 </strong>: Overview of shared memory parallel architectures: memory organization, interconnect organization, cache coherence, case studies of machines such as SGI Challenge, IBM J-30, HP/Convex Exemplar. Introduction to shared memory parallel programming: shared memory model, process creation and destruction, mutual exclusion, locks, barriers.</li>\r\n<li><strong>Week 3: </strong>Explicit shared memory programming: loop scheduling, static and dynamic, loop parallelization strategies. Shared memory parallel programming: use of PTHREADS libraries, case studies of explicit parallel programming, computation of PI, matrix multiplication, solution of partial differential equations.</li>\r\n<li><strong>Week 4 </strong>: Implicit shared memory parallel programming: use of compiler directives for parallel programming, DOALL and DOACROSS and PRAGMA directives for loop level parallelism, parallel programming examples using directives.</li>\r\n<li><strong>Week 5 </strong>: Distributed memory multicomputer architectures: overview of distributed memory parallel machines, message passing schemes, store and forward versus wormhole routing, interconnection networks, case studies of parallel machines such as Intel Paragon, IBM SP-2, Thinking Machine CM-5. Global Communication operations in distributed memory machines: one-to-all broadcast, reduction, shift, scatter, gather operations, analysis of performance of above operations on various parallel architectures.</li>\r\n<li><strong>Week 6 </strong>: Introduction to message-passing programming: basics of message passing, global and local addresses, single-program multiple data (SPMD programs) introduction to Message Passing Interface (MPI). Intermediate concepts in message passing programming: global and local addresses, loop scheduling for parallel loops. Advanced message-passing concepts: topologies, and decompositions, case studies of example applications, matrix multiplication, solution of partial differential equations.</li>\r\n<li><strong>Week 7 </strong>: Introduction to SIMD parallel architectures: Single-instruction multiple data stream architectures, control and data units, interconnection networks, case studies of machines such as Thinking Machines CM-2, CM-5 and Masspar MP-2. Introduction to data parallel programming: Fortran-90, array sections, array operations, array intrinsic operations.</li>\r\n<li><strong>Week 8 </strong>: Introduction to High Performance Fortran (HPF): FORALL directives, INDEPENDENT directives, simple parallel programs. High Performance Fortran data distribution and alignment directives, simple parallel programming examples, matrix multiplication, solution of partial differential equations.</li>\r\n<li><strong>Week 9 </strong>: Methodology for Parallel Algorithm Design: concurrency, locality, scalability, modularity; partitioning, agglomeration, communication, mapping, performance analysis of parallel algorithms. Parallel Matrix Algorithms: matrix representations, parallel dense matrix operations, matrix-vector, matrix-matrix multiplication, solutions of linear system of equations.</li>\r\n<li><strong>Week 10 </strong>: Parallel Sparse Matrix Solvers: sparse matrix representations, parallel iterative methods, parallel direct methods. Parallel Search Algorithms: optimization methods, parallel best first search, parallel depth-first search, speedup anomalies.</li>\r\n</ul>\r\n<p><strong>COMPUTER USAGE: </strong>Students get hands-on parallel programming experience on 3 parallel machines at the Electrical and Computer Engineering Department, including a 16 processor IBM SP-2 distributed memory machine, an 8 processor IBM J-40 shared memory machine, and an 8-processor SGI Origin 2000 distributed shared memory multiprocessor. In addition, students will use the machines in the Wilkinson Lab as a cluster as well as access a dedicated cluster with 16 processors for the final project.</p>\r\n<p><strong>HOMEWORK ASSIGNMENTS:</strong></p>\r\n<ul>\r\n<li><strong>Homework 1: </strong>Design problems dealing with shared memory parallel programming, examples of program transformations to parallelize loops, use of explicit and implicit parallel programs using both the SGI directives and PTHREADS.</li>\r\n<li><strong>Homework 2: </strong>Design problems dealing with distributed memory message-passing parallel programming, use of MPI, analysis of communication patterns.</li>\r\n<li><strong>Homework 3: </strong>Design programs related to data parallel programming, use of High Performance Fortran, data layouts and alignments.</li>\r\n<li><strong>Homework 4: </strong>Design of parallel algorithms for various problems including matrix operations on dense and sparse matrices, analysis of parallel algorithms.</li>\r\n</ul>\r\n<p><strong>LABORATORY PROJECTS:</strong></p>\r\n<ul>\r\n<li><strong>Lab 1: </strong>Development of a parallel program for solving a set of linear system of equations using Gaussian Elimination using both explicit parallel programs with PTHREADS and implicit parallel programs using SGI directions, experiments on SGI Origin 2000 and IBM J-40 shared memory multiprocessors.</li>\r\n<li><strong>Lab 2: </strong>Development of a parallel program for solving a set of linear system of equations using Gaussian Elimination using message-passing parallel programming using C or Fortran with MPI message passing, and experiments on IBM SP-2 distributed memory and SGI Origin 2000 multiprocessor for portability.</li>\r\n<li><strong>Lab 3: </strong>Development of a parallel program for solving a set of linear system of equations using Gaussian Elimination using data parallel programming with High Performance Fortran and experiments on the IBM SP-2 distributed memory multiprocessor.</li>\r\n</ul>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Four homeworks - 20 %</li>\r\n<li>Three labs - 20 %</li>\r\n<li>Midterm exam - 30%</li>\r\n<li>Final exam - 30%</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: When a student completes this course, s/he should be able to:</strong></p>\r\n<ol>\r\n<li>Solve a given problem using parallel computing. Analyze the problem for various ways of parallelization, and design the best parallel algorithm.</li>\r\n<li>Have a broad understanding of shared memory parallel architectures and programming.</li>\r\n<li>Design a shared memory parallel program for a given parallel algorithm using both explicit and implicit parallel programming, measure real speedups, identify bottlenecks, and devise improvements to the parallel program.</li>\r\n<li>Have a broad understanding of distributed memory parallel architectures and programming.</li>\r\n<li>Design a message-passing distributed memory parallel program for a given parallel algorithm using the portable Message-Passing Interface (MPI), measure real speedups, identify bottlenecks, and devise improvements to the parallel program.</li>\r\n<li>Have a broad understanding of data parallel architectures and programming.</li>\r\n<li>Design a data parallel program for a given parallel algorithm using High Performance Fortran (HPF), measure real speedups, identify bottlenecks, and devise improvements to the parallel program.</li>\r\n</ol>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>100% Engineering (Design component).</p>"
+        },
+        "Prereqs": [
+            [
+                "COMP_SCI 211"
+            ]
+        ]
+    },
+    "COMP_ENG 361": {
+        "course_name": "Computer Architecture I ",
+        "summer_time": "",
+        "summer_instructor": "",
+        "fall_time": "MW 12:30-1:50",
+        "fall_instructor": "G. Memik",
+        "winter_time": "",
+        "winter_instructor": "",
+        "spring_time": "",
+        "spring_instructor": "",
+        "other": {
+            "Prerequisites": "(COMP_ENG 205 or COMP_SCI 213) and (COMP_ENG 303 or COMP_ENG 355) or graduate standing ",
+            "Description": "<div class=\"item-page\">\r\n<p>Design and understanding of the computer system as a whole unit. Performance Evaluation and its role in computer system design; Instruction Set Architecture design, Datapath design and optimizations (e.g., ALU); Control design; Single cycle, multiple cycle and pipeline implementations of processor; Hazard detection and forwarding; memory hierarchy design; Cache memories, Virtual memory, peripheral devices and I/O.</p>\r\n<p><strong>REQUIRED TEXTS</strong>:<em> Computer Organization and Design: The Hardware/Software Interface</em>, Fifth Edition. David A. Patterson and John L. Hennessy; Publisher: Morgan Kaufmann. Publication Date: 2013. <span class=\"a-color-secondary\">ISBN-13: </span>978-0124077263 <span class=\"a-color-secondary\">ISBN-10: </span>0124077269</p>\r\n<p><strong>COURSE</strong> <strong>INSTRUCTOR:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/memik-gokhan.html\" target=\"_self\">Prof. Gokhan Memik</a></strong></p>\r\n<p><strong>COURSE COORDINATORS: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/memik-gokhan.html\" target=\"_self\">Prof. Gokhan Memik</a></strong> and <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hardavellas-nikos.html\" target=\"_self\">Prof. Nikos Hardavellas</a></strong></p>\r\n<p><strong>COURSE GOALS:</strong> To teach designing a complete computer system. Includes designing instruction set architecture, datapaths, control, memory hierarchy including cache memories, virtual memory and I/O systems.<strong><br/> <br/> PREREQUISITES BY TOPIC:</strong></p>\r\n<ul>\r\n<li>Basic logic design</li>\r\n<li>Understanding adders, multipliers and dividers</li>\r\n<li>Assembly language</li>\r\n</ul>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<ul>\r\n<li><strong>Week 1: </strong>Introduction: Components of a computer system. Evolution of Technology. Factors affecting computer systems design (e.g., technology, applications, performance requirements). READING : Chapter 1.</li>\r\n<li><strong>Week 2: </strong>Impact of performance in computer system design. Measuring performance, performance metrics, interpreting performance, selecting applications and programs for performance evaluation, comparing and summarizing performance. Benchmarks (SPEC 92) and their results on some real machines. How not to evaluate performance. READING : Chapter 2.</li>\r\n<li><strong>Week 3: </strong>Instruction Set Architecture design. The role of an instruction set. interface between hardware and software; issues to consider when designing an instruction set; addressing modes. READING : Chapter 3.</li>\r\n<li><strong>Week 4: </strong>Arithmetic and Logic Units (ALU) for computers. Number system, addition and subtract, adders; multiplication and multipliers; division and dividers; floating point numbers and floating point units; Examples from existing systems. READING : Chapter 4.</li>\r\n<li><strong>Week 5: </strong>Processor Design. Datapath and control; single cycle design and implementation; simplifying control design; multicycle implementation of datapath and control; example from a real system. READING : Chapter 5.</li>\r\n<li><strong>Week 6: </strong>Pipelining. Basic concepts in pipelining; datapath for pipeline processor implementation, data hazard and forwarding, data hazard and stalling; control design for pipelines, superscaler design; Examples. READING : Chapter 6.</li>\r\n<li><strong>Week 7: </strong>Memory Hierarchy: Cache memories. Introduction to caches, measuring and improving performance of caches; design alternatives, direct map, associative caches; replacement policies; examples. READING Chapter 7.</li>\r\n<li><strong>Week 8: </strong>Virtual Memory: basic design, address translation, placement and replacement; cost and performance issues; common framework for memory hierarchies, Translation Lookaside Buffers. READING Chapter 7.</li>\r\n<li><strong>Week 9: </strong>Input-Output and Peripheral Devices. I/O performance and measures, technology and characteristics of disks. Busses and protocols. Connecting I/O devices to memory and processor. READING Chapter 8.</li>\r\n<li><strong>Week 10: </strong>I/O systems design. RAIDs. Memory bandwidth and bus bandwidth requirements for graphics. Example of a typical I/O system. Introduction to multiprocessors. Summary/ READING: Chapter 8 and 9.</li>\r\n</ul>\r\n<p><strong>COMPUTER USAGE: </strong>Students use Mentor Graphics design tool to implement a simple single cycle processor with limited instruction set. Use processor simulators to learn and evaluate working of processors. Cache simulators to evaluate cache memory performance.</p>\r\n<p><strong>PROJECT: </strong>A quarter long project that entails designing a single cycle processor using mentor graphics tool and its evaluation using simple programs. Each week students submit progress on additions to the design.</p>\r\n<p><strong>GRADES:</strong></p>\r\n<ul>\r\n<li>Five homeworks - 20 %</li>\r\n<li>Project - 30 %</li>\r\n<li>Midterm exam - 20%</li>\r\n<li>Final exam - 30%</li>\r\n</ul>\r\n<p><strong>COURSE OBJECTIVES: </strong>When a student completes this course, s/he should be able to:</p>\r\n<p>•  Understand the architecture of a basic computer system and its components, and the role of performance in designing computer systems.</p>\r\n<p>•  Understand how to design and instruction set and its impact on processor design. To design ALU and processor datapath and control.</p>\r\n<p>•  Design pipeline processor including datapath and control, and design to detect and resolve hazards.</p>\r\n<p>•  Understand memory hierarchy design and its impact on overall processor performance. Design cache memory based on the characteristics of the expected workload. Understand the workings of virtual memory and efficient design for TLBs</p>\r\n<p>•  Understand the I/O system and its design. Be Knowledgeable about Busses and bandwidth requirements to support heterogeneous I/O devices. Understand the disk technology and its impact on performance.</p>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>100% Engineering (Design component).</p>\r\n"
+        },
+        "Prereqs": [
+            [
+                "COMP_ENG 205",
+                "COMP_SCI 213-20"
+            ],
+            [
+                "COMP_ENG 303",
+                "COMP_ENG 355"
+            ]
+        ]
+    }
+}
