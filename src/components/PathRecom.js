@@ -32,7 +32,7 @@ const PathRecom = () => {
             }
             <h3> Please select your favourite classes: </h3>
             <div>Select a set of courses you want to take. We will figure out a path and take care of prerequisites for you! </div>
-            <button className="btn btn-outline-secondary btn-sm m-1 col-4" onClick={() => findPath([], selected, courses, setPath, selected)}>
+            <button className="btn btn-outline-secondary btn-sm m-1 col-4" data-cy="calculatePath" onClick={() => findPath([], selected, courses, setPath, selected)}>
                 Calculate Path
             </button>
 

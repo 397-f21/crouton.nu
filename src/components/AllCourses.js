@@ -9,7 +9,7 @@ const AllCourses = () => {
         <>
             <hr />
             <h1> All Courses: </h1>
-            <div className="course-list">
+            <div className="course-list" data-cy="allCourses">
                 {coursesArr.map((course) => <DetailedCourses course={course} />)}
             </div>
         </>

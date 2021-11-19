@@ -16,7 +16,7 @@ export const CourseList = () => {
             <h1> Taken Courses: </h1>
             <div>Click on an available course to add them to your list. To remove a class, click on the taken class to remove it.</div>
             <br></br>
-            <div className="course-list">
+            <div className="course-list" data-cy="takenCourses">
                 {selected.length === 0 ? "Courses taken will appear here." :
                     selected.map((course) => <Courses course={course} setSelected={setSelected}
                     selected={selected} coursesArr={coursesArr} canTake={canTake}
@@ -25,7 +25,7 @@ export const CourseList = () => {
 
             <hr></hr>
             <h1> Available Courses: </h1>
-            <div className="course-list">
+            <div className="course-list" data-cy="availableCourses">
                 {coursesArr.map((course) => <NotSelectedCourses course={course} setSelected={setSelected}
                                                                 selected={selected} coursesArr={coursesArr}
                                                                 canTake={canTake}

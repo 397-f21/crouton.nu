@@ -16,7 +16,7 @@ const ToolSelector = ({ setTool, toolState }) => {
 const ToolButton = ({ tool, setTool, toolState }) => {
     const classes = 'btn btn-outline-secondary btn-sm m-1' + (toolState === tool ? ' active' : '');
     return (
-        <button className={classes} onClick={() => setTool(tool)}>
+        <button data-cy ={tool.replace(/\s/g, "")} className={classes} onClick={() => setTool(tool)}>
             {tool}
         </button>
     )
