@@ -16,5 +16,21 @@ describe ('Test App', () => {
         cy.visit ('/');
         cy.get('[data-cy=AllCourses]').should('contain', 'All Courses');
     });
+
+    it('shows Course Explorer page when clicked', () => {
+        cy.visit ('/');
+        cy.get('[data-cy=CourseExplorer]').click();
+        cy.get('[data-cy=takenCourses]').should('contain' , 'Courses taken will appear here.');
+    });
+    it('shows Path Recommendation page when clicked', () => {
+        cy.visit ('/');
+        cy.get('[data-cy=PathRecommendation]').click();
+        cy.get('[data-cy=calculatePath]').should('contain' ,'Calculate Path');
+    });
+    it('shows All Courses page when clicked', () => {
+        cy.visit ('/');
+        cy.get('[data-cy=AllCourses]').click();
+        cy.get('[data-cy=allCourses]').should('contain' ,'COMP_SCI 110 : Intro to Computer Programming');
+    });
     
   });
