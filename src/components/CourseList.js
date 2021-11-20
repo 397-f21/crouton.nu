@@ -14,13 +14,15 @@ export const CourseList = () => {
         <>
             <hr></hr>
             <h1> Taken Courses: </h1>
-            <div>Click on an available course to add them to your list. To remove a class, click on the taken class to remove it.</div>
+            <div>Click on an available course to add them to your list. To remove a class, click on the taken class to
+                remove it.
+            </div>
             <br></br>
             <div className="course-list" data-cy="takenCourses">
                 {selected.length === 0 ? "Courses taken will appear here." :
                     selected.map((course) => <Courses course={course} setSelected={setSelected}
-                    selected={selected} coursesArr={coursesArr} canTake={canTake}
-                    setCanTake={setCanTake} action={detake}/>)}
+                                                      selected={selected} coursesArr={coursesArr} canTake={canTake}
+                                                      setCanTake={setCanTake} action={detake}/>)}
             </div>
 
             <hr></hr>
@@ -58,7 +60,7 @@ const NotSelectedCourses = ({coursesArr, course, setSelected, selected, canTake,
                     {course[0]} : {course[1].course_name}
                 </div> :
                 ifPreMet(course, selected) && !selectedCoursesName.includes(course[0]) ?
-                    <div className="card m-1 p-2" onClick={() => {
+                    <div className="card m-1 p-2" data-cy={course[0]} onClick={() => {
                         action(coursesArr, course, setSelected, selected, canTake, setCanTake);
                     }}>
                         {course[0]} : {course[1].course_name}
