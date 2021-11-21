@@ -1,5 +1,4 @@
 describe('Test Course Explorer', () => {
-
     it('shows more available courses only when corresponding prereqs are selected', () => {
         cy.visit('/');
         cy.get('[data-cy="COMP_SCI 111"]').click();
@@ -7,5 +6,4 @@ describe('Test Course Explorer', () => {
         cy.get('[data-cy="COMP_SCI 211"]').click();
         cy.get('[data-cy="COMP_SCI 214"]');
     });
-
 });

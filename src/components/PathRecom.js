@@ -102,7 +102,7 @@ const SelectableCourse = ({course, setSelected, selected}) => {
             <div className="card m-1 p-2 bg-primary text-white" onClick={() => deselect(course, setSelected, selected)}>
                 {course[0]} : {course[1].course_name}
             </div> :
-            <div className="card m-1 p-2" onClick={() => select(course, setSelected, selected)}>
+            <div className="card m-1 p-2" data-cy={course[0]} onClick={() => select(course, setSelected, selected)}>
                 {course[0]} : {course[1].course_name}
             </div> 
     );
@@ -113,7 +113,7 @@ const SimpleCourse = ({course}) => {
         return null;
     }
     return (
-        <div className="card m-1 p-2">
+        <div className="card m-1 p-2" data-cy-path={course[0]}>
             {course[0]} : {course[1].course_name}
         </div> 
     );
