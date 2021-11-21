@@ -40,7 +40,7 @@ export const CourseList = () => {
 const Courses = ({coursesArr, course, setSelected, selected, canTake, setCanTake, action}) => {
     return (
         course ?
-            <div className="card m-1 p-2" onClick={() => {
+            <div className="card m-1 p-2" data-cy-selected={course[0]} onClick={() => {
                 action(coursesArr, course, setSelected, selected, canTake, setCanTake);
             }}>
                 {course[0]} : {course[1].course_name}
