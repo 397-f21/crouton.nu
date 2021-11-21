@@ -99,7 +99,7 @@ const SelectableCourse = ({course, setSelected, selected}) => {
     const allSelectedNames = selected.map(single => single[0]);
     return (
         allSelectedNames.includes(course[0]) ?
-            <div className="card m-1 p-2 bg-primary text-white" onClick={() => deselect(course, setSelected, selected)}>
+            <div className="card m-1 p-2 bg-primary text-white" data-cy-select={course[0]} onClick={() => deselect(course, setSelected, selected)}>
                 {course[0]} : {course[1].course_name}
             </div> :
             <div className="card m-1 p-2" data-cy={course[0]} onClick={() => select(course, setSelected, selected)}>
