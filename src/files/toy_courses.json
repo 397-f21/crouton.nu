@@ -13,7 +13,8 @@
             "Prerequisites": "",
             "Description": "<p>Introduction to programming practice using Python. Analysis and formulation of problems for computer solution. Systematic design, construction, and testing of programs. Substantial programming assignments in Python. See professor's website for an updated syllabus.</p>\r\n<p>This introductory programming course is not part of the major. It provides an introduction to programming for those that can benefit from becoming better programmers, but without committing to the major student's version of the course.</p>\r\n<ul>\r\n<li>This course is approved for Weinberg Area II (Formal Studies) distribution credit (NOT for CS Major Requirements)<em><br/></em></li>\r\n</ul>\r\n<strong>REFERENCE TEXTBOOKS:</strong><br/>\r\n<ul>\r\n<li><a href=\"https://www.py4e.com/lessons\">Python for Everyone</a> - By Charles Severance</li>\r\n<li><a href=\"http://openbookproject.net/thinkcs/python/english2e/\">How to Think Like a Computer Scientist</a> - By Jeffrey Elkner, Allen B. Downey, and Chris Meyers</li>\r\n</ul>\r\n<strong>REQUIRED TEXTBOOK:</strong> None\r\n<p><strong>COURSE COORDINATORS:&#160;<span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/kuzmanovic-aleksandar.html\" target=\"_self\">Aleksandar Kuzmanovic</a></span></strong>&#160;&amp;&#160;<strong><span><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/tumblin-john.html\" rel=\"noopener\" target=\"_blank\">Jack Tumblin</a></span></strong></p>\r\n<p><strong>COURSE INSTRUCTOR : </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/vanwart-sarah.html\">Prof.&#160;Sarah Van Wart</a> (Fall), <a href=\"mailto:connor.bain@northwestern.edu\">Prof. Connor Bain</a> (Winter &amp; Spring) &amp; <a href=\"mailto:akuzma@northwestern.edu\" title=\"Prof. Kuzmanovic\">Prof. Kuzmanovic</a> (Spring)<span></span></p>\r\n<p><strong>COURSE GOALS<br/></strong></p>\r\n<p>This course is an introduction to computer programming using Python, and assumes no prior programming knowledge.&#160;</p>\r\n<p>Most people who need to write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks) that underlie these systems is a valuable modern literacy that is likely to serve you well.</p>\r\n<p>The intent of the course is twofold. <br/>First, we want you to gain a sense of the many different kinds of problem-solving and creative pursuits that programming can support.&#160; Programming can act as a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and much more.&#160;</p>\r\n<p>Second, we want you learn fundamental constructs of computer programming along with skills and strategies to apply them in creative and useful ways. Towards this end, there will be quite a few practice problems to get you familiar with &#8216;the basics,&#8217; as well as longer, open-ended programming projects that encourage you to marshal these ideas towards your own creative applications. These applications may include authoring electronic dance music, animations, games, and/or simple apps that interact with data and media from various sources (e.g. Yelp, Spotify, Twitter, various databases, etc.).</p>\r\n<p>By the end of this course, you will have some experience writing programs, working with the command line, working with different kinds of data, and participating in several important programming practices (e.g. debugging, testing, and designing programs; reading technical documentation and sample code; installing and exploring third-party modules and APIs). Our hope is that this course will help you to see how your goals and knowledge might be supported via computing, while helping you to develop the proficiency and confidence needed to actualize these goals.</p>\r\n<p><strong>PREREQUISITES:&#160;</strong>None.&#160;<span>We assume&#160;<em>no</em>&#160;knowledge of programming or computing.</span></p>"
         },
-        "Prereqs": []
+        "Prereqs": [],
+        "course_type": ["Formal Studies (Weinberg Area II)"]
     },
     "COMP_SCI 111": {
         "course_name": "Fundamentals of Computer Programming I",
@@ -29,7 +30,8 @@
             "Prerequisites": "None",
             "Description": "<p>This is an introductory course on the fundamentals of computer programming. I see this class as an opportunity for you, the student, to see what computer programming is all about and (more importantly) to see whether you want to spend the next few years doing more of it. This course will include weekly programming projects, readings, a midterm, and final examinations. Class participation is not optional.</p>\r\n<ul>\r\n<li><em>This course is approved for Weinberg Area II (Formal Studies) distribution credit</em></li>\r\n<li><em>This course is a required Core course in the CS curriculum in McCormick and Weinberg</em></li>\r\n<li><em>Can be taken as ELEC_ENG/COMP_ENG 395 during Fall 16'</em></li>\r\n</ul>\r\n<p><strong>REQUIRED TEXTBOOK <em>Optional</em></strong>: <strong>(Fall/Winter)</strong> Abelson, Sussman, and Sussman, <em><strong><a href=\"https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-second-edition\" rel=\"noopener noreferrer\" target=\"_blank\">Structure and Interpretation of Computer Programs</a></strong></em>, MIT Press, Second Edition (1996)</p>\r\n<p><strong>(Spring) </strong>Felleisen, Findler, Flatt, and Krishnamurthi, <strong><a href=\"https://www.htdp.org/2018-01-06/Book/\"><em>How to Design Programs, Second Edition</em></a></strong>, MIT Press (2014)<strong>.<br/></strong></p>\r\n<p><strong>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Ian Horswill</a></strong> & <strong><a href=\"mailto:connor.bain@northwestern.edu\">Connor Bain</a></strong> <strong>(Fall), <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/sood-owsley-sara.html\" target=\"_self\">Sara Owsley Sood</a> (Winter, Spring)<br/> </strong></p>\r\n<p><strong>COURSE COORDINATOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/horswill-ian.html\" target=\"_self\">Ian Horswill</a></strong></p>\r\n<p><strong>GRADES: </strong><strong>(Fall/Winter)</strong></p>\r\n<ul>\r\n<li>45% About eight (weekly) homework assignments</li>\r\n<li>20% One midterm exam</li>\r\n<li>35% One final exam</li>\r\n</ul>\r\n<p><strong>(Spring)</strong></p>\r\n<ul>\r\n<li>30% Ten weekly homework assignments</li>\r\n<li>60% Two midterm exams (30% each)</li>\r\n<li>10% Daily quizzes</li>\r\n</ul>\r\n<p><strong><span>Please Note:</span> Fall ELEC_ENG/COMP_ENG 395 Section (Honors) </strong>meets Friday's 4-5pm, in addition to Monday's, Wednesday's, & Friday's 12:00-12:50 (four days a week plus the discussion section). The honors section is an additional meeting on top of the normal 111 meetings).</p>"
         },
-        "Prereqs": []
+        "Prereqs": [],
+        "course_type": ["Core Course", "Formal Studies (Weinberg Area II)"]
     },
     "COMP_SCI 130": {
         "course_name": "Tools and Technology of the World Wide Web",
@@ -45,7 +47,8 @@
             "Prerequisites": "None",
             "Description": "<p>This course is an introduction to the web, and assumes no prior knowledge. If you feel like you know nothing about coding (as in computer code) or design, but are a little bit curious about the web, then this course for you. If you’ve had quite a bit of experience with coding and design but want to continue developing your skills / portfolio, then this course <i>may</i> be for you, although you may also want to explore additional courses offered in the CS Department (e.g. Intro to Web Development, Agile Programming, Information Visualization, Intro to HCI, etc.). If you are a CS major or minor, please note that this course does not count as a technical elective (though you are certainly still welcome to take it).</p>\r\n<h3>Course Format</h3>\r\n<p>The course format is synchronous: class time will be used to discuss concepts and techniques, ask/answer questions, and work on coding and design activities together.  There will also be weekly discussion sections, where you will work with a member of the teaching staff to complete short assignments. You will be assessed based on (a) weekly homework assignments, and (b) a final project (which can be completed individually or in a group) – where you will create a website of your choosing.</p>\r\n<strong>COURSE INSTRUCTOR: <a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/vanwart-sarah.html\">Prof. Sarah Van Wart</a></strong>"
         },
-        "Prereqs": []
+        "Prereqs": [],
+        "course_type": []
     },
     "COMP_SCI 150": {
         "course_name": "Fundamentals of Computer Programming 1.5",
@@ -68,7 +71,8 @@
                 "GEN_ENG 205-1",
                 "GEN_ENG 206-1"
             ]
-        ]
+        ],
+        "course_type": []
     },
     "COMP_ENG 203": {
         "course_name": "Intro to Computer Engineering",
@@ -84,7 +88,8 @@
             "Prerequisites": "",
             "Description": "<p>Overview of computer engineering design. Number systems and Boolean algebra. Logic gates. Design of combinational circuits and simplification. Decoders, multiplexers, adders. Sequential logic and flip flops. Introduction to assembly language. Application of concepts to a computer engineering design project.</p>\r\n<p><strong>REQUIRED TEXTS: </strong>McGraw Hill, <em>Introduction to Computing Systems: From bits & gates to C & beyond</em>, Patt & Patel, 2003, Second Edition</p>\r\n<p><strong>REFERENCE TEXTS: </strong>Course handouts.</p>\r\n<p><strong>COURSE INSTRUCTOR:</strong> <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/joseph-russ.html\" target=\"_self\">Prof. Russ Joseph</a></strong>(Fall), <strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/wu-haur-chi.html\" target=\"_self\">Prof. Chi-Haur Wu</a></strong> (Winter)</p>\r\n<p><strong>COURSE GOALS: </strong>To provide an introduction to computer engineering concepts, both hardware and software, with emphasis placed on digital logic concepts. Topics include binary number representations, Boolean algebra, simplification methods for combinational circuits, introduction to sequential circuit, introduction to assembly language programming, and networks. This would serve to convince declared computer engineering majors to remain in the field, and to attract students from other majors to join computer engineering. Another goal is to prepare students to take some more advanced courses in each of the fields of computer engineering. The concepts are applied to hands-on laboratory assignments that includes hardware and software designs of a controller to navigate a robot through a given obstacle course.</p>\r\n<p><strong>PRE-REQUISITES: </strong>None</p>\r\n<p><strong>DETAILED COURSE TOPICS:</strong></p>\r\n<p><strong>Week 1</strong>: Introduction to computer engineering topics. Introduction to the basic gates, truth tables and principles of Boolean Algebra. (Reading: Mano & Kime 1.1, 2.1, 2.2 and 2.6[first half]).</p>\r\n<p><strong>Week 2</strong>: Logic minimization using the principles of Boolean Algebra and Karnaugh Maps. (Reading: Mano & Kime 2.3, 2.4, 2.5)</p>\r\n<p><strong>Week 3: </strong>Continuation of logic minimization to produce minimized sum of product and product of sum expression. In addition, methods for converting AND/OR implementations to NAND only implementations and OR/AND implementations to NOR only implementations. (Reading: Mano & Kime 2.6, 2.7, 2.8)</p>\r\n<p><strong>Week 4: </strong>Design of combinational logic circuits. (Reading: Mano & Kime 3.1-3.4) Conversion of number between any two basis, with an emphasis on decimal, binary, octal and hex numbers. The three methods for representing negative numbers, sign magnitude, ones complement and two complement. (Reading: Mano & Kime 1.2, 1.3)</p>\r\n<p><strong>Week 5: </strong>Design of multi-bit adder/subtractor circuit for twos complement numbers, identifying when overflow occurs. Design and use of different routing and selection devices including decoders, encoders, and multiplexers. (Reading: Mano & Kime 4.1-4.6, 5.1-5.6)</p>\r\n<p><strong>Weeks 6: </strong>Introduction to microcontrollers and the relationship to assembly language. (Reading: Course Handout)</p>\r\n<p><strong>Weeks 7: </strong>Introduction to assembly language programming and input/output control of microcontrollers. (Reading: Course Handout)</p>\r\n<p><strong>Week 8: </strong>Introduction to sequential logic, including latches, M/S flip flops and edge triggered flip flops. (Reading: Mano & Kime 6.1-6.6)</p>\r\n<p><strong>Week 9: </strong>Introduction to registers, micro-operations and various counters. (Reading: Mano & Kime 7.1-7.9)</p>\r\n<p><strong>Week 10: </strong>Introduction to Memory (Reading: Mano & Kime 3.6 and 9.1-9.6)</p>\r\n<p><strong>COMPUTER USAGE: </strong>Laboratory assignments relating to the assembly language programming of the microcontroller used to navigate a robot through a given obstacle course.</p>\r\n<p><strong>LABORATORY PROJECTS: </strong>Students get hand-on experience with the following: designing digital circuits based upon a word-problem specifications, designing a combinational logic circuit to navigate a robot, and assembly language programming of a microcontroller to navigate a robot.</p>\r\n<p>Each student is given a lab kit during the first week of class; this kit contains a breadboard, power supply, digital logic probe, tweezers for handling the wires, LEDs, resistors and TTL chips.</p>\r\n<p>Students also have access to numerous robots for the robot controller laboratory assignments. Each week, students are given a laboratory assignment that entails a design using concepts discussed in class the previous week. The laboratory assignments are designed to allow for the completion of a homework on a given concept prior to using the concept in the design. Every week, each student demonstrates his/her working design to the course TA. The specific design projects are given below.</p>\r\n<p><strong>Lab 1: </strong>Introduction to the lab kits. Students become familiar with the components in the lab kit by implementing two simple circuits. (Due week 3)</p>\r\n<p><strong>Lab 2: </strong>Design a simple combinational circuit based upon a given word problem. (Due week 4)</p>\r\n<p><strong>Lab 3: </strong>Design a complex combinational circuit, requiring the use of K-maps for logic minimization. Again a word problem is given. (Due week 5)</p>\r\n<p><strong>Lab 4: </strong>Design of an arithmetic circuit. (Due week 6)</p>\r\n<p><strong>Lab 5: </strong>Assembly language programming of a microcontroller to perform a very simple task. (Due week 8)</p>\r\n<p><strong>Lab 6: </strong>Assembly language programming of the microcontroller to navigate the same robot, used in lab 4, through a more complex obstacle course. (Due week 10)</p>\r\n<p><strong>GRADES:</strong></p>\r\n<p>Homeworks – 15%</p>\r\n<p>Labs - 25%</p>\r\n<p>Midterm - 30%</p>\r\n<p>Final - 30%</p>\r\n<p><strong>COURSE OBJECTIVES: </strong>When a student completes this course, s/he should be able to:</p>\r\n<p>1. Have an understanding of the field of computer engineering and an awareness of the various topics related to this field. This would serve to convince declared computer engineering majors to remain in the field, and to attract students from other majors to join computer engineering.</p>\r\n<p>2. Use Boolean algebra or K-maps to simplify complex boolean expressions.</p>\r\n<p>3. Convert numbers between any two number systems, especially decimal, binary, octal and hex and represent sign numbers.</p>\r\n<p>4. Design arithmetic circuits to perform addition and subtraction of signed numbers and detect overflow conditions.</p>\r\n<p>5. Implement functions using AND/OR gates, OR/AND gates, NORs only, NANDs only, multiplexers or decoders.</p>\r\n<p>6. Design the basic flip flops using sequential logic.</p>\r\n<p>7. Go from a word problem to the actual design, implementation and testing of the circuit.</p>\r\n<p>8. Program simple microcontrollers in assembly language.</p>\r\n<p><strong>ABET CONTENT CATEGORY: </strong>25% Math and Basic Science, 75% Engineering (Design component).</p>"
         },
-        "Prereqs": []
+        "Prereqs": [],
+        "course_type": []
     },
     "COMP_ENG 205": {
         "course_name": "Fundamentals of Computer System Software",
@@ -104,7 +109,8 @@
             [
                 "COMP_ENG 203"
             ]
-        ]
+        ],
+        "course_type": []
     },
     "COMP_SCI 211": {
         "course_name": "Fundamentals of Computer Programming II",
@@ -125,7 +131,8 @@
                 "COMP_SCI 111",
                 "COMP_SCI 150"
             ]
-        ]
+        ],
+        "course_type": ["Core Course"]
     },
     "COMP_SCI 212": {
         "course_name": "Mathematical Foundations of Computer Science",
@@ -150,7 +157,8 @@
                 "Math 228-1",
                 "Math 230-1"
             ]
-        ]
+        ],
+        "course_type": ["Core Course"]
     },
     "COMP_SCI 213-20": {
         "course_name": "Intro to Computer Systems",
@@ -170,7 +178,8 @@
             [
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Core Course"]
     },
     "COMP_SCI 214": {
         "course_name": "Data Structures and Algorithms",
@@ -194,7 +203,8 @@
                 "COMP_SCI 150",
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Core Course"]
     },
     "COMP_SCI 217": {
         "course_name": "Data Management and Information Processing",
@@ -217,7 +227,8 @@
                 "COMP_SCI 211",
                 "COMP_SCI 230"
             ]
-        ]
+        ],
+        "course_type": []
     },
     "COMP_SCI 295-396": {
         "course_name": "AI and Experimental Narrative",
@@ -241,7 +252,8 @@
                 "COMP_SCI 150",
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 301": {
         "course_name": "Introduction to Robotics Laboratory",
@@ -263,7 +275,8 @@
                 "COMP_SCI 110",
                 "COMP_SCI 230"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_ENG 303": {
         "course_name": "Advanced Digital Design",
@@ -283,7 +296,8 @@
             [
                 "COMP_ENG 203"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Systems"]
     },
     "COMP_SCI 314": {
         "course_name": "Technology & Human Interaction",
@@ -303,7 +317,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 315-497": {
         "course_name": "Design, Technology, and Research ",
@@ -323,7 +338,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces", "Project"]
     },
     "COMP_SCI 321": {
         "course_name": "Programming Languages",
@@ -349,7 +365,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Software Development and Programming Languages"]
     },
     "COMP_SCI 322": {
         "course_name": "Compiler Construction",
@@ -372,7 +389,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Systems"]
     },
     "COMP_SCI 323": {
         "course_name": "Code Analysis and Transformation",
@@ -395,7 +413,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 325-1": {
         "course_name": "Artificial Intelligence Programming",
@@ -416,7 +435,8 @@
                 "COMP_SCI 110",
                 "COMP_SCI 111"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence"]
     },
     "COMP_SCI 330-2": {
         "course_name": "Human Computer Interaction",
@@ -436,7 +456,8 @@
             [
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces", "Project"]
     },
     "COMP_SCI 331": {
         "course_name": "Introduction to Computational Photography",
@@ -458,7 +479,8 @@
                 "COMP_SCI 230",
                 "COMP_SCI 150"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Interfaces"]
     },
     "COMP_SCI 333": {
         "course_name": "Interactive Information Visualization",
@@ -478,7 +500,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces"]
     },
     "COMP_SCI 336": {
         "course_name": "Design & Analysis of Algorithms",
@@ -501,7 +524,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Theory"]
     },
     "COMP_SCI 337": {
         "course_name": "Intro to Natural Language Processing",
@@ -521,7 +545,8 @@
             [
                 "COMP_SCI 348"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence", "Project"]
     },
     "COMP_SCI 338-1": {
         "course_name": "Practicum in Intelligent Information Systems",
@@ -544,7 +569,8 @@
                 "COMP_SCI 330",
                 "COMP_SCI 339"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Software Development and Programming Languages"]
     },
     "COMP_SCI 338-2": {
         "course_name": "Practicum in Intelligent Information Systems",
@@ -567,7 +593,8 @@
                 "COMP_SCI 330",
                 "COMP_SCI 339"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Software Development and Programming Languages"]
     },
     "COMP_SCI 339": {
         "course_name": "Intro to Databases",
@@ -591,7 +618,8 @@
                 "COMP_SCI 213-20",
                 "COMP_ENG 205"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Project"]
     },
     "COMP_SCI 340": {
         "course_name": "Introduction to Computer Networking",
@@ -615,7 +643,8 @@
                 "COMP_SCI 213-20",
                 "COMP_ENG 205"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Project"]
     },
     "COMP_SCI 343": {
         "course_name": "Operating Systems",
@@ -639,7 +668,8 @@
                 "COMP_SCI 213-20",
                 "COMP_ENG 205"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Project"]
     },
     "COMP_SCI 344": {
         "course_name": "Design of Problem Solvers",
@@ -662,7 +692,8 @@
             [
                 "COMP_SCI 325"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence", "Project"]
     },
     "COMP_SCI 345": {
         "course_name": "Distributed Systems",
@@ -685,7 +716,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Project"]
     },
     "COMP_ENG 346": {
         "course_name": "Microprocessor System Design",
@@ -706,7 +738,8 @@
                 "COMP_ENG 203",
                 "COMP_ENG 205"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Technical Elective"]
     },
     "COMP_SCI 348": {
         "course_name": "Intro to Artificial Intelligence",
@@ -729,7 +762,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence"]
     },
     "COMP_SCI 349": {
         "course_name": "Machine Learning",
@@ -761,7 +795,8 @@
                 "STAT 210-0",
                 "MATH 310-1"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence"]
     },
     "COMP_SCI 351-1": {
         "course_name": "Intro to Computer Graphics",
@@ -781,7 +816,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces", "Project"]
     },
     "COMP_SCI 351-2": {
         "course_name": "Intermediate Computer Graphics ",
@@ -801,7 +837,8 @@
             [
                 "COMP_SCI 351-1"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Technical Elective"]
     },
     "COMP_SCI 352": {
         "course_name": "Machine Perception of Music & Audio",
@@ -824,7 +861,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces"]
     },
     "COMP_SCI 355": {
         "course_name": "Digital Forensics and Incident Response",
@@ -848,7 +886,8 @@
                 "COMP_SCI 343",
                 "COMP_SCI 354"
             ]
-        ]
+        ],
+        "course_type": ["Project"]
     },
     "COMP_ENG 358": {
         "course_name": "Intro to Parallel Computing",
@@ -868,7 +907,8 @@
             [
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Systems", "Technical Elective"]
     },
     "COMP_ENG 361": {
         "course_name": "Computer Architecture I ",
@@ -894,6 +934,8 @@
                 "COMP_ENG 355"
             ]
         ]
+        ,
+        "course_type": ["Technical Elective", "Systems"]
     },
     "COMP_ENG 362": {
         "course_name": "Computer Architecture Project",
@@ -917,7 +959,8 @@
                 "COMP_SCI 230",
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_ENG 365-465": {
         "course_name": "Internet-of-Things Sensors, Systems, and Applications",
@@ -946,7 +989,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_ENG 368-468": {
         "course_name": "Programming Massively Parallel Processors with CUDA",
@@ -971,6 +1015,8 @@
                 "COMP_SCI 230"
             ]
         ]
+        ,
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 371": {
         "course_name": "Knowledge Representation and Reasoning",
@@ -991,7 +1037,8 @@
                 "COMP_SCI 348",
                 "COMP_SCI 325"
             ]
-        ]
+        ],
+        "course_type": ["Artifical Intelligence", "Project"]
     },
     "COMP_SCI 376": {
         "course_name": "Game Design and Development",
@@ -1011,7 +1058,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces"]
     },
     "COMP_SCI 377": {
         "course_name": "Game Development Studio ",
@@ -1034,7 +1082,8 @@
             [
                 "COMP_SCI 376"
             ]
-        ]
+        ],
+        "course_type": ["Interfaces", "Software Development and Programming Languages", "Project"]
     },
     "COMP_SCI 393": {
         "course_name": "Software Construction",
@@ -1058,6 +1107,8 @@
                 "COMP_SCI 214"
             ]
         ]
+        ,
+        "course_type": ["Software Development and Programming Languages", "Project"]
     },
     "COMP_SCI 394": {
         "course_name": "Agile Software Development",
@@ -1077,7 +1128,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Project", "Software Development and Programming Languages"]
     },
     "COMP_SCI 396-1": {
         "course_name": "Introduction to Cryptography",
@@ -1101,6 +1153,8 @@
                 "COMP_SCI 214"
             ]
         ]
+        ,
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-10": {
         "course_name": "Modeling Relationships with Causal Inference",
@@ -1120,7 +1174,8 @@
             [
                 "COMP_SCI 336"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-11": {
         "course_name": "Communicating Computer Science",
@@ -1146,7 +1201,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-12": {
         "course_name": "Proving Properties of Programs with Mechanized Logic",
@@ -1169,7 +1225,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-14": {
         "course_name": "Introduction to Computational Linguistics",
@@ -1190,7 +1247,8 @@
                 "COMP_SCI 110",
                 "COMP_SCI 111"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-15": {
         "course_name": "Social Networks Analysis",
@@ -1206,7 +1264,8 @@
             "Prerequisites": "The course has no formal pre-requisites but will be most beneficial to students who have had an introductory statistics course",
             "Description": "<p>The use of social network analysis to understand the growing connectivity and complexity in the world around us on different scales, ranging from small groups to the World ‘Wide Web. How we create social, economic, and technological networks, and how they enable and constrain attitudes and behaviors.</p>\r\n<ul>\r\n<li>This course is an MS elective for Industrial Engineering.</li>\r\n<li><em><strong>Cross-listed with </strong></em>IEMS 341 & Comm_St 352.</li>\r\n</ul>\r\n<p><strong><em> </em>LEARNING OBJECTIVES</strong></p>\r\n<ul>\r\n<li>The use of social network analysis to understand the growing connectivity and complexity in the world around us on different scales, ranging from small groups to the World Wide Web.</li>\r\n<li>How we create social, economic, and technological networks, and how they enable and constrain attitudes and behaviors.</li>\r\n</ul>\r\n<p><strong> </strong><strong>TOPICS</strong></p>\r\n<ul>\r\n<li>Social network concepts and theories</li>\r\n<li>Visual-analytic methods</li>\r\n<li>Network mapping</li>\r\n<li>Recommender systems</li>\r\n<li>Search engines</li>\r\n<li>Social networking sites</li>\r\n</ul>\r\n<p><strong>MATERIALS</strong></p>\r\n<p>All readings will be posted on the course Canvas site</p>\r\n<p><strong>ADDITIONAL INFORMATION</strong></p>\r\n<p>The course will discuss how social networks concepts, theories, and visual-analytic methods are being used to map, measure, understand and design a wide range of phenomena such as social networking sites (e.g., Facebook, Twitter), recommender systems (e.g., Amazon, Netflix, Pandora), trust and reputation systems (e.g., eBay, Epinions, Slashdot), search engines (e.g., Google, Bing), P2P file-sharing (e.g., BitTorrent), user-generated content (e.g., Flickr, Wikipedia, Yelp), social news sites (e.g. reddit) and virtual worlds (e.g., Second Life, EverQuest, World of Warcraft).</p>\r\n<p><strong>COURSE COORDINATORS: </strong><a href=\"https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/contractor-noshir.html\">Noshir Contractor</a><span></span></p>\r\n<p><strong>COURSE INSTRUCTOR : </strong><a href=\"mailto:nosh@northwestern.edu\">Prof. Contractor</a><span></span><strong><br/></strong></p>"
         },
-        "Prereqs": []
+        "Prereqs": [],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-2": {
         "course_name": "Online Markets",
@@ -1231,7 +1290,8 @@
                 "COMP_SCI 336",
                 "ECON 380-1"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-295": {
         "course_name": "AI and Experimental Narrative",
@@ -1255,7 +1315,8 @@
                 "COMP_SCI 150",
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-3": {
         "course_name": "Introduction to the Data Science Pipeline",
@@ -1278,7 +1339,8 @@
             [
                 "COMP_SCI 212"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-4": {
         "course_name": "Computing, Ethics, and Society",
@@ -1298,7 +1360,8 @@
             [
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-10": {
         "course_name": "Programming Languages Seminar ",
@@ -1321,7 +1384,8 @@
             [
                 "COMP_SCI 322"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-13": {
         "course_name": "Conversational Interfaces",
@@ -1341,7 +1405,8 @@
             [
                 "COMP_SCI 371"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-15": {
         "course_name": "Dynamics of Programming Languages",
@@ -1361,7 +1426,8 @@
             [
                 "COMP_SCI 321"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-16": {
         "course_name": "Advanced Topics in Modern Cryptography",
@@ -1381,7 +1447,8 @@
             [
                 "COMP_SCI 396-1"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-17": {
         "course_name": "Statistical Machine Learning",
@@ -1401,7 +1468,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-18": {
         "course_name": "Topics in Software Engineering",
@@ -1421,7 +1489,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-19": {
         "course_name": "Introduction to Kolmogorov Complexity",
@@ -1442,7 +1511,8 @@
                 "COMP_SCI 335",
                 "COMP_SCI 336"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-2": {
         "course_name": "Advanced Algorithm Design through the Lens of Competitive Programming",
@@ -1462,7 +1532,8 @@
             [
                 "COMP_SCI 336"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-4": {
         "course_name": "Deep Learning",
@@ -1482,7 +1553,8 @@
             [
                 "COMP_SCI 349"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-6": {
         "course_name": "Data Science Seminar",
@@ -1502,7 +1574,8 @@
             [
                 "COMP_SCI 213-20"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-496-7": {
         "course_name": "Foundations of Quantum Computing and Quantum Information",
@@ -1523,7 +1596,8 @@
                 "COMP_SCI 336",
                 "COMP_SCI 335"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-5": {
         "course_name": "Generative Methods",
@@ -1546,7 +1620,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-6": {
         "course_name": "Intro to Web Development",
@@ -1567,7 +1642,8 @@
                 "COMP_SCI 150",
                 "COMP_SCI 211"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 396-8": {
         "course_name": "Creative Applications with Machine Learning",
@@ -1588,7 +1664,8 @@
                 "COMP_SCI 211",
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-3": {
         "course_name": "HCI Studio",
@@ -1608,7 +1685,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-11": {
         "course_name": "Internet-scale Experimentation",
@@ -1629,7 +1707,8 @@
                 "COMP_SCI 340",
                 "COMP_SCI 345"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Systems"]
     },
     "COMP_SCI 397-497-12": {
         "course_name": "Selected Topics in Computer Networks",
@@ -1649,7 +1728,8 @@
             [
                 "COMP_SCI 340"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-497-14": {
         "course_name": "Wireless and Mobile Health (mHealth)",
@@ -1669,7 +1749,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-15": {
         "course_name": "Innovation Lab: Building Technologies for the Law",
@@ -1689,7 +1770,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-2": {
         "course_name": "Advanced Topics in Compilers",
@@ -1712,7 +1794,8 @@
             [
                 "COMP_SCI 323"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-497-20": {
         "course_name": "Wireless Protocols for the Internet of Things",
@@ -1732,7 +1815,8 @@
             [
                 "COMP_SCI 340"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-21": {
         "course_name": "Advanced Graphics Seminar",
@@ -1757,7 +1841,8 @@
                 "COMP_SCI 376",
                 "COMP_SCI 377"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-497-22": {
         "course_name": "Wearable and Mobile Computing",
@@ -1781,7 +1866,8 @@
                 "COMP_ENG 205",
                 "COMP_SCI 213-20"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-497-23": {
         "course_name": "Data Privacy",
@@ -1802,7 +1888,8 @@
                 "COMP_SCI 212",
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-3": {
         "course_name": "Sports, Technology and Learning",
@@ -1822,7 +1909,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective"]
     },
     "COMP_SCI 397-497-4": {
         "course_name": "(Special Topics) Innovation in Journalism & Technology",
@@ -1842,7 +1930,8 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     },
     "COMP_SCI 397-497-5": {
         "course_name": "Rapid Prototyping for Software Innovation",
@@ -1862,6 +1951,7 @@
             [
                 "COMP_SCI 214"
             ]
-        ]
+        ],
+        "course_type": ["Technical Elective", "Project"]
     }
 }
