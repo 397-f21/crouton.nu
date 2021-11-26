@@ -33,4 +33,16 @@ describe('Test App', () => {
         cy.get('[data-cy=allCourses]').should('contain', 'COMP_SCI 110 : Intro to Computer Programming');
     });
 
+    it('shows All Courses card body is visible accordion is clicked, and hidden on second click', () => {
+        cy.visit('/');
+        cy.get('[data-cy=AllCourses]').click();
+        cy.get('[data-cy=COMP_ENG_203_header]').click();
+        cy.get('[data-cy=COMP_ENG_203_body]')
+            .should('be.visible');
+        cy.get('[data-cy=COMP_ENG_203_header]').click();
+        cy.get('[data-cy=COMP_ENG_203_body]')
+            .should('be.hidden');
+
+    })
+
 });

@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Accordion} from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 
 import algoliasearch from 'algoliasearch/lite';
-import {InstantSearch, SearchBox, Hits} from 'react-instantsearch-dom';
+import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
 
 const searchClient = algoliasearch('3O8PDU69G8', '059f98716ff2c753d52c9a5b9a4d9328');
 
@@ -14,11 +14,11 @@ const AllCourses = () => {
 
     return (
         <>
-            <hr/>
+            <hr />
             <div data-cy="allCourses">
                 <InstantSearch searchClient={searchClient} indexName="courses">
-                    <SearchBox/>
-                    <Hits hitComponent={Hit}/>
+                    <SearchBox />
+                    <Hits hitComponent={Hit} />
                 </InstantSearch>
             </div>
             {/* <h1> All Courses: </h1>
@@ -32,44 +32,45 @@ const AllCourses = () => {
 }
 
 
-const Hit = ({hit}) => {
+const Hit = ({ hit }) => {
 
     const course = [hit.course_number, hit];
     return (
-        <DetailedCourses course={course}/>
+        <DetailedCourses course={course} />
     )
 }
 
-const DetailedCourses = ({course}) => {
+const DetailedCourses = ({ course }) => {
 
     if (!course) {
         return;
     }
     let courseNo = course[0].split(" ")[1];
     let link = `https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/${courseNo}.html`;
+    let split_course = course[0].split(" ");
     return (
         <Accordion className="m-1 p-2">
             <Accordion.Item eventKey="0">
-                <Accordion.Header>{course[0]} : {course[1].course_name}</Accordion.Header>
-                <Accordion.Body>
-                    <CourseBody course={course} link={link}/>
+                <Accordion.Header data-cy={`${split_course[0]}_${split_course[1]}_header`}>{course[0]} : {course[1].course_name}</Accordion.Header>
+                <Accordion.Body data-cy={`${split_course[0]}_${split_course[1]}_body`}>
+                    <CourseBody course={course} link={link} />
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
     );
 }
 
-const CourseBody = ({course, link}) => {
+const CourseBody = ({ course, link }) => {
     const fall = course[1].fall_time ? course[1].fall_time + ' \n' + course[1].fall_instructor : "";
     const winter = course[1].winter_time ? course[1].winter_time + ' \n' + course[1].winter_instructor : "";
     const spring = course[1].spring_time ? course[1].spring_time + ' \n' + course[1].spring_instructor : "";
     const prereq = course[1].other.Prerequisites ? course[1].other.Prerequisites : 'None';
-    const fallLineBreak = course[1].fall_time ? <br/> : "";
-    const winterLineBreak = course[1].winter_time ? <br/> : "";
-    const springLineBreak = course[1].spring_time ? <br/> : "";
-    const prereqLineBreak = course[1].other.Prerequisites ? <br/> : "";
+    const fallLineBreak = course[1].fall_time ? <br /> : "";
+    const winterLineBreak = course[1].winter_time ? <br /> : "";
+    const springLineBreak = course[1].spring_time ? <br /> : "";
+    const prereqLineBreak = course[1].other.Prerequisites ? <br /> : "";
     const button = <button className="btn btn-outline-primary btn-sm m-1"
-                           onClick={() => window.open(link, '_blank')}> Course Detail </button>;
+        onClick={() => window.open(link, '_blank')}> Course Detail </button>;
     const fallTitle = course[1].fall_time ? <strong>Fall:</strong> : "";
     const winterTitle = course[1].winter_time ? <strong>Winter:</strong> : "";
     const springTitle = course[1].spring_time ? <strong>Spring:</strong> : "";
