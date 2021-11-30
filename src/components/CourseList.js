@@ -56,7 +56,7 @@ const NotSelectedCourses = ({coursesArr, course, setSelected, selected, canTake,
 
     return (
         course ?
-            selectedCoursesName.includes(course[0]) ? <div className="card m-1 p-2 bg-primary text-white">
+            selectedCoursesName.includes(course[0]) ? <div className="card m-1 p-2 bg-primary bg-opacity-75 text-white">
                     {course[0]} : {course[1].course_name}
                 </div> :
                 ifPreMet(course, selected) && !selectedCoursesName.includes(course[0]) ?
@@ -65,7 +65,7 @@ const NotSelectedCourses = ({coursesArr, course, setSelected, selected, canTake,
                     }}>
                         {course[0]} : {course[1].course_name}
                     </div> :
-                    <div className="card m-1 p-2 bg-secondary text-white">
+                    <div className="card m-1 p-2 bg-secondary bg-opacity-75 text-white">
                         {course[0]} : {course[1].course_name}
                     </div>
             : null
