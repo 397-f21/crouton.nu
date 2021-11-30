@@ -112,11 +112,33 @@ const SimpleCourse = ({course}) => {
     if (!course) {
         return null;
     }
+    const fall = course[1].fall_time ? course[1].fall_time + ' \n' + course[1].fall_instructor : "";
+    const winter = course[1].winter_time ? course[1].winter_time + ' \n' + course[1].winter_instructor : "";
+    const spring = course[1].spring_time ? course[1].spring_time + ' \n' + course[1].spring_instructor : "";
+    const prereq = course[1].other.Prerequisites ? course[1].other.Prerequisites : 'None';
+    const fallLineBreak = course[1].fall_time ? <br /> : "";
+    const winterLineBreak = course[1].winter_time ? <br /> : "";
+    const springLineBreak = course[1].spring_time ? <br /> : "";
+    const prereqLineBreak = course[1].other.Prerequisites ? <br /> : "";
+   
+    const fallTitle = course[1].fall_time ? <strong>Fall:</strong> : "";
+    const winterTitle = course[1].winter_time ? <strong>Winter:</strong> : "";
+    const springTitle = course[1].spring_time ? <strong>Spring:</strong> : "";
+    const prereqTitle = <strong>Prerequisites:</strong>;
     return (
-        <div className="card m-1 p-2" data-cy-path={course[0]}>
-            {course[0]} : {course[1].course_name}
-        </div> 
-    );
+        <div className="card border-warning m-1 p-2">
+            <div>
+                <div>
+                    <b> {course[0]} : {course[1].course_name} </b>
+                </div>
+
+                {fallTitle} {fall} {fallLineBreak}
+                {winterTitle} {winter} {winterLineBreak}
+                {springTitle} {spring} {springLineBreak}
+                {prereqTitle} {prereq} {prereqLineBreak}
+            </div>
+        </div>
+    )
 }
 
 const select = (course, setSelected, selected) => {

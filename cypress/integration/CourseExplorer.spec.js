@@ -14,6 +14,5 @@ describe('Test Course Explorer', () => {
         cy.get('[data-cy-selected="COMP_SCI 211"]').click();
         cy.get('[data-cy="COMP_SCI 214"]').should('not.exist');
     });
-
 });
 

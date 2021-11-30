@@ -60,7 +60,7 @@ const NotSelectedCourses = ({coursesArr, course, setSelected, selected, canTake,
                     {course[0]} : {course[1].course_name}
                 </div> :
                 ifPreMet(course, selected) && !selectedCoursesName.includes(course[0]) ?
-                    <div className="card m-1 p-2" data-cy={course[0]} onClick={() => {
+                    <div className="card border-primary m-1 p-2" data-cy={course[0]} onClick={() => {
                         action(coursesArr, course, setSelected, selected, canTake, setCanTake);
                     }}>
                         {course[0]} : {course[1].course_name}
